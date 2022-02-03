@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_iem_itcm_support.glideUserID</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>glideUserID</name>
+        <script><![CDATA[var glideUserID = Class.create();
+glideUserID.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getUserId: function() {
+		try {	
+			var users = this.getParameter('sysparm_userid'); 
+			var variable = [];
+			users = users.split(',');
+			var inputs = [];
+			inputs['url'] =  "https://grcacc.NA.xom.com";  // String 
+			inputs['sessiontoken'] = this.getParameter('sysparm_sessiontoken'); // String 	
+			for(var i = 0; i < users.length; i++){
+				inputs['userid'] = users[i]; // String 
+				var result = sn_fd.FlowAPI.getRunner().action('x_iem_itcm_support.itcm_user_id').inForeground().withInputs(inputs).run();
+					var outputs = result.getOutputs();
+					variable.push(outputs['variable']); // String		
+			} 
+			return variable.toString();
+			
+		}catch (ex) {
+				var message = ex.getMessage();
+				gs.error(message);
+				return(message);
+				
+			}
+		
+},
+    type: 'glideUserID'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 17:12:53</sys_created_on>
+        <sys_id>98d9d4cd1b858d181cf976ae034bcb8b</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>glideUserID</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_script_include_98d9d4cd1b858d181cf976ae034bcb8b</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:12:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

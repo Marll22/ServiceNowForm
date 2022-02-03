@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>600</order>
+        <published_ref display_value="Suggest an Enhancement/Report a problem">8cb7cee41b240dd01cf976ae034bcb3c</published_ref>
+        <question display_value="What is this Request for?">3a83c1b91bd181144a61ebd22a4bcb87</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:02</sys_created_on>
+        <sys_id>cf83c1b91bd181144a61ebd22a4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggest an Enhancement/Report a problem</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_cf83c1b91bd181144a61ebd22a4bcbd6</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:26:02</sys_updated_on>
+        <text>Suggest an Enhancement/Report a problem</text>
+        <value>suggest_an_enhancement_report_a_problem</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=cf83c1b91bd181144a61ebd22a4bcbd6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_cf83c1b91bd181144a61ebd22a4bcbd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>600</order><published_ref display_value="Suggest an Enhancement/Report a problem">8cb7cee41b240dd01cf976ae034bcb3c</published_ref><question display_value="What is this Request for?">3a83c1b91bd181144a61ebd22a4bcb87</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-27 14:26:02</sys_created_on><sys_id>cf83c1b91bd181144a61ebd22a4bcbd6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Suggest an Enhancement/Report a problem</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_cf83c1b91bd181144a61ebd22a4bcbd6</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-27 14:26:02</sys_updated_on><text>Suggest an Enhancement/Report a problem</text><value>suggest_an_enhancement_report_a_problem</value></question_choice><fx_price action="delete_multiple" query="id=cf83c1b91bd181144a61ebd22a4bcbd6"/></record_update>]]></payload>
+        <payload_hash>-1246957727</payload_hash>
+        <record_name>Suggest an Enhancement/Report a problem</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:02</sys_created_on>
+        <sys_id>0783c1b91bd181144a61ebd22a4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9bedd6ca0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:26:02</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>4b83c1b942d18114951cc9ad61dc2ad8</update_guid>
+        <update_guid_history>4b83c1b942d18114951cc9ad61dc2ad8:-1246957727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Suggest an Enhancement/Report a problem">12c835b91bd981144a61ebd22a4bcbe7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-27 18:18:39</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>66a55cf91c0b45b6af3c2705125eeaa4</sys_id>
+        <sys_metadata>cf83c1b91bd181144a61ebd22a4bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggest an Enhancement/Report a problem</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">3a83c1b91bd181144a61ebd22a4bcb87</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_cf83c1b91bd181144a61ebd22a4bcbd6</sys_update_name>
+        <sys_update_version display_value="question_choice_cf83c1b91bd181144a61ebd22a4bcbd6">0783c1b91bd181144a61ebd22a4bcbd9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:18:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

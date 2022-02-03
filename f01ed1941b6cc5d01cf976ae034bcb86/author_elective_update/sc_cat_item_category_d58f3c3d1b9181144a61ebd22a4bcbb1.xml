@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="ITCM Support">dd6f74f91b9181144a61ebd22a4bcbd2</sc_cat_item>
+        <sc_category display_value="Application Support">3b3438761b80b810eea453de034bcb97</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:08:27</sys_created_on>
+        <sys_id>d58f3c3d1b9181144a61ebd22a4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Support.ITCM Support</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_category_d58f3c3d1b9181144a61ebd22a4bcbb1</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:08:27</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_category_d58f3c3d1b9181144a61ebd22a4bcbb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">dd6f74f91b9181144a61ebd22a4bcbd2</sc_cat_item><sc_category display_value="Application Support">3b3438761b80b810eea453de034bcb97</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-27 14:08:27</sys_created_on><sys_id>d58f3c3d1b9181144a61ebd22a4bcbb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application Support.ITCM Support</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_category_d58f3c3d1b9181144a61ebd22a4bcbb1</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-27 14:08:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1829642487</payload_hash>
+        <record_name>Application Support.ITCM Support</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:08:27</sys_created_on>
+        <sys_id>158f3c3d1b9181144a61ebd22a4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9bddbc400000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:08:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>598f3c3dd1918114e2b2764cc9f16ab4</update_guid>
+        <update_guid_history>598f3c3dd1918114e2b2764cc9f16ab4:-1829642487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Application Support.ITCM Support">bb03017d1bd989901cf976ae034bcbf3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-27 14:23:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>415e1b7b9dac4d3c8e7d0fda59000484</sys_id>
+        <sys_metadata>d58f3c3d1b9181144a61ebd22a4bcbb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Support.ITCM Support</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_d58f3c3d1b9181144a61ebd22a4bcbb1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_d58f3c3d1b9181144a61ebd22a4bcbb1">158f3c3d1b9181144a61ebd22a4bcbb5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:23:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

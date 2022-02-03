@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:58525a6c1ba40dd01cf976ae034bcbeb</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-20 17:00:03</sys_created_on>
+        <sys_id>b2a3a12b1bcdc9101cf976ae034bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>role_handover</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b2a3a12b1bcdc9101cf976ae034bcbc1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 12:26:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'role_handover' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">3aa3a12b1bcdc9101cf976ae034bcbbd</ui_policy>
+        <variable>role_handover</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_b2a3a12b1bcdc9101cf976ae034bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:58525a6c1ba40dd01cf976ae034bcbeb</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-20 17:00:03</sys_created_on><sys_id>b2a3a12b1bcdc9101cf976ae034bcbc1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>role_handover</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_b2a3a12b1bcdc9101cf976ae034bcbc1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-24 12:26:17</sys_updated_on><table/><ui_policy display_value="Make 'role_handover' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">3aa3a12b1bcdc9101cf976ae034bcbbd</ui_policy><variable>role_handover</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1894490871</payload_hash>
+        <record_name>role_handover</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 12:26:17</sys_created_on>
+        <sys_id>eb5b8d341bd985d04a61ebd22a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8c0d21460000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 12:26:17</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ef5b8d34e0d985d03917c6f1371188db</update_guid>
+        <update_guid_history>ef5b8d34e0d985d03917c6f1371188db:1894490871,3ea3a12bf3cdc9103af981afe1b080c8:-293206150,faa3a12b21cdc9108ff0f010e88aa8c3:1894490871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="role_handover">ae9c9dfc1b5d85d04a61ebd22a4bcb6c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 13:41:35</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>431cb72daffb416cb457e43ca4395524</sys_id>
+        <sys_metadata>b2a3a12b1bcdc9101cf976ae034bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>role_handover</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b2a3a12b1bcdc9101cf976ae034bcbc1</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b2a3a12b1bcdc9101cf976ae034bcbc1">eb5b8d341bd985d04a61ebd22a4bcbdc</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 13:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

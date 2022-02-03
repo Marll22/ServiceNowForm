@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Organization Steward">18590a2c1b240dd01cf976ae034bcbc6</published_ref>
+        <question display_value="Your Role">4d3869701b11c5d04a61ebd22a4bcb37</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:16</sys_created_on>
+        <sys_id>013869701b11c5d04a61ebd22a4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization Steward</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_013869701b11c5d04a61ebd22a4bcb45</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:32:16</sys_updated_on>
+        <text>Organization Steward</text>
+        <value>organization_steward</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=013869701b11c5d04a61ebd22a4bcb45"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_013869701b11c5d04a61ebd22a4bcb45</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Organization Steward">18590a2c1b240dd01cf976ae034bcbc6</published_ref><question display_value="Your Role">4d3869701b11c5d04a61ebd22a4bcb37</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-24 14:32:16</sys_created_on><sys_id>013869701b11c5d04a61ebd22a4bcb45</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Organization Steward</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_013869701b11c5d04a61ebd22a4bcb45</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2022-01-24 14:32:16</sys_updated_on><text>Organization Steward</text><value>organization_steward</value></question_choice><fx_price action="delete_multiple" query="id=013869701b11c5d04a61ebd22a4bcb45"/></record_update>]]></payload>
+        <payload_hash>840036595</payload_hash>
+        <record_name>Organization Steward</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:16</sys_created_on>
+        <sys_id>453869701b11c5d04a61ebd22a4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8c8078db0000001</sys_recorded_at>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:32:16</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>89386970ae11c5d0b41559c8b8226846</update_guid>
+        <update_guid_history>89386970ae11c5d0b41559c8b8226846:840036595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Organization Steward">0abfed741b51c5d04a61ebd22a4bcb8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 15:05:07</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>5039106d117b4da08794a31332899684</sys_id>
+        <sys_metadata>013869701b11c5d04a61ebd22a4bcb45</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization Steward</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">4d3869701b11c5d04a61ebd22a4bcb37</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_013869701b11c5d04a61ebd22a4bcb45</sys_update_name>
+        <sys_update_version display_value="question_choice_013869701b11c5d04a61ebd22a4bcb45">453869701b11c5d04a61ebd22a4bcb47</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 15:05:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

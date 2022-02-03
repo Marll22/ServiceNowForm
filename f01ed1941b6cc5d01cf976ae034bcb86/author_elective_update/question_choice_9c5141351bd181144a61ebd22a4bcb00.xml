@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Other">b97b1eec1b280dd01cf976ae034bcbff</published_ref>
+        <question display_value="Your Role">1c5101351bd181144a61ebd22a4bcbec</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:16:18</sys_created_on>
+        <sys_id>9c5141351bd181144a61ebd22a4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_9c5141351bd181144a61ebd22a4bcb00</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:16:18</sys_updated_on>
+        <text>Other</text>
+        <value>other</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=9c5141351bd181144a61ebd22a4bcb00"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_9c5141351bd181144a61ebd22a4bcb00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Other">b97b1eec1b280dd01cf976ae034bcbff</published_ref><question display_value="Your Role">1c5101351bd181144a61ebd22a4bcbec</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-27 14:16:18</sys_created_on><sys_id>9c5141351bd181144a61ebd22a4bcb00</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Other</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_9c5141351bd181144a61ebd22a4bcb00</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-27 14:16:18</sys_updated_on><text>Other</text><value>other</value></question_choice><fx_price action="delete_multiple" query="id=9c5141351bd181144a61ebd22a4bcb00"/></record_update>]]></payload>
+        <payload_hash>-128012701</payload_hash>
+        <record_name>Other</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:16:18</sys_created_on>
+        <sys_id>145141351bd181144a61ebd22a4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9be4ec880000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:16:18</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5851413514d18114c6e8a1390ae91502</update_guid>
+        <update_guid_history>5851413514d18114c6e8a1390ae91502:-128012701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Other">7303417d1bd989901cf976ae034bcb91</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-27 14:23:55</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1950025b662c412aa7b33aefb3c6a124</sys_id>
+        <sys_metadata>9c5141351bd181144a61ebd22a4bcb00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">1c5101351bd181144a61ebd22a4bcbec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_9c5141351bd181144a61ebd22a4bcb00</sys_update_name>
+        <sys_update_version display_value="question_choice_9c5141351bd181144a61ebd22a4bcb00">145141351bd181144a61ebd22a4bcb03</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:23:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

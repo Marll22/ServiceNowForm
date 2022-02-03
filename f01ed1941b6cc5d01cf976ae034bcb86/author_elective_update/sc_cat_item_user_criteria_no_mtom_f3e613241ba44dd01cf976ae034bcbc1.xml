@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="ITCM Support">8f75176c1b644dd01cf976ae034bcb86</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-17 21:10:30</sys_created_on>
+        <sys_id>f3e613241ba44dd01cf976ae034bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.SNC External</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_f3e613241ba44dd01cf976ae034bcbc1</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-17 21:10:30</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_f3e613241ba44dd01cf976ae034bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">8f75176c1b644dd01cf976ae034bcb86</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-17 21:10:30</sys_created_on><sys_id>f3e613241ba44dd01cf976ae034bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ITCM Support.SNC External</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_f3e613241ba44dd01cf976ae034bcbc1</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2021-12-17 21:10:30</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-8519941</payload_hash>
+        <record_name>ITCM Support.SNC External</record_name>
+        <reverted_from/>
+        <source>d14f87201b1001101cf976ae034bcb5a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-05 10:21:18</sys_created_on>
+        <sys_id>84f613241ba44dd01cf976ae034bcbcb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17d8a1cb9300000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>44f6132433a44dd09f6e7a4031db97cb</update_guid>
+        <update_guid_history>44f6132433a44dd09f6e7a4031db97cb:-8519941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITCM Support.SNC External">08f613241ba44dd01cf976ae034bcbcf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-17 21:10:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>6ab77d397f3b48609c5748a0fa2e9b59</sys_id>
+        <sys_metadata>f3e613241ba44dd01cf976ae034bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.SNC External</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">8f75176c1b644dd01cf976ae034bcb86</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_f3e613241ba44dd01cf976ae034bcbc1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_f3e613241ba44dd01cf976ae034bcbc1">84f613241ba44dd01cf976ae034bcbcb</sys_update_version>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-17 21:10:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

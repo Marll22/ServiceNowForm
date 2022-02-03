@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Owner">2412a2e41ba80dd01cf976ae034bcbcf</published_ref>
+        <question display_value="Field to be updated">1e8e12f51be0c1504a61ebd22a4bcbd2</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-21 14:16:30</sys_created_on>
+        <sys_id>2e8e12f51be0c1504a61ebd22a4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Owner</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_2e8e12f51be0c1504a61ebd22a4bcbef</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:16:30</sys_updated_on>
+        <text>Owner</text>
+        <value>owner</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2e8e12f51be0c1504a61ebd22a4bcbef"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_2e8e12f51be0c1504a61ebd22a4bcbef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Owner">2412a2e41ba80dd01cf976ae034bcbcf</published_ref><question display_value="Field to be updated">1e8e12f51be0c1504a61ebd22a4bcbd2</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2021-12-21 14:16:30</sys_created_on><sys_id>2e8e12f51be0c1504a61ebd22a4bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Owner</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_2e8e12f51be0c1504a61ebd22a4bcbef</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2021-12-21 14:16:30</sys_updated_on><text>Owner</text><value>owner</value></question_choice><fx_price action="delete_multiple" query="id=2e8e12f51be0c1504a61ebd22a4bcbef"/></record_update>]]></payload>
+        <payload_hash>2054833473</payload_hash>
+        <record_name>Owner</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-21 14:16:30</sys_created_on>
+        <sys_id>a28e12f51be0c1504a61ebd22a4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddd59ce4d0000001</sys_recorded_at>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:16:30</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e68e12f5c9e0c15099a65009222df3f1</update_guid>
+        <update_guid_history>e68e12f5c9e0c15099a65009222df3f1:2054833473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Owner">c53f56711b6c0d101cf976ae034bcbf8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 14:19:25</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>15a427e612a64c288e42268ed329c1c4</sys_id>
+        <sys_metadata>2e8e12f51be0c1504a61ebd22a4bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Owner</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">1e8e12f51be0c1504a61ebd22a4bcbd2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_2e8e12f51be0c1504a61ebd22a4bcbef</sys_update_name>
+        <sys_update_version display_value="question_choice_2e8e12f51be0c1504a61ebd22a4bcbef">a28e12f51be0c1504a61ebd22a4bcbf2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:19:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

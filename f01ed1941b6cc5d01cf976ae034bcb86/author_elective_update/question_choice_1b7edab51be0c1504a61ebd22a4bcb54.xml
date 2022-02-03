@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Mass Retirement">88b70ee41b240dd01cf976ae034bcb78</published_ref>
+        <question display_value="What is this Request for?">c77edab51be0c1504a61ebd22a4bcb2d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-21 14:16:16</sys_created_on>
+        <sys_id>1b7edab51be0c1504a61ebd22a4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mass Retirement</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_1b7edab51be0c1504a61ebd22a4bcb54</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:16:16</sys_updated_on>
+        <text>Mass Retirement</text>
+        <value>mass_retirement</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=1b7edab51be0c1504a61ebd22a4bcb54"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_1b7edab51be0c1504a61ebd22a4bcb54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Mass Retirement">88b70ee41b240dd01cf976ae034bcb78</published_ref><question display_value="What is this Request for?">c77edab51be0c1504a61ebd22a4bcb2d</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2021-12-21 14:16:16</sys_created_on><sys_id>1b7edab51be0c1504a61ebd22a4bcb54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mass Retirement</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_1b7edab51be0c1504a61ebd22a4bcb54</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2021-12-21 14:16:16</sys_updated_on><text>Mass Retirement</text><value>mass_retirement</value></question_choice><fx_price action="delete_multiple" query="id=1b7edab51be0c1504a61ebd22a4bcb54"/></record_update>]]></payload>
+        <payload_hash>-1950002885</payload_hash>
+        <record_name>Mass Retirement</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-21 14:16:16</sys_created_on>
+        <sys_id>5f7edab51be0c1504a61ebd22a4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddd599a7b0000001</sys_recorded_at>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:16:16</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>937edab5ade0c150b4cd6df02b713756</update_guid>
+        <update_guid_history>937edab5ade0c150b4cd6df02b713756:-1950002885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mass Retirement">6a3f1a711b6c0d101cf976ae034bcba5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 14:19:30</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>01573cdf176745748096164b52e51e10</sys_id>
+        <sys_metadata>1b7edab51be0c1504a61ebd22a4bcb54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mass Retirement</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">c77edab51be0c1504a61ebd22a4bcb2d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_1b7edab51be0c1504a61ebd22a4bcb54</sys_update_name>
+        <sys_update_version display_value="question_choice_1b7edab51be0c1504a61ebd22a4bcb54">5f7edab51be0c1504a61ebd22a4bcb56</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:19:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

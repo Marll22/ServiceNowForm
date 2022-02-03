@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-17 18:46:11</sys_created_on>
+        <sys_id>0ee5b6a81bac0dd01cf976ae034bcb3c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITCM Support.Any User</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_0ee5b6a81bac0dd01cf976ae034bcb3c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 18:46:40</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_0ee5b6a81bac0dd01cf976ae034bcb3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-17 18:46:11</sys_created_on><sys_id>0ee5b6a81bac0dd01cf976ae034bcb3c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ITCM Support.Any User</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_0ee5b6a81bac0dd01cf976ae034bcb3c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-12-17 18:46:40</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>400877357</payload_hash>
+        <record_name>ITCM Support.Any User</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-17 18:46:41</sys_created_on>
+        <sys_id>5906f6ec1be8c9904a61ebd22a4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dc9b7bae90000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 18:46:41</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>5d06f6ecb2e8c9909781cf628a7a2260</update_guid>
+        <update_guid_history>5d06f6ecb2e8c9909781cf628a7a2260:400877357,c2e5b6a8afac0dd000013f70e7b5b23f:-495846590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITCM Support.">e00513e41ba80d904a61ebd22a4bcb15</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-17 21:02:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>09553768b5784e68822b1206ea195210</sys_id>
+        <sys_metadata>0ee5b6a81bac0dd01cf976ae034bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_0ee5b6a81bac0dd01cf976ae034bcb3c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_0ee5b6a81bac0dd01cf976ae034bcb3c">5906f6ec1be8c9904a61ebd22a4bcb61</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 21:02:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

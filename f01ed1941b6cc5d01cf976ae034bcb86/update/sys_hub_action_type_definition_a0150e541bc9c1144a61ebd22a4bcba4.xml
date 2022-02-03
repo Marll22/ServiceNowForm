@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>1b8cc6311ba80d101cf976ae034bcb9d</copied_from>
+        <copied_from_name>ITCM Record ID - Risk Assessment</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>itcm_record_id__document_repository</internal_name>
+        <label_cache>[{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.sessiontoken}}","label":"action➛sessionToken","type":"action","ref":""},{"name":"{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].variable}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].responsebody}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].recordname}}","label":"step➛Script step - Extract Record Name➛recordName","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].custodian}}","label":"step➛Script step - Extract Record Name➛custodian","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authors}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.author}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorsGroup_child0","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authoruser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authorUser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛authorUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorGroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].owner}}","label":"step➛Script step - Extract Record Name➛owner","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards}}","label":"step➛Script step - Extract Record Name➛stewards","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards.steward}}","label":"step➛Script step - Extract Record Name➛stewards➛steward","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>ITCM Record ID - Document Repository</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a0150e541bc9c1144a61ebd22a4bcba4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITCM Record ID - Document Repository</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a0150e541bc9c1144a61ebd22a4bcba4</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0150e541bc9c1144a61ebd22a4bcba4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a0150e541bc9c1144a61ebd22a4bcba4"/>
+    <sys_element_mapping action="delete_multiple" query="id=a0150e541bc9c1144a61ebd22a4bcba4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>a0150e541bc9c1144a61ebd22a4bcba4</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>0d154e541bc9c1144a61ebd22a4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a0150e541bc9c1144a61ebd22a4bcba4</table>
+        <value>{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a0150e541bc9c1144a61ebd22a4bcba4^sys_idNOT IN30150e541bc9c1144a61ebd22a4bcbe1,f8150e541bc9c1144a61ebd22a4bcbcd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</action>
+        <cid>139f6b79-43e0-4f1f-88b2-b67f5f10839b</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step - Extract Record Name</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>30150e541bc9c1144a61ebd22a4bcbe1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30150e541bc9c1144a61ebd22a4bcbe1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30150e541bc9c1144a61ebd22a4bcbe1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>05154e541bc9c1144a61ebd22a4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30150e541bc9c1144a61ebd22a4bcbe1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>c5154e541bc9c1144a61ebd22a4bcb2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  var responseBody = JSON.parse(inputs.responseBody)["RequestedObject"];
+  var authorsUser = responseBody["FieldContents"]["12956"]["Value"]["UserList"];
+  var authorsGroup = responseBody["FieldContents"]["12956"]["Value"]["GroupList"];
+  var stewards = responseBody["FieldContents"]["16280"]["Value"]["UserList"];
+  
+  var auxAuthorsUser = [];
+  var auxAuthorsGroup = [];
+  
+  var auxStewards = [];
+
+  outputs.recordname = responseBody["FieldContents"]["12950"]["Value"];
+  outputs.owner = responseBody["FieldContents"]["13602"]["Value"]["UserList"][0]["Id"];
+  
+  
+  for (var i = 0; i &lt; authorsUser.length; i++) {
+    auxAuthorsUser.push(authorsUser[i]["Id"]);
+  }
+  
+  for (var i = 0; i &lt; authorsGroup.length; i++) {
+    auxAuthorsGroup.push(authorsGroup[i]["Id"]);
+  }
+  
+  for (var i = 0; i &lt; stewards.length; i++) {
+    auxStewards.push(stewards[i]["Id"]);
+  }
+  
+  outputs.authorsuser = auxAuthorsUser;
+  outputs.authorsgroup = auxAuthorsGroup;
+  outputs.stewards = auxStewards;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30150e541bc9c1144a61ebd22a4bcbe1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>30150e541bc9c1144a61ebd22a4bcbe1</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>cd154e541bc9c1144a61ebd22a4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responseBody</field>
+        <id>30150e541bc9c1144a61ebd22a4bcbe1</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>05154e541bc9c1144a61ebd22a4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30150e541bc9c1144a61ebd22a4bcbe1</table>
+        <value>{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>30150e541bc9c1144a61ebd22a4bcbe1</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>81154e541bc9c1144a61ebd22a4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=30150e541bc9c1144a61ebd22a4bcbe1^sys_idNOT INb4150e541bc9c1144a61ebd22a4bcbe4"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responseBody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>b4150e541bc9c1144a61ebd22a4bcbe4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=30150e541bc9c1144a61ebd22a4bcbe1^sys_idNOT IN3c154e541bc9c1144a61ebd22a4bcb1d,4d154e541bc9c1144a61ebd22a4bcb24,74154e541bc9c1144a61ebd22a4bcb16,b4150e541bc9c1144a61ebd22a4bcbf3,bc154e541bc9c1144a61ebd22a4bcb0e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=db492ca9-cb93-41a7-b331-3b69b67ab7d1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>owner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>owner</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>3c154e541bc9c1144a61ebd22a4bcb1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=steward,child_name=steward,child_type=string,child_type_label=String,child_uiUniqueId=1d4d2bac-1ca3-471b-a1f6-c3b639c53f14,co_type_name=FD70150e54f2c9c114d15387aab8ca75f1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=e2265fbc-60fb-4c2e-9635-a69fbdef6326</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stewards</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>stewards</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>4d154e541bc9c1144a61ebd22a4bcb24</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=authorGroup,child_name=authorGroup,child_type=string,child_type_label=String,child_uiUniqueId=b760688a-69a6-4676-a1d4-90ec7dc95090,co_type_name=FD70150e5434c9c114f2c1a62d7e6482ef,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=30d7d777-7227-4d10-9360-47064d5c0594</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorsgroup</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>authorsGroup</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>74154e541bc9c1144a61ebd22a4bcb16</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7ae8000a-e004-4588-9464-9be16382179e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>recordname</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>b4150e541bc9c1144a61ebd22a4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=authorUser,child_name=authorUser,child_type=string,child_type_label=String,child_uiUniqueId=a69276c7-2d1c-4f61-8a84-82b93e214e5f,co_type_name=FDf8150e54fdc9c114d9d0fd12b4a4e6ec,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=eecd7055-1153-42a6-b4d7-88e210e7473f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorsuser</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>authorsUser</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step - Extract Record Name">30150e541bc9c1144a61ebd22a4bcbe1</model>
+        <model_id>30150e541bc9c1144a61ebd22a4bcbe1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_30150e541bc9c1144a61ebd22a4bcbe1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>bc154e541bc9c1144a61ebd22a4bcb0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</action>
+        <cid>6cb63a85-8da2-44d2-bd94-090195d90623</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>f8150e541bc9c1144a61ebd22a4bcbcd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8150e541bc9c1144a61ebd22a4bcbcd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>38150e541bc9c1144a61ebd22a4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>3c150e541bc9c1144a61ebd22a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>70150e541bc9c1144a61ebd22a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>74150e541bc9c1144a61ebd22a4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>78150e541bc9c1144a61ebd22a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>b0150e541bc9c1144a61ebd22a4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f8150e541bc9c1144a61ebd22a4bcbcd</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>fc150e541bc9c1144a61ebd22a4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8150e541bc9c1144a61ebd22a4bcbcd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>3c150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>78150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.url}}/api/core/content/{{action.recordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>b4150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>7c150e541bc9c1144a61ebd22a4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>30150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Archer session-id={{action.sessiontoken}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-Http-Method-Override","value":"GET","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>b4150e541bc9c1144a61ebd22a4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>fc150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>f8150e541bc9c1144a61ebd22a4bcbcd</id>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:45</sys_created_on>
+        <sys_id>f0150e541bc9c1144a61ebd22a4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=a0150e541bc9c1144a61ebd22a4bcba4^sys_idNOT IN64150e541bc9c1144a61ebd22a4bcba9,68150e541bc9c1144a61ebd22a4bcbb1,e0150e541bc9c1144a61ebd22a4bcbc5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=75a4d278-7957-4fb1-87be-d227ddb7d50c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>URL</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</model>
+        <model_id>a0150e541bc9c1144a61ebd22a4bcba4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>64150e541bc9c1144a61ebd22a4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bbd2efe0-83c9-4148-907a-35c89c774af6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>recordid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</model>
+        <model_id>a0150e541bc9c1144a61ebd22a4bcba4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>68150e541bc9c1144a61ebd22a4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=30e44fd1-adeb-432f-8d0c-af5ce497a62a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sessiontoken</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sessionToken</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</model>
+        <model_id>a0150e541bc9c1144a61ebd22a4bcba4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>e0150e541bc9c1144a61ebd22a4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=a0150e541bc9c1144a61ebd22a4bcba4^sys_idNOT INcd154e541bc9c1144a61ebd22a4bcb40"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=84bfb761-75a8-4714-801b-4d68dbf0ab60</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Document Repository">a0150e541bc9c1144a61ebd22a4bcba4</model>
+        <model_id>a0150e541bc9c1144a61ebd22a4bcba4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>cd154e541bc9c1144a61ebd22a4bcb40</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:18:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4^sys_idNOT IN2c150e541bc9c1144a61ebd22a4bcbc3,a0150e541bc9c1144a61ebd22a4bcbb0,ec150e541bc9c1144a61ebd22a4bcbca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>recordid</element>
+        <help/>
+        <hint/>
+        <label>recordID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>2c150e541bc9c1144a61ebd22a4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>url</element>
+        <help/>
+        <hint/>
+        <label>URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>a0150e541bc9c1144a61ebd22a4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sessiontoken</element>
+        <help/>
+        <hint/>
+        <label>sessionToken</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:44</sys_created_on>
+        <sys_id>ec150e541bc9c1144a61ebd22a4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a0150e541bc9c1144a61ebd22a4bcba4^sys_idNOT INc9154e541bc9c1144a61ebd22a4bcb47"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a0150e541bc9c1144a61ebd22a4bcba4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-10 17:05:46</sys_created_on>
+        <sys_id>c9154e541bc9c1144a61ebd22a4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:05:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

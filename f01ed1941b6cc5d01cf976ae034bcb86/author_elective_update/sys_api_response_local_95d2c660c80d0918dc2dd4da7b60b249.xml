@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="DELETE">
+        <api_collection/>
+        <api_operation display_value="GET /">8bea82db1bb00dd04a61ebd22a4bcb04</api_operation>
+        <description/>
+        <name>Generated Request for 4634fd5f1b300dd04a61ebd22a4bcbd4</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-11 11:34:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>95d2c660c80d0918dc2dd4da7b60b249</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8bea82db1bb00dd04a61ebd22a4bcb04</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_api_response_local_95d2c660c80d0918dc2dd4da7b60b249</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-11 11:34:27</sys_updated_on>
+    </sys_api_response_local>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sys_api_response_local_95d2c660c80d0918dc2dd4da7b60b249</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local"><sys_api_response_local action="INSERT_OR_UPDATE"><api_collection/><api_operation display_value="GET /">8bea82db1bb00dd04a61ebd22a4bcb04</api_operation><description/><name>Generated Request for 4634fd5f1b300dd04a61ebd22a4bcbd4</name><status_code>202</status_code><sys_class_name>sys_api_response_local</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-11 11:34:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>95d2c660c80d0918dc2dd4da7b60b249</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8bea82db1bb00dd04a61ebd22a4bcb04</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sys_api_response_local_95d2c660c80d0918dc2dd4da7b60b249</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-11 11:34:27</sys_updated_on></sys_api_response_local></record_update>]]></payload>
+        <payload_hash>-1978460328</payload_hash>
+        <record_name>8bea82db1bb00dd04a61ebd22a4bcb04</record_name>
+        <reverted_from/>
+        <source>eb7b31391ba40d101cf976ae034bcb80</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-11 11:34:27</sys_created_on>
+        <sys_id>61d2c6601b0d09181cf976ae034bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e48eb00b00000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-11 11:34:27</sys_updated_on>
+        <type>Local API Response</type>
+        <update_guid>a1d2c660bd0d0918a5c4cc5bf03658d1</update_guid>
+        <update_guid_history>a1d2c660bd0d0918a5c4cc5bf03658d1:-1978460328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-11 11:35:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_response_local">sys_api_response_local</sys_db_object>
+        <sys_id>2552f24512e74dd68b3ad107587a5649</sys_id>
+        <sys_metadata>95d2c660c80d0918dc2dd4da7b60b249</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8bea82db1bb00dd04a61ebd22a4bcb04</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sys_api_response_local_95d2c660c80d0918dc2dd4da7b60b249</sys_update_name>
+        <sys_update_version display_value="sys_api_response_local_95d2c660c80d0918dc2dd4da7b60b249">61d2c6601b0d09181cf976ae034bcbde</sys_update_version>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-11 11:35:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

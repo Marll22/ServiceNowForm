@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:8695e6e01be80dd01cf976ae034bcb8c</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-26 16:46:19</sys_created_on>
+        <sys_id>4c1a9c611b958dd04a61ebd22a4bcba6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>field_to_be_updated_gra_ra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4c1a9c611b958dd04a61ebd22a4bcba6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-26 16:56:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'field_to_be_updated_gra_ra' mandatory &amp; visible depending on 'what_is_this_request_for' &amp; 'choose_module_mr_rh_gra'">c01a9c611b958dd04a61ebd22a4bcba3</ui_policy>
+        <variable>field_to_be_updated_gra_ra</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_4c1a9c611b958dd04a61ebd22a4bcba6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:8695e6e01be80dd01cf976ae034bcb8c</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-26 16:46:19</sys_created_on><sys_id>4c1a9c611b958dd04a61ebd22a4bcba6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>field_to_be_updated_gra_ra</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_4c1a9c611b958dd04a61ebd22a4bcba6</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-26 16:56:55</sys_updated_on><table/><ui_policy display_value="Make 'field_to_be_updated_gra_ra' mandatory &amp; visible depending on 'what_is_this_request_for' &amp; 'choose_module_mr_rh_gra'">c01a9c611b958dd04a61ebd22a4bcba3</ui_policy><variable>field_to_be_updated_gra_ra</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>672645642</payload_hash>
+        <record_name>field_to_be_updated_gra_ra</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-26 16:56:55</sys_created_on>
+        <sys_id>1b7c18291b5185901cf976ae034bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e97519e800000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-26 16:56:55</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1f7c18294f518590a732a9f3381a48f1</update_guid>
+        <update_guid_history>1f7c18294f518590a732a9f3381a48f1:672645642,c41a9c61cc958dd087326710e8155eae:1142335255,841a9c6146958dd09b207a6e216f9da9:672645642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="field_to_be_updated_gra_ra">6fc009311bd181144a61ebd22a4bcb4b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-27 14:14:03</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>8dbc640714804b9195c6e49b3a37db89</sys_id>
+        <sys_metadata>4c1a9c611b958dd04a61ebd22a4bcba6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>field_to_be_updated_gra_ra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_4c1a9c611b958dd04a61ebd22a4bcba6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_4c1a9c611b958dd04a61ebd22a4bcba6">1b7c18291b5185901cf976ae034bcbf2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

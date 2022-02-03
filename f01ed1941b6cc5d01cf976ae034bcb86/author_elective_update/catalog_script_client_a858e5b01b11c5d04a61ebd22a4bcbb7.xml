@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ITCM SessionToken</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var ga = new GlideAjax('glideSessionToken');
+		ga.addParam('sysparm_name', 'getSessionToken');
+		var sessionToken = ga.getXML(SessionToken);
+
+}
+function SessionToken(response){
+	var sessionToken = response.responseXML.documentElement.getAttribute('answer'); 
+	console.log(sessionToken);
+	g_form.setValue('sessiontoken', sessionToken);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a858e5b01b11c5d04a61ebd22a4bcbb7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITCM SessionToken</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_script_client_a858e5b01b11c5d04a61ebd22a4bcbb7</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-24 16:28:33</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_script_client_a858e5b01b11c5d04a61ebd22a4bcbb7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="ITCM Support"&gt;bd0082d41be409d01cf976ae034bcb20&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ITCM SessionToken&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   var ga = new GlideAjax('glideSessionToken');
+		ga.addParam('sysparm_name', 'getSessionToken');
+		var sessionToken = ga.getXML(SessionToken);
+
+}
+function SessionToken(response){
+	var sessionToken = response.responseXML.documentElement.getAttribute('answer'); 
+	console.log(sessionToken);
+	g_form.setValue('sessiontoken', sessionToken);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SA\YGPEGOR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-24 14:32:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a858e5b01b11c5d04a61ebd22a4bcbb7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ITCM SessionToken&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ITCM Support" source="x_iem_itcm_support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ITCM Support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_a858e5b01b11c5d04a61ebd22a4bcbb7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SA\ACSIMOE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-24 16:28:33&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1915846823</payload_hash>
+        <record_name>ITCM SessionToken</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-24 16:28:33</sys_created_on>
+        <sys_id>e0d24e301bd18d501cf976ae034bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8ceaeeab0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-24 16:28:33</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>a8d24e302bd18d50215c7f9e1f953330</update_guid>
+        <update_guid_history>a8d24e302bd18d50215c7f9e1f953330:-1915846823,f4af2174e551c5d034c705d7803de0f5:-1915846823,f4af2174e551c5d034c705d7803de0f5:-1915846823,6c58e5b0d811c5d01686940a23b81fba:-1430973749</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITCM SessionToken">7e816e781b99c5d04a61ebd22a4bcb5e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 18:42:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>5285ae7849d249b08725562b38958840</sys_id>
+        <sys_metadata>a858e5b01b11c5d04a61ebd22a4bcbb7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM SessionToken</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_script_client_a858e5b01b11c5d04a61ebd22a4bcbb7</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_a858e5b01b11c5d04a61ebd22a4bcbb7">e0d24e301bd18d501cf976ae034bcb31</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Risk Assessment">45c84ea81b240dd01cf976ae034bcb9f</published_ref>
+        <question display_value="Choose Module">88fa09a51bacc9104a61ebd22a4bcb32</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-20 13:32:45</sys_created_on>
+        <sys_id>c4fa09a51bacc9104a61ebd22a4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Assessment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_c4fa09a51bacc9104a61ebd22a4bcb64</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-20 13:32:45</sys_updated_on>
+        <text>Risk Assessment</text>
+        <value>risk_assessment</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=c4fa09a51bacc9104a61ebd22a4bcb64"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_c4fa09a51bacc9104a61ebd22a4bcb64</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Risk Assessment">45c84ea81b240dd01cf976ae034bcb9f</published_ref><question display_value="Choose Module">88fa09a51bacc9104a61ebd22a4bcb32</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-20 13:32:45</sys_created_on><sys_id>c4fa09a51bacc9104a61ebd22a4bcb64</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Assessment</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_c4fa09a51bacc9104a61ebd22a4bcb64</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2021-12-20 13:32:45</sys_updated_on><text>Risk Assessment</text><value>risk_assessment</value></question_choice><fx_price action="delete_multiple" query="id=c4fa09a51bacc9104a61ebd22a4bcb64"/></record_update>]]></payload>
+        <payload_hash>1734253893</payload_hash>
+        <record_name>Risk Assessment</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-20 13:32:45</sys_created_on>
+        <sys_id>4cfa09a51bacc9104a61ebd22a4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dd80b672a0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-20 13:32:45</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>80fa09a5e5acc9105cfe19ba8047d166</update_guid>
+        <update_guid_history>80fa09a5e5acc9105cfe19ba8047d166:1734253893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Risk Assessment">6f6212311be80d101cf976ae034bcb3d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 13:23:36</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0316814f2162471b80230e1f40730f41</sys_id>
+        <sys_metadata>c4fa09a51bacc9104a61ebd22a4bcb64</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Assessment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">88fa09a51bacc9104a61ebd22a4bcb32</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_c4fa09a51bacc9104a61ebd22a4bcb64</sys_update_name>
+        <sys_update_version display_value="question_choice_c4fa09a51bacc9104a61ebd22a4bcb64">4cfa09a51bacc9104a61ebd22a4bcb66</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:23:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

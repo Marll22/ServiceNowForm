@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</cat_item>
+        <cat_variable>IO:12b94a6c1b240dd01cf976ae034bcb47</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Check Record ID</name>
+        <order/>
+        <script><![CDATA[var userOnRole = '';
+var output = '';
+var stewards = '';
+var responseBody = '';
+var authorsUser = ''; 
+var authorsGroup = '';
+var recordname = '';
+var custodian = '';
+var owner = '';
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (g_form.getValue('choose_module_mr_rh_gra') == 'risk_assessment' || g_form.getValue('choose_module_ru') == 'risk_assessment') {
+			alert("Processing... \n Please Wait");
+			var ra = new GlideAjax('glideRecordID');
+			ra.addParam('sysparm_name', 'checkRiskAssessment');
+			ra.addParam('sysparm_recordid', g_form.getValue('risk_assessment_id_s'));
+			ra.addParam('sysparm_sessiontoken',  g_form.getValue('sessiontoken'));
+			ra.getXML(riskAssessmentID);
+    } 
+}
+
+function riskAssessmentID(response){
+	var recordID = response.responseXML.documentElement.getAttribute('answer'); 
+	if(recordID != 'Invalid Risk Assessment'){
+		responseBody= JSON.parse(recordID)["RequestedObject"];
+		authorsUser = responseBody["FieldContents"]["10084"]["Value"]["UserList"];
+		authorsGroup = responseBody["FieldContents"]["10084"]["Value"]["GroupList"];
+		if (responseBody["FieldContents"]["16277"]["Value"] != null){
+			stewards = responseBody["FieldContents"]["16277"]["Value"]["UserList"];
+		}
+
+		var auxAuthorsUser = [];
+		var auxAuthorsGroup = [];
+
+		var auxStewards = [];
+
+		recordname = responseBody["FieldContents"]["10082"]["Value"];
+		if(responseBody["FieldContents"]["13338"]["Value"] != null){
+			custodian = responseBody["FieldContents"]["13338"]["Value"]["UserList"][0]["Id"];
+		}
+		if(responseBody["FieldContents"]["10866"]["Value"] != null){
+			owner = responseBody["FieldContents"]["10866"]["Value"]["UserList"][0]["Id"];
+		}
+
+		  for (var i = 0; i < authorsUser.length; i++) {
+			auxAuthorsUser.push(authorsUser[i]["Id"]);
+		  }
+
+		  for (var i = 0; i < authorsGroup.length; i++) {
+			auxAuthorsGroup.push(authorsGroup[i]["Id"]);
+		  }
+
+		  for (var i = 0; i < stewards.length; i++) {
+			auxStewards.push(stewards[i]["Id"]);
+		  }
+
+		  var authorsuser = auxAuthorsUser;
+		  var authorsgroup = auxAuthorsGroup;
+		  stewards = auxStewards;
+		  output = [recordname, custodian, owner, authorsuser, authorsgroup, stewards];
+
+		  var us = new GlideAjax('glideUserID');
+		  us.addParam('sysparm_name', 'getUserId');
+		  us.addParam('sysparm_sessiontoken',  g_form.getValue('sessiontoken'));
+		/*Owner*/
+		 if( g_form.getValue('your_role_mr_ra') == 'owner' ||  g_form.getValue('your_role_ru_ra') == 'owner'){
+			 us.addParam('sysparm_userid', output[2]);
+			 us.getXML(userIDRA);
+		/*Author*/	 
+		 }else if( g_form.getValue('your_role_mr_ra') == 'author'){
+			 us.addParam('sysparm_userid', output[3]);
+			 us.getXML(userIDRA);
+		 }
+		/*Custodian*/	 
+		else if(g_form.getValue('your_role_mr_ra') == 'custodian' ||  g_form.getValue('your_role_ru_ra') == 'custodian'){
+			 us.addParam('sysparm_userid', output[1]);
+			 us.getXML(userIDRA);
+		 
+	/*Organization Steward*/	 
+		}else if(g_form.getValue('your_role_mr_ra') == 'organization_steward' ||  g_form.getValue('your_role_ru_ra') == 'organization_steward'){
+			 us.addParam('sysparm_userid', output[1]);
+			 us.getXML(userIDRA);
+		}
+	}else{
+		alert("Record " +  g_form.getValue('risk_assessment_id_s') + " is not a valid Risk Assessment");
+		g_form.clearValue('risk_assessment_id_s');
+	}
+}
+
+function userIDRA(response){
+	var userID = response.responseXML.documentElement.getAttribute('answer');
+	userID = userID.split(',');
+	for(var i = 0; i < userID.length; i++){
+		if(g_user.userName == userID[i]){
+			var message;
+			switch(g_form.getValue('what_is_this_request_for')){
+				case 'record_unlock':
+					message = "Following Risk Assessment(s) records to be unlocked for " + g_user.getFullName()+ "(" + g_user.userName + "): " ;
+					break;
+				case 'mass_retirement':
+					message = 'Following Risk Assessment(s) records to be retired:';
+			}
+			 g_form.addInfoMessage(message + "<br\> <br\>"+  g_form.getValue('risk_assessment_id_s') + ' - ' + output[0]);
+				return 'success';
+			 }
+					
+	}
+	var role;
+	if(g_form.getValue('your_role_mr_ra') != ''){
+		role = g_form.getValue('your_role_mr_ra'); 
+	}else if (g_form.getValue('your_role_ru_ra') != ''){
+		role = g_form.getValue('your_role_ru_ra');
+	}
+	g_form.addErrorMessage(g_user.getFullName() + " is not " + role + " of record(s) " + g_form.getValue('risk_assessment_id_s'));
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 15:36:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6c30ccd1b418d181cf976ae034bcb93</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>Check Record ID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_script_client_a6c30ccd1b418d181cf976ae034bcb93</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 19:55:40</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_script_client_a6c30ccd1b418d181cf976ae034bcb93</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="ITCM Support"&gt;bd0082d41be409d01cf976ae034bcb20&lt;/cat_item&gt;&lt;cat_variable&gt;IO:12b94a6c1b240dd01cf976ae034bcb47&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Check Record ID&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[var userOnRole = '';
+var output = '';
+var stewards = '';
+var responseBody = '';
+var authorsUser = ''; 
+var authorsGroup = '';
+var recordname = '';
+var custodian = '';
+var owner = '';
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (g_form.getValue('choose_module_mr_rh_gra') == 'risk_assessment' || g_form.getValue('choose_module_ru') == 'risk_assessment') {
+			alert("Processing... \n Please Wait");
+			var ra = new GlideAjax('glideRecordID');
+			ra.addParam('sysparm_name', 'checkRiskAssessment');
+			ra.addParam('sysparm_recordid', g_form.getValue('risk_assessment_id_s'));
+			ra.addParam('sysparm_sessiontoken',  g_form.getValue('sessiontoken'));
+			ra.getXML(riskAssessmentID);
+    } 
+}
+
+function riskAssessmentID(response){
+	var recordID = response.responseXML.documentElement.getAttribute('answer'); 
+	if(recordID != 'Invalid Risk Assessment'){
+		responseBody= JSON.parse(recordID)["RequestedObject"];
+		authorsUser = responseBody["FieldContents"]["10084"]["Value"]["UserList"];
+		authorsGroup = responseBody["FieldContents"]["10084"]["Value"]["GroupList"];
+		if (responseBody["FieldContents"]["16277"]["Value"] != null){
+			stewards = responseBody["FieldContents"]["16277"]["Value"]["UserList"];
+		}
+
+		var auxAuthorsUser = [];
+		var auxAuthorsGroup = [];
+
+		var auxStewards = [];
+
+		recordname = responseBody["FieldContents"]["10082"]["Value"];
+		if(responseBody["FieldContents"]["13338"]["Value"] != null){
+			custodian = responseBody["FieldContents"]["13338"]["Value"]["UserList"][0]["Id"];
+		}
+		if(responseBody["FieldContents"]["10866"]["Value"] != null){
+			owner = responseBody["FieldContents"]["10866"]["Value"]["UserList"][0]["Id"];
+		}
+
+		  for (var i = 0; i &lt; authorsUser.length; i++) {
+			auxAuthorsUser.push(authorsUser[i]["Id"]);
+		  }
+
+		  for (var i = 0; i &lt; authorsGroup.length; i++) {
+			auxAuthorsGroup.push(authorsGroup[i]["Id"]);
+		  }
+
+		  for (var i = 0; i &lt; stewards.length; i++) {
+			auxStewards.push(stewards[i]["Id"]);
+		  }
+
+		  var authorsuser = auxAuthorsUser;
+		  var authorsgroup = auxAuthorsGroup;
+		  stewards = auxStewards;
+		  output = [recordname, custodian, owner, authorsuser, authorsgroup, stewards];
+
+		  var us = new GlideAjax('glideUserID');
+		  us.addParam('sysparm_name', 'getUserId');
+		  us.addParam('sysparm_sessiontoken',  g_form.getValue('sessiontoken'));
+		/*Owner*/
+		 if( g_form.getValue('your_role_mr_ra') == 'owner' ||  g_form.getValue('your_role_ru_ra') == 'owner'){
+			 us.addParam('sysparm_userid', output[2]);
+			 us.getXML(userIDRA);
+		/*Author*/	 
+		 }else if( g_form.getValue('your_role_mr_ra') == 'author'){
+			 us.addParam('sysparm_userid', output[3]);
+			 us.getXML(userIDRA);
+		 }
+		/*Custodian*/	 
+		else if(g_form.getValue('your_role_mr_ra') == 'custodian' ||  g_form.getValue('your_role_ru_ra') == 'custodian'){
+			 us.addParam('sysparm_userid', output[1]);
+			 us.getXML(userIDRA);
+		 
+	/*Organization Steward*/	 
+		}else if(g_form.getValue('your_role_mr_ra') == 'organization_steward' ||  g_form.getValue('your_role_ru_ra') == 'organization_steward'){
+			 us.addParam('sysparm_userid', output[1]);
+			 us.getXML(userIDRA);
+		}
+	}else{
+		alert("Record " +  g_form.getValue('risk_assessment_id_s') + " is not a valid Risk Assessment");
+		g_form.clearValue('risk_assessment_id_s');
+	}
+}
+
+function userIDRA(response){
+	var userID = response.responseXML.documentElement.getAttribute('answer');
+	userID = userID.split(',');
+	for(var i = 0; i &lt; userID.length; i++){
+		if(g_user.userName == userID[i]){
+			var message;
+			switch(g_form.getValue('what_is_this_request_for')){
+				case 'record_unlock':
+					message = "Following Risk Assessment(s) records to be unlocked for " + g_user.getFullName()+ "(" + g_user.userName + "): " ;
+					break;
+				case 'mass_retirement':
+					message = 'Following Risk Assessment(s) records to be retired:';
+			}
+			 g_form.addInfoMessage(message + "&lt;br\&gt; &lt;br\&gt;"+  g_form.getValue('risk_assessment_id_s') + ' - ' + output[0]);
+				return 'success';
+			 }
+					
+	}
+	var role;
+	if(g_form.getValue('your_role_mr_ra') != ''){
+		role = g_form.getValue('your_role_mr_ra'); 
+	}else if (g_form.getValue('your_role_ru_ra') != ''){
+		role = g_form.getValue('your_role_ru_ra');
+	}
+	g_form.addErrorMessage(g_user.getFullName() + " is not " + role + " of record(s) " + g_form.getValue('risk_assessment_id_s'));
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SA\ACSIMOE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-12 15:36:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a6c30ccd1b418d181cf976ae034bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;66&lt;/sys_mod_count&gt;&lt;sys_name&gt;Check Record ID&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ITCM Support" source="x_iem_itcm_support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ITCM Support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_a6c30ccd1b418d181cf976ae034bcb93&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SA\ACSIMOE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-13 19:55:40&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1407355655</payload_hash>
+        <record_name>Check Record ID</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-13 19:55:41</sys_created_on>
+        <sys_id>9fb846951bcd85104a61ebd22a4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e55029a7d0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 19:55:41</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>93b84695e3cd85100762f6c43b0583c1</update_guid>
+        <update_guid_history>93b84695e3cd85100762f6c43b0583c1:-1407355655,47238a99a48d8510c251aa3159acf6b0:-1889234112,d1c28e598d8d85105b9f60f27df1469a:453130172,f7ecf1d9994d85105b76123b257dd455:961599988,34dcb1d9794d85108e2fb4842b452515:1087314866,7a8b3119014d8510ff33a7f1d547e464:-1574011092,ae297d910e4d851014660158065361b8:-863124362,1abe6d1925c98510e943022b86ede19c:277354521,919b2d11a4c98510d8cd69ebf50e2b3e:-614166181,a56aad5d4f898510a7b708cc7847607f:651098753,2a3a295d4889851087c35e5f96bc2d8f:1903551750,ab592dd9f989851078b20a224cdf4bb6:-223958800,5d07e595ff8985109b68f625a09ec46b:-168609519,1223295d344985106980183d0558ac70:-47564719,849dd1ddb60985100fcb68d573966004:648516259,71e18d1182458510a0a751fb793cb4fb:2872354,c28f7c5535058510ab2828df28775dee:1047130150,a5fe345524058510f6cdc73c03f1ef5c:1420728686,371ebc111e0585100891d811df8e149c:1335686487,b27dbcd957c185101599e55d025c5183:-1882936978,8f3bf49902c18510780885502ac02810:-601570067,69e1a81117018510f996cfc05ef3c4d1:65901531,66d0285db9cd4510eddade77f5c771d5:878823969,1260ec1dc1cd45106630d9dfa5850bbc:901526629,edbf1499c1cd451099bd000a7fa3765c:898335362,c62f1099eacd4510af6373d23242bb45:-850197863,968dd8d1b1cd4510dc2554917e642b7c:718089052,c71d5cd11ecd4510a3c017f3a2dc047d:-615923846,3ee9dc592c8d45108c1440be7a2082e3:1524428284,6031f001000d8d1820464fc98c4734c6:175073443,d6e0308d86c98d1874a5c3aac716a2d0:1476590386,fb9034c922c98d18ed9e6e32aa121c81:-505927001,276030c918c98d18590b1fe2d9510fdf:1508552231,a330bc8909c98d188b1727de8b997b20:929393209,8f007c09d1c98d18469aab4c537b8aa2:1508552231,4effe08932c98d180ba3478c44bdd1f8:1090022407,0bfe24095cc98d1877cd722795427dc9:-766998773,0dae28c56ec98d18a4b0eef44c715c7e:638825077,1e3e648590c98d181b8c8afa26fd05a2:1184816480,02ede8c145c98d18cc4f4b51fa9a3da2:1975167727,fb9de4056dc98d18798d0ec356437775:2014354774,857d68c178c98d186c15ebbf9bb16571:44558746,a13de8018fc98d18cd2d91b1dfb826ef:-707984782,985ca00103c98d18941313eeebe3d633:764005047,094ce8cda2898d18cc95c8592391e67f:1627547915,e2fb60cd54898d18695ba2a99eb7baf9:-1872949407,e20a20c565898d1841adcaa0fe5bf7f0:-1139567298,2839e0c500898d185920e8629fddccc4:1813563430,02b8608578898d18f64f9e538691bcf0:607441036,7f86ac0de4498d186d6ef83e190d7463:-1286623257,d45f584960098d18ac2e3c82d8806c81:-238026426,0dfe94c5ec098d1880b3e9eb9a8e187f:-585518844,c46e54053e098d181f1ae40e8ba7c00c:644247682,ddfd5081f3098d18062ebe5de23d292d:796539460,f869584d71858d185db8ea0863fc56b1:1120958101,f6c850892a858d18b7e624a3871f3521:-467421189,a0389049d8858d18f55a1ae406024896:-246327387,6008d809b9858d187a962d20d18af8a5:-1806463125,6a96d40537858d18f6277e23f251fe38:814957099,a1e0dcc940058d182fd8b31ad8848ba0:-1566588868,159c040d11c18d18b9b62f565efebd2f:-1734535575,31bb080974c18d18795711391b45c95d:191411415,0e2b84c156c18d18b3f69c2e7e6fd514:1998945049,3d59804d83818d189e6c2d14cabb3ed0:1469487785,5468488999818d1806b7eb8bf8ab229b:1090906766,1f388c0932818d180d97c5ab510c9ddf:1484502850,62c30ccdb5418d1837bf01eb4bbe56a3:5773078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Check Record ID">1a2ef5e11b4d45581cf976ae034bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-14 13:47:57</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>2ea37302d4924fe887b4bbac02d20d51</sys_id>
+        <sys_metadata>a6c30ccd1b418d181cf976ae034bcb93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Record ID</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_script_client_a6c30ccd1b418d181cf976ae034bcb93</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_a6c30ccd1b418d181cf976ae034bcb93">9fb846951bcd85104a61ebd22a4bcbc1</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-14 13:47:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

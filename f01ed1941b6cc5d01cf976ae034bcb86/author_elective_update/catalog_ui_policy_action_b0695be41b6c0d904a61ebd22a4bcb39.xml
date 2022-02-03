@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:e2846aec1ba80dd01cf976ae034bcb57</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-17 21:21:12</sys_created_on>
+        <sys_id>b0695be41b6c0d904a61ebd22a4bcb39</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>select_user_to_be_replaced</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b0695be41b6c0d904a61ebd22a4bcb39</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 21:36:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'select_user_to_be_replaced' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">f0695be41b6c0d904a61ebd22a4bcb10</ui_policy>
+        <variable>select_user_to_be_replaced</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_b0695be41b6c0d904a61ebd22a4bcb39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:e2846aec1ba80dd01cf976ae034bcb57</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-17 21:21:12</sys_created_on><sys_id>b0695be41b6c0d904a61ebd22a4bcb39</sys_id><sys_mod_count>2</sys_mod_count><sys_name>select_user_to_be_replaced</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_b0695be41b6c0d904a61ebd22a4bcb39</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-12-17 21:36:36</sys_updated_on><table/><ui_policy display_value="Make 'select_user_to_be_replaced' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">f0695be41b6c0d904a61ebd22a4bcb10</ui_policy><variable>select_user_to_be_replaced</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>939644246</payload_hash>
+        <record_name>select_user_to_be_replaced</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-17 21:36:36</sys_created_on>
+        <sys_id>aeecd3e81bec0d904a61ebd22a4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dca534e0a0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 21:36:36</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a2ecd3e834ec0d903f964f7cfd1126e4</update_guid>
+        <update_guid_history>a2ecd3e834ec0d903f964f7cfd1126e4:939644246,3c695be4476c0d90a559a2d056c75740:-177464045,f8695be4926c0d90cb047dc53945023b:939644246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="select_user_to_be_replaced">48696be81be44d904a61ebd22a4bcb33</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-17 22:31:03</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2577692bf8c849e896a73a04e9121f29</sys_id>
+        <sys_metadata>b0695be41b6c0d904a61ebd22a4bcb39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_user_to_be_replaced</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b0695be41b6c0d904a61ebd22a4bcb39</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b0695be41b6c0d904a61ebd22a4bcb39">aeecd3e81bec0d904a61ebd22a4bcbe4</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 22:31:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

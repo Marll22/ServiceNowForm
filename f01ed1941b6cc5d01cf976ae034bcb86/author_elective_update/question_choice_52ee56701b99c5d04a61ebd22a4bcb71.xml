@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Risk Assessment">45c84ea81b240dd01cf976ae034bcb9f</published_ref>
+        <question display_value="Choose Module">02ee56701b99c5d04a61ebd22a4bcb40</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 18:31:17</sys_created_on>
+        <sys_id>52ee56701b99c5d04a61ebd22a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Assessment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_52ee56701b99c5d04a61ebd22a4bcb71</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:31:17</sys_updated_on>
+        <text>Risk Assessment</text>
+        <value>risk_assessment</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=52ee56701b99c5d04a61ebd22a4bcb71"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_52ee56701b99c5d04a61ebd22a4bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Risk Assessment">45c84ea81b240dd01cf976ae034bcb9f</published_ref><question display_value="Choose Module">02ee56701b99c5d04a61ebd22a4bcb40</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-24 18:31:17</sys_created_on><sys_id>52ee56701b99c5d04a61ebd22a4bcb71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Risk Assessment</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_52ee56701b99c5d04a61ebd22a4bcb71</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2022-01-24 18:31:17</sys_updated_on><text>Risk Assessment</text><value>risk_assessment</value></question_choice><fx_price action="delete_multiple" query="id=52ee56701b99c5d04a61ebd22a4bcb71"/></record_update>]]></payload>
+        <payload_hash>-559535379</payload_hash>
+        <record_name>Risk Assessment</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 18:31:17</sys_created_on>
+        <sys_id>d6ee56701b99c5d04a61ebd22a4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8d5b4ae40000001</sys_recorded_at>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:31:17</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>1eee56700799c5d094a21a04ba9db172</update_guid>
+        <update_guid_history>1eee56700799c5d094a21a04ba9db172:-559535379</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Risk Assessment">8b91a6b81b99c5d04a61ebd22a4bcb93</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 18:43:05</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>d38b4fe4c18b4bc2ad68c86637cb1439</sys_id>
+        <sys_metadata>52ee56701b99c5d04a61ebd22a4bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Assessment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">02ee56701b99c5d04a61ebd22a4bcb40</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_52ee56701b99c5d04a61ebd22a4bcb71</sys_update_name>
+        <sys_update_version display_value="question_choice_52ee56701b99c5d04a61ebd22a4bcb71">d6ee56701b99c5d04a61ebd22a4bcb73</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:43:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

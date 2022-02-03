@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:12b94a6c1b240dd01cf976ae034bcb47</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:43</sys_created_on>
+        <sys_id>a74865b01b11c5d04a61ebd22a4bcbe3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>risk_assessment_id_s</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a74865b01b11c5d04a61ebd22a4bcbe3</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-24 16:28:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'risk_assessment_id_s' non-mandatory &amp; hidden depending on 'choose_module_mr_rh_gra' &amp; 'choose_module_ru'">2f4865b01b11c5d04a61ebd22a4bcbdf</ui_policy>
+        <variable>risk_assessment_id_s</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_a74865b01b11c5d04a61ebd22a4bcbe3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:12b94a6c1b240dd01cf976ae034bcb47</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-24 14:32:43</sys_created_on><sys_id>a74865b01b11c5d04a61ebd22a4bcbe3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>risk_assessment_id_s</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_a74865b01b11c5d04a61ebd22a4bcbe3</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-24 16:28:42</sys_updated_on><table/><ui_policy display_value="Make 'risk_assessment_id_s' non-mandatory &amp; hidden depending on 'choose_module_mr_rh_gra' &amp; 'choose_module_ru'">2f4865b01b11c5d04a61ebd22a4bcbdf</ui_policy><variable>risk_assessment_id_s</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1792071193</payload_hash>
+        <record_name>risk_assessment_id_s</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-24 16:28:42</sys_created_on>
+        <sys_id>e2d282701bd18d501cf976ae034bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8ceb10ac0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-24 16:28:42</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>aad282707bd18d5091aa11f5a6b0f05e</update_guid>
+        <update_guid_history>aad282707bd18d5091aa11f5a6b0f05e:-1792071193,2cbf69748051c5d00db5155a9d81e27d:-1792071193,2cbf69748051c5d00db5155a9d81e27d:-1792071193,334865b01f11c5d0fdecfe429d556feb:-750236522,ef4865b07211c5d0b15a1706d6cf8ce5:-1792071193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="risk_assessment_id_s">5381ae781b99c5d04a61ebd22a4bcb43</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 18:42:50</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>10b1ab0d8a99436ca0c47cd6c95163d1</sys_id>
+        <sys_metadata>a74865b01b11c5d04a61ebd22a4bcbe3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>risk_assessment_id_s</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a74865b01b11c5d04a61ebd22a4bcbe3</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a74865b01b11c5d04a61ebd22a4bcbe3">e2d282701bd18d501cf976ae034bcb5f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:42:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

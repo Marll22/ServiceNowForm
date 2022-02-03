@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls>fee3e6531b740dd04a61ebd22a4bcbfb</acls>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>true</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>itcm_record_id</internal_name>
+        <label_cache>[{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.sessiontoken}}","label":"action➛sessionToken","type":"action","ref":""},{"name":"{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].variable}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].responsebody}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].recordname}}","label":"step➛Script step - Extract Record Name➛recordName","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].custodian}}","label":"step➛Script step - Extract Record Name➛custodian","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authors}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.author}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorsGroup_child0","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authoruser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authorUser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛authorUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorGroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].owner}}","label":"step➛Script step - Extract Record Name➛owner","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards}}","label":"step➛Script step - Extract Record Name➛stewards","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards.steward}}","label":"step➛Script step - Extract Record Name➛stewards➛steward","type":"step","ref":""}]</label_cache>
+        <master_snapshot>e806da791be80d101cf976ae034bcb45</master_snapshot>
+        <name>ITCM Record ID - Risk Assessment</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 12:57:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1b8cc6311ba80d101cf976ae034bcb9d</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>ITCM Record ID - Risk Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1b8cc6311ba80d101cf976ae034bcb9d</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 14:15:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b8cc6311ba80d101cf976ae034bcb9d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1b8cc6311ba80d101cf976ae034bcb9d"/>
+    <sys_element_mapping action="delete_multiple" query="id=1b8cc6311ba80d101cf976ae034bcb9d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>authorsGroup</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>9f647b781bcd4d181cf976ae034bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>authorsUser</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>53647b781bcd4d181cf976ae034bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>custodian</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>1b647b781bcd4d181cf976ae034bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].custodian}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>owner</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>53647b781bcd4d181cf976ae034bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].owner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recordname</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>db647b781bcd4d181cf976ae034bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].recordname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:35</sys_created_on>
+        <sys_id>f8d09ef91ba80d101cf976ae034bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stewards</field>
+        <id>1b8cc6311ba80d101cf976ae034bcb9d</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:13</sys_created_on>
+        <sys_id>17647b781bcd4d181cf976ae034bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT INecd09ef91ba80d101cf976ae034bcb1d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</action>
+        <cid>6cb63a85-8da2-44d2-bd94-090195d90623</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>ecd09ef91ba80d101cf976ae034bcb1d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ecd09ef91ba80d101cf976ae034bcb1d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:18:23</sys_created_on>
+        <sys_id>0331de3d1ba80d101cf976ae034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:23</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>20d09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>2cd09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>68d09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>a4d09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:23</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>e0d09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ecd09ef91ba80d101cf976ae034bcb1d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>ecd09ef91ba80d101cf976ae034bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ecd09ef91ba80d101cf976ae034bcb1d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>acd09ef91ba80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>e8d09ef91ba80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.url}}/api/core/content/{{action.recordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>28d09ef91ba80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>ecd09ef91ba80d101cf976ae034bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>a0d09ef91ba80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Archer session-id={{action.sessiontoken}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-Http-Method-Override","value":"GET","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>2cd09ef91ba80d101cf976ae034bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:18:23</sys_created_on>
+        <sys_id>8f31de3d1ba80d101cf976ae034bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>ecd09ef91ba80d101cf976ae034bcb1d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>64d09ef91ba80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT IN0331de3d1ba80d101cf976ae034bcb50,28d09ef91ba80d101cf976ae034bcb15,2cd09ef91ba80d101cf976ae034bcb0d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=30e44fd1-adeb-432f-8d0c-af5ce497a62a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sessiontoken</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sessionToken</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</model>
+        <model_id>1b8cc6311ba80d101cf976ae034bcb9d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:18:22</sys_created_on>
+        <sys_id>0331de3d1ba80d101cf976ae034bcb50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:33:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bbd2efe0-83c9-4148-907a-35c89c774af6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>recordid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</model>
+        <model_id>1b8cc6311ba80d101cf976ae034bcb9d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>28d09ef91ba80d101cf976ae034bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=75a4d278-7957-4fb1-87be-d227ddb7d50c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>URL</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</model>
+        <model_id>1b8cc6311ba80d101cf976ae034bcb9d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>2cd09ef91ba80d101cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT INe4d09ef91ba80d101cf976ae034bcb4d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=84bfb761-75a8-4714-801b-4d68dbf0ab60</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</model>
+        <model_id>1b8cc6311ba80d101cf976ae034bcb9d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>e4d09ef91ba80d101cf976ae034bcb4d</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 14:15:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT IN4331de3d1ba80d101cf976ae034bcb88,60d09ef91ba80d101cf976ae034bcb14,64d09ef91ba80d101cf976ae034bcb1b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sessiontoken</element>
+        <help/>
+        <hint/>
+        <label>sessionToken</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:18:22</sys_created_on>
+        <sys_id>4331de3d1ba80d101cf976ae034bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>url</element>
+        <help/>
+        <hint/>
+        <label>URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>60d09ef91ba80d101cf976ae034bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>recordid</element>
+        <help/>
+        <hint/>
+        <label>recordID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>64d09ef91ba80d101cf976ae034bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT IN24d09ef91ba80d101cf976ae034bcb54"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1b8cc6311ba80d101cf976ae034bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:16:34</sys_created_on>
+        <sys_id>24d09ef91ba80d101cf976ae034bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:16:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=1b8cc6311ba80d101cf976ae034bcb9d^sys_idNOT IN05061e791be80d101cf976ae034bcb15"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"05061e791be80d101cf976ae034bcb15","name":"plan"}}</plan>
+        <snapshot>a5fa7c591bc185104a61ebd22a4bcbd2</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>05061e791be80d101cf976ae034bcb15</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 14:15:54</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>itcm_record_id</internal_name>
+        <label_cache>[{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.sessiontoken}}","label":"action➛sessionToken","type":"action","ref":""},{"name":"{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].variable}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].responsebody}}","label":"step➛Script step - Extract Record Name➛variable","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].recordname}}","label":"step➛Script step - Extract Record Name➛recordName","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].custodian}}","label":"step➛Script step - Extract Record Name➛custodian","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authors}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.author}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser}}","label":"step➛Script step - Extract Record Name➛authorsUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorgroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorsGroup_child0","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authoruser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛author","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser.authorUser}}","label":"step➛Script step - Extract Record Name➛authorsUser➛authorUser","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup.authorGroup}}","label":"step➛Script step - Extract Record Name➛authorsGroup➛authorGroup","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].owner}}","label":"step➛Script step - Extract Record Name➛owner","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards}}","label":"step➛Script step - Extract Record Name➛stewards","type":"step","ref":""},{"name":"{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards.steward}}","label":"step➛Script step - Extract Record Name➛stewards➛steward","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>ITCM Record ID - Risk Assessment</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e806da791be80d101cf976ae034bcb45</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-11 13:08:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e806da791be80d101cf976ae034bcb45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e806da791be80d101cf976ae034bcb45"/>
+    <sys_element_mapping action="delete_multiple" query="id=e806da791be80d101cf976ae034bcb45"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>authorsGroup</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>8d847f781bcd4d181cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsgroup}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>authorsUser</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>41847f781bcd4d181cf976ae034bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].authorsuser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>custodian</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>09847f781bcd4d181cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].custodian}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>owner</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>45847f781bcd4d181cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].owner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recordname</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>c9847f781bcd4d181cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].recordname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3406da791be80d101cf976ae034bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[6cb63a85-8da2-44d2-bd94-090195d90623].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stewards</field>
+        <id>e806da791be80d101cf976ae034bcb45</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-12 14:29:37</sys_created_on>
+        <sys_id>05847f781bcd4d181cf976ae034bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-12 14:29:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</table>
+        <value>{{step[139f6b79-43e0-4f1f-88b2-b67f5f10839b].stewards}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=e806da791be80d101cf976ae034bcb45^sys_idNOT IN3406da791be80d101cf976ae034bcb6d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="ITCM Record ID - Risk Assessment">e806da791be80d101cf976ae034bcb45</action>
+        <cid>6cb63a85-8da2-44d2-bd94-090195d90623</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>3406da791be80d101cf976ae034bcb6d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3406da791be80d101cf976ae034bcb6d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3006da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3806da791be80d101cf976ae034bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3c06da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>7806da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>b406da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>f006da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3406da791be80d101cf976ae034bcb6d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>fc06da791be80d101cf976ae034bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3406da791be80d101cf976ae034bcb6d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>f006da791be80d101cf976ae034bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3006da791be80d101cf976ae034bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.url}}/api/core/content/{{action.recordid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>7c06da791be80d101cf976ae034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3406da791be80d101cf976ae034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>f406da791be80d101cf976ae034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Accept","value":"application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Archer session-id={{action.sessiontoken}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-Http-Method-Override","value":"GET","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>7c06da791be80d101cf976ae034bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>b406da791be80d101cf976ae034bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>3406da791be80d101cf976ae034bcb6d</id>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>b806da791be80d101cf976ae034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=e806da791be80d101cf976ae034bcb45^sys_idNOT IN2c06da791be80d101cf976ae034bcb64,6c06da791be80d101cf976ae034bcb48,e006da791be80d101cf976ae034bcb51"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=30e44fd1-adeb-432f-8d0c-af5ce497a62a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sessiontoken</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sessionToken</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">e806da791be80d101cf976ae034bcb45</model>
+        <model_id>e806da791be80d101cf976ae034bcb45</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>2c06da791be80d101cf976ae034bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=75a4d278-7957-4fb1-87be-d227ddb7d50c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>URL</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">e806da791be80d101cf976ae034bcb45</model>
+        <model_id>e806da791be80d101cf976ae034bcb45</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>6c06da791be80d101cf976ae034bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bbd2efe0-83c9-4148-907a-35c89c774af6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>recordid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>recordID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">e806da791be80d101cf976ae034bcb45</model>
+        <model_id>e806da791be80d101cf976ae034bcb45</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>e006da791be80d101cf976ae034bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=e806da791be80d101cf976ae034bcb45^sys_idNOT IN3c06da791be80d101cf976ae034bcb80"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=84bfb761-75a8-4714-801b-4d68dbf0ab60</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ITCM Record ID - Risk Assessment">e806da791be80d101cf976ae034bcb45</model>
+        <model_id>e806da791be80d101cf976ae034bcb45</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>3c06da791be80d101cf976ae034bcb80</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-13 14:15:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45^sys_idNOT IN2c06da791be80d101cf976ae034bcb4f,6406da791be80d101cf976ae034bcb63,e406da791be80d101cf976ae034bcb6a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>url</element>
+        <help/>
+        <hint/>
+        <label>URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>2c06da791be80d101cf976ae034bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>recordid</element>
+        <help/>
+        <hint/>
+        <label>recordID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>6406da791be80d101cf976ae034bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sessiontoken</element>
+        <help/>
+        <hint/>
+        <label>sessionToken</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e806da791be80d101cf976ae034bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:14</sys_created_on>
+        <sys_id>e406da791be80d101cf976ae034bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45^sys_idNOT INf406da791be80d101cf976ae034bcb87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e806da791be80d101cf976ae034bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2021-12-21 13:39:15</sys_created_on>
+        <sys_id>f406da791be80d101cf976ae034bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:39:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>1b8cc6311ba80d101cf976ae034bcb9d</sys_id>
+        <latest_snapshot>e806da791be80d101cf976ae034bcb45</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

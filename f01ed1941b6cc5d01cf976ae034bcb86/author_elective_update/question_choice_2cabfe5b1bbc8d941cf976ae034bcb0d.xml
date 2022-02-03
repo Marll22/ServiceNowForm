@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Controls Custodian">ced2e6681ba80dd01cf976ae034bcb72</published_ref>
+        <question display_value="Field to be updated">68abbe5b1bbc8d941cf976ae034bcbed</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\JPPASSO</sys_created_by>
+        <sys_created_on>2022-01-07 18:30:12</sys_created_on>
+        <sys_id>2cabfe5b1bbc8d941cf976ae034bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Controls Custodian</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_2cabfe5b1bbc8d941cf976ae034bcb0d</sys_update_name>
+        <sys_updated_by>SA\JPPASSO</sys_updated_by>
+        <sys_updated_on>2022-01-07 18:30:12</sys_updated_on>
+        <text>Controls Custodian</text>
+        <value>controls_custodian</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2cabfe5b1bbc8d941cf976ae034bcb0d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_2cabfe5b1bbc8d941cf976ae034bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Controls Custodian">ced2e6681ba80dd01cf976ae034bcb72</published_ref><question display_value="Field to be updated">68abbe5b1bbc8d941cf976ae034bcbed</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\JPPASSO</sys_created_by><sys_created_on>2022-01-07 18:30:12</sys_created_on><sys_id>2cabfe5b1bbc8d941cf976ae034bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Controls Custodian</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_2cabfe5b1bbc8d941cf976ae034bcb0d</sys_update_name><sys_updated_by>SA\JPPASSO</sys_updated_by><sys_updated_on>2022-01-07 18:30:12</sys_updated_on><text>Controls Custodian</text><value>controls_custodian</value></question_choice><fx_price action="delete_multiple" query="id=2cabfe5b1bbc8d941cf976ae034bcb0d"/></record_update>]]></payload>
+        <payload_hash>-1857406376</payload_hash>
+        <record_name>Controls Custodian</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JPPASSO</sys_created_by>
+        <sys_created_on>2022-01-07 18:30:12</sys_created_on>
+        <sys_id>60abfe5b1bbc8d941cf976ae034bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e35ce31ab0000001</sys_recorded_at>
+        <sys_updated_by>SA\JPPASSO</sys_updated_by>
+        <sys_updated_on>2022-01-07 18:30:12</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>a4abfe5bf7bc8d94d03355d9684c1e0f</update_guid>
+        <update_guid_history>a4abfe5bf7bc8d94d03355d9684c1e0f:-1857406376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Controls Custodian">463cba5f1bbc8d941cf976ae034bcbad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-07 18:32:45</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0984f9c8ef0444d380768644297b0f51</sys_id>
+        <sys_metadata>2cabfe5b1bbc8d941cf976ae034bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Controls Custodian</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">68abbe5b1bbc8d941cf976ae034bcbed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_2cabfe5b1bbc8d941cf976ae034bcb0d</sys_update_name>
+        <sys_update_version display_value="question_choice_2cabfe5b1bbc8d941cf976ae034bcb0d">60abfe5b1bbc8d941cf976ae034bcb10</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-07 18:32:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

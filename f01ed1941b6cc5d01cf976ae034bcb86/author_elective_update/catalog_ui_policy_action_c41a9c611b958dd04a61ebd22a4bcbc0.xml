@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:1529022c1b240dd01cf976ae034bcb85</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-26 16:46:19</sys_created_on>
+        <sys_id>c41a9c611b958dd04a61ebd22a4bcbc0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>your_role_ru_ra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c41a9c611b958dd04a61ebd22a4bcbc0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-26 16:56:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'your_role_ru_ra' non-mandatory &amp; hidden depending on 'choose_module_ru'">4c1a9c611b958dd04a61ebd22a4bcbbc</ui_policy>
+        <variable>your_role_ru_ra</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_c41a9c611b958dd04a61ebd22a4bcbc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:1529022c1b240dd01cf976ae034bcb85</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-26 16:46:19</sys_created_on><sys_id>c41a9c611b958dd04a61ebd22a4bcbc0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>your_role_ru_ra</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_c41a9c611b958dd04a61ebd22a4bcbc0</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-26 16:56:54</sys_updated_on><table/><ui_policy display_value="Make 'your_role_ru_ra' non-mandatory &amp; hidden depending on 'choose_module_ru'">4c1a9c611b958dd04a61ebd22a4bcbbc</ui_policy><variable>your_role_ru_ra</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1380135562</payload_hash>
+        <record_name>your_role_ru_ra</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-26 16:56:54</sys_created_on>
+        <sys_id>837c18291b5185901cf976ae034bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e975199400000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-26 16:56:54</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>877c1829b451859079c47af2ebe48e3b</update_guid>
+        <update_guid_history>877c1829b451859079c47af2ebe48e3b:-1380135562,401a9c615c958dd08caf2a6df9a7d5c8:-1991047781,001a9c61b4958dd0ea4e509a0f7ca1c3:-1380135562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="your_role_ru_ra">b1c005311bd181144a61ebd22a4bcb77</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-27 14:13:56</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>47f7653133ea4c2a9c50b4b590275e64</sys_id>
+        <sys_metadata>c41a9c611b958dd04a61ebd22a4bcbc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>your_role_ru_ra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_c41a9c611b958dd04a61ebd22a4bcbc0</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_c41a9c611b958dd04a61ebd22a4bcbc0">837c18291b5185901cf976ae034bcb3c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 14:13:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

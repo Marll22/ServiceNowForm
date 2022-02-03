@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:21ae46a01ba40dd01cf976ae034bcb30</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-21 16:42:12</sys_created_on>
+        <sys_id>e4ef7eb91ba04d101cf976ae034bcb8d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>deviation_id</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e4ef7eb91ba04d101cf976ae034bcb8d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 17:27:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'deviation_id' mandatory &amp; visible depending on 'choose_module_ru'">6cef7eb91ba04d101cf976ae034bcb89</ui_policy>
+        <variable>deviation_id</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_e4ef7eb91ba04d101cf976ae034bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:21ae46a01ba40dd01cf976ae034bcb30</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-21 16:42:12</sys_created_on><sys_id>e4ef7eb91ba04d101cf976ae034bcb8d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>deviation_id</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_e4ef7eb91ba04d101cf976ae034bcb8d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-12-21 17:27:52</sys_updated_on><table/><ui_policy display_value="Make 'deviation_id' mandatory &amp; visible depending on 'choose_module_ru'">6cef7eb91ba04d101cf976ae034bcb89</ui_policy><variable>deviation_id</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1568671778</payload_hash>
+        <record_name>deviation_id</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 17:27:52</sys_created_on>
+        <sys_id>e95a0f711b244d101cf976ae034bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dde09034f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 17:27:52</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ed5a0f71b4244d108b930ed7e328171c</update_guid>
+        <update_guid_history>ed5a0f71b4244d108b930ed7e328171c:1568671778,60ef7eb9bca04d1021641981870c3395:-2055152903,20ef7eb90aa04d10bde35f1e85635890:1568671778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="deviation_id">563480ce1b248d101cf976ae034bcb9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 21:40:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2aab3ad1f242457889d7ce1420157a90</sys_id>
+        <sys_metadata>e4ef7eb91ba04d101cf976ae034bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deviation_id</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e4ef7eb91ba04d101cf976ae034bcb8d</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e4ef7eb91ba04d101cf976ae034bcb8d">e95a0f711b244d101cf976ae034bcb1d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 21:40:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

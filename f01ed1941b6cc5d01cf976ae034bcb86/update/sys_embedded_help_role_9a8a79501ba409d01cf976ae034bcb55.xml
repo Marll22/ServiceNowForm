@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_x_iem_testitcm_servicecatalog" name="sn_dd_x_iem_testitcm_servicecatalog">168a79501ba409d01cf976ae034bcb53</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-16 19:48:19</sys_created_on>
+        <sys_id>9a8a79501ba409d01cf976ae034bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>168a79501ba409d01cf976ae034bcb53</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9a8a79501ba409d01cf976ae034bcb55</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-16 19:48:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

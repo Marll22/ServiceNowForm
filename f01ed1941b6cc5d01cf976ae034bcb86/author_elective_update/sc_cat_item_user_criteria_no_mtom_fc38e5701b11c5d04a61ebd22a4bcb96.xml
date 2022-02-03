@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">3038e5701b11c5d04a61ebd22a4bcb95</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-24 14:32:15</sys_created_on>
+        <sys_id>fc38e5701b11c5d04a61ebd22a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.SNC External</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_fc38e5701b11c5d04a61ebd22a4bcb96</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-24 14:32:15</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_fc38e5701b11c5d04a61ebd22a4bcb96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">3038e5701b11c5d04a61ebd22a4bcb95</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-24 14:32:15</sys_created_on><sys_id>fc38e5701b11c5d04a61ebd22a4bcb96</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ITCM Support.SNC External</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_fc38e5701b11c5d04a61ebd22a4bcb96</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2022-01-24 14:32:15</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-489381510</payload_hash>
+        <record_name>ITCM Support.SNC External</record_name>
+        <reverted_from/>
+        <source>5cddd6011b2001101cf976ae034bcb05</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-12-19 06:17:54</sys_created_on>
+        <sys_id>4c1039381b51c5d04a61ebd22a4bcb89</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17dd156ea500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>0c103938d751c5d03e5e59d011e12a89</update_guid>
+        <update_guid_history>0c103938d751c5d03e5e59d011e12a89:-489381510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITCM Support.SNC External">8c1039381b51c5d04a61ebd22a4bcb8d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-24 15:06:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>1233047afa434c4590232cd484a55c91</sys_id>
+        <sys_metadata>fc38e5701b11c5d04a61ebd22a4bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.SNC External</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_fc38e5701b11c5d04a61ebd22a4bcb96</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_fc38e5701b11c5d04a61ebd22a4bcb96">4c1039381b51c5d04a61ebd22a4bcb89</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-24 15:06:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

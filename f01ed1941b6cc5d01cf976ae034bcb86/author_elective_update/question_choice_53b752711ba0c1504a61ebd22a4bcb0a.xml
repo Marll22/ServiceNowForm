@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Controls Assignment">81c84ea81b240dd01cf976ae034bcba3</published_ref>
+        <question display_value="Choose Module">4fb712711ba0c1504a61ebd22a4bcbe7</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-21 13:46:47</sys_created_on>
+        <sys_id>53b752711ba0c1504a61ebd22a4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Controls Assignment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_53b752711ba0c1504a61ebd22a4bcb0a</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:46:47</sys_updated_on>
+        <text>Controls Assignment</text>
+        <value>controls_assignment</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=53b752711ba0c1504a61ebd22a4bcb0a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_53b752711ba0c1504a61ebd22a4bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Controls Assignment">81c84ea81b240dd01cf976ae034bcba3</published_ref><question display_value="Choose Module">4fb712711ba0c1504a61ebd22a4bcbe7</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-21 13:46:47</sys_created_on><sys_id>53b752711ba0c1504a61ebd22a4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Controls Assignment</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_53b752711ba0c1504a61ebd22a4bcb0a</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2021-12-21 13:46:47</sys_updated_on><text>Controls Assignment</text><value>controls_assignment</value></question_choice><fx_price action="delete_multiple" query="id=53b752711ba0c1504a61ebd22a4bcb0a"/></record_update>]]></payload>
+        <payload_hash>-1347087385</payload_hash>
+        <record_name>Controls Assignment</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-21 13:46:47</sys_created_on>
+        <sys_id>97b752711ba0c1504a61ebd22a4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddd3e9ada0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:46:47</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>dbb7527134a0c150a23d3dc432cc990b</update_guid>
+        <update_guid_history>dbb7527134a0c150a23d3dc432cc990b:-1347087385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Controls Assignment">17c892311b2c0d101cf976ae034bcb9f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 13:51:26</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>304f12f977394fd0aa191f4fb9c43f90</sys_id>
+        <sys_metadata>53b752711ba0c1504a61ebd22a4bcb0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Controls Assignment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">4fb712711ba0c1504a61ebd22a4bcbe7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_53b752711ba0c1504a61ebd22a4bcb0a</sys_update_name>
+        <sys_update_version display_value="question_choice_53b752711ba0c1504a61ebd22a4bcb0a">97b752711ba0c1504a61ebd22a4bcb0c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:51:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

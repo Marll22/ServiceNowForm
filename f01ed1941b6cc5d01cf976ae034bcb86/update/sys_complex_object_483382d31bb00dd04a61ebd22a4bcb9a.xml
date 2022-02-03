@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD843382d38ab00dd063a5b24041d5e49a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f01ed1941b6cc5d01cf976ae034bcb86</scope_name>
+        <serialized_content>{"FlowDesigner:FD843382d38ab00dd063a5b24041d5e49a":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD843382d38ab00dd063a5b24041d5e49a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"authors\",\"mandatory\":\"false\",\"child_name\":\"author\",\"uiUniqueId\":\"eecd7055-1153-42a6-b4d7-88e210e7473f\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD843382d38ab00dd063a5b24041d5e49a\",\"child_label\":\"author\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a69276c7-2d1c-4f61-8a84-82b93e214e5f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2022-01-07 14:23:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>483382d31bb00dd04a61ebd22a4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD843382d38ab00dd063a5b24041d5e49a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_complex_object_483382d31bb00dd04a61ebd22a4bcb9a</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2022-01-07 14:23:34</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

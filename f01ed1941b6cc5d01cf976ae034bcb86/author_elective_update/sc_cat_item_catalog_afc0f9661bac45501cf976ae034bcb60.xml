@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="ITCM Support">2cb0f9261bac45501cf976ae034bcb1f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-23 18:52:08</sys_created_on>
+        <sys_id>afc0f9661bac45501cf976ae034bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ITCM Support</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_afc0f9661bac45501cf976ae034bcb60</sys_update_name>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-23 18:52:08</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_catalog_afc0f9661bac45501cf976ae034bcb60</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">2cb0f9261bac45501cf976ae034bcb1f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2021-12-23 18:52:08</sys_created_on><sys_id>afc0f9661bac45501cf976ae034bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.ITCM Support</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_catalog_afc0f9661bac45501cf976ae034bcb60</sys_update_name><sys_updated_by>SA\YGPEGOR</sys_updated_by><sys_updated_on>2021-12-23 18:52:08</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-764555455</payload_hash>
+        <record_name>Service Catalog.ITCM Support</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>SA\YGPEGOR</sys_created_by>
+        <sys_created_on>2021-12-23 18:52:08</sys_created_on>
+        <sys_id>a3c0f9661bac45501cf976ae034bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17de8a2e1e50000001</sys_recorded_at>
+        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+        <sys_updated_on>2021-12-23 18:52:08</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e7c0f966aeac4550b22ef1dea3e50263</update_guid>
+        <update_guid_history>e7c0f966aeac4550b22ef1dea3e50263:-764555455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.ITCM Support">fc3cb65f1bbc8d941cf976ae034bcba4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-07 18:32:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>757b8c991d744040b2a644f524f74400</sys_id>
+        <sys_metadata>afc0f9661bac45501cf976ae034bcb60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ITCM Support</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_afc0f9661bac45501cf976ae034bcb60</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_afc0f9661bac45501cf976ae034bcb60">a3c0f9661bac45501cf976ae034bcb64</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-07 18:32:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

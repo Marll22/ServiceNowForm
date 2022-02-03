@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:720acaac1b240dd01cf976ae034bcb6d</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-21 14:32:01</sys_created_on>
+        <sys_id>791226351b24c1504a61ebd22a4bcb0e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>approver</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_791226351b24c1504a61ebd22a4bcb0e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:34:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'approver' non-mandatory &amp; hidden depending on 'your_role_mr_ra', 'your_role_mr_rh_gra_car', 'your_role_mr_rh_gra_dr', 'your_role_ru_car', 'your_role_ru_d', 'your_role_ru_dr', 'your_role_ru_ra' &amp; 'your_role_uos'">fd1226351b24c1504a61ebd22a4bcb0a</ui_policy>
+        <variable>approver</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_791226351b24c1504a61ebd22a4bcb0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:720acaac1b240dd01cf976ae034bcb6d</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-21 14:32:01</sys_created_on><sys_id>791226351b24c1504a61ebd22a4bcb0e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>approver</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_791226351b24c1504a61ebd22a4bcb0e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-12-21 14:34:16</sys_updated_on><table/><ui_policy display_value="Make 'approver' non-mandatory &amp; hidden depending on 'your_role_mr_ra', 'your_role_mr_rh_gra_car', 'your_role_mr_rh_gra_dr', 'your_role_ru_car', 'your_role_ru_d', 'your_role_ru_dr', 'your_role_ru_ra' &amp; 'your_role_uos'">fd1226351b24c1504a61ebd22a4bcb0a</ui_policy><variable>approver</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1686056232</payload_hash>
+        <record_name>approver</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 14:34:16</sys_created_on>
+        <sys_id>3a92e63d1b6c0d101cf976ae034bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ddd6a14d20000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:34:16</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>3e92e63df06c0d105f37b3e75a89fb51</update_guid>
+        <update_guid_history>3e92e63df06c0d105f37b3e75a89fb51:1686056232,f11226358824c15056589a4b1f797e16:204618532,b1122635c924c150d64c4cb3e596f111:1686056232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="approver">3b14aa751bac0d101cf976ae034bcbbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 14:40:54</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>380e53b2eae94fd48cc6754a37b4ae04</sys_id>
+        <sys_metadata>791226351b24c1504a61ebd22a4bcb0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_791226351b24c1504a61ebd22a4bcb0e</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_791226351b24c1504a61ebd22a4bcb0e">3a92e63d1b6c0d101cf976ae034bcb52</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 14:40:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

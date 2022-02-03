@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Organization Manager">3f2b2a241b2c0dd01cf976ae034bcb2d</published_ref>
+        <question display_value=" Your Role">d44d7d6d1bc949104a61ebd22a4bcb40</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-14 13:43:59</sys_created_on>
+        <sys_id>504d7d6d1bc949104a61ebd22a4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization Manager</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_504d7d6d1bc949104a61ebd22a4bcb57</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-14 13:43:59</sys_updated_on>
+        <text>Organization Manager</text>
+        <value>organization_manager</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=504d7d6d1bc949104a61ebd22a4bcb57"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_504d7d6d1bc949104a61ebd22a4bcb57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Organization Manager">3f2b2a241b2c0dd01cf976ae034bcb2d</published_ref><question display_value=" Your Role">d44d7d6d1bc949104a61ebd22a4bcb40</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-01-14 13:43:59</sys_created_on><sys_id>504d7d6d1bc949104a61ebd22a4bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Organization Manager</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_504d7d6d1bc949104a61ebd22a4bcb57</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-01-14 13:43:59</sys_updated_on><text>Organization Manager</text><value>organization_manager</value></question_choice><fx_price action="delete_multiple" query="id=504d7d6d1bc949104a61ebd22a4bcb57"/></record_update>]]></payload>
+        <payload_hash>-1803880095</payload_hash>
+        <record_name>Organization Manager</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-14 13:43:59</sys_created_on>
+        <sys_id>9c4d7d6d1bc949104a61ebd22a4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e58d4abf90000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-01-14 13:43:59</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d04d7d6d62c949103257c84030297d65</update_guid>
+        <update_guid_history>d04d7d6d62c949103257c84030297d65:-1803880095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Organization Manager">ac4ef1251b4d45581cf976ae034bcb5c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-14 13:48:23</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>6fb004746f3b432cb028bed7fde20410</sys_id>
+        <sys_metadata>504d7d6d1bc949104a61ebd22a4bcb57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization Manager</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">d44d7d6d1bc949104a61ebd22a4bcb40</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_504d7d6d1bc949104a61ebd22a4bcb57</sys_update_name>
+        <sys_update_version display_value="question_choice_504d7d6d1bc949104a61ebd22a4bcb57">9c4d7d6d1bc949104a61ebd22a4bcb65</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-14 13:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

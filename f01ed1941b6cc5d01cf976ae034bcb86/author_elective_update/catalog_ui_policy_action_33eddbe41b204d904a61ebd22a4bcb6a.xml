@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:99b0da281ba40dd01cf976ae034bcb64</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2021-12-17 21:41:03</sys_created_on>
+        <sys_id>33eddbe41b204d904a61ebd22a4bcb6a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>choose_module_mr_rh_gra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_33eddbe41b204d904a61ebd22a4bcb6a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 22:31:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'choose_module_mr_rh_gra' non-mandatory &amp; hidden depending on 'what_is_this_request_for', 'what_is_this_request_for' &amp; 'what_is_this_request_for'">ffeddbe41b204d904a61ebd22a4bcb59</ui_policy>
+        <variable>choose_module_mr_rh_gra</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_33eddbe41b204d904a61ebd22a4bcb6a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:99b0da281ba40dd01cf976ae034bcb64</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2021-12-17 21:41:03</sys_created_on><sys_id>33eddbe41b204d904a61ebd22a4bcb6a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>choose_module_mr_rh_gra</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_33eddbe41b204d904a61ebd22a4bcb6a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-12-17 22:31:10</sys_updated_on><table/><ui_policy display_value="Make 'choose_module_mr_rh_gra' non-mandatory &amp; hidden depending on 'what_is_this_request_for', 'what_is_this_request_for' &amp; 'what_is_this_request_for'">ffeddbe41b204d904a61ebd22a4bcb59</ui_policy><variable>choose_module_mr_rh_gra</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1999420524</payload_hash>
+        <record_name>choose_module_mr_rh_gra</record_name>
+        <reverted_from/>
+        <source>dba221541bacc5d01cf976ae034bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-17 22:31:10</sys_created_on>
+        <sys_id>bd69232c1be44d904a61ebd22a4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17dca8542bd0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-17 22:31:10</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>b169232ce1e44d908ec71bec66f6f34b</update_guid>
+        <update_guid_history>b169232ce1e44d908ec71bec66f6f34b:1999420524,bbeddbe4a6204d90cd677e9f6fffbe71:325931703,7beddbe4fd204d9053748191db2a8b6c:1999420524</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="choose_module_mr_rh_gra">8962dafd1ba80d101cf976ae034bcba6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-21 13:23:26</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>07cffbf14cca480289d91636e26fd7e4</sys_id>
+        <sys_metadata>33eddbe41b204d904a61ebd22a4bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>choose_module_mr_rh_gra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_33eddbe41b204d904a61ebd22a4bcb6a</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_33eddbe41b204d904a61ebd22a4bcb6a">bd69232c1be44d904a61ebd22a4bcb4b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-21 13:23:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
