@@ -156,7 +156,7 @@
         <update_guid_history>71c286308cd18d5052a409e29e0becce:1092338044,3d003538aa51c5d0685f69e6a89261ae:1092338044,3d003538aa51c5d0685f69e6a89261ae:1092338044,a8082d30da11c5d0fd4a2141d761dc8a:410384485,484369a729cdc9107ce10a6d8713014f:-232809510</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="test org">71e34ef81b15c5d04a61ebd22a4bcbac</sys_audit_delete>
+        <sys_audit_delete display_value="">71e34ef81b15c5d04a61ebd22a4bcbac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\YGPEGOR</sys_created_by>
         <sys_created_on>2022-01-24 16:33:18</sys_created_on>

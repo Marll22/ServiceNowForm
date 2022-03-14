@@ -69,7 +69,7 @@
         <update_guid_history>3c3bc8c119c18d181c8c955df5e7fe94:1129857675,c9c348cd9c418d18b55c54dbcf045b4d:2025834086</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'deviation_id' mandatory &amp; visible depending on 'choose_module_ru'">d72eb9e11b4d45581cf976ae034bcb6c</sys_audit_delete>
+        <sys_audit_delete display_value="">d72eb9e11b4d45581cf976ae034bcb6c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-14 13:48:01</sys_created_on>

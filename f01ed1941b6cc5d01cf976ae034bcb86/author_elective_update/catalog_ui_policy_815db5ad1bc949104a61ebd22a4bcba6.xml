@@ -69,7 +69,7 @@
         <update_guid_history>e53ebde15e4d45588232085045037877:-55440143,095db5adabc949109b401fc7f9d1c3a8:-461624559</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'your_role_ru_car' mandatory &amp; visible depending on 'choose_module_ru'">4b44fb471b89c5101cf976ae034bcbc9</sys_audit_delete>
+        <sys_audit_delete display_value="">4b44fb471b89c5101cf976ae034bcbc9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-19 14:14:59</sys_created_on>

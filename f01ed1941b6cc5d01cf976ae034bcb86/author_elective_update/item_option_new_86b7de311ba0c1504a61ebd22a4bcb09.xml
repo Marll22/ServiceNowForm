@@ -156,7 +156,7 @@
         <update_guid_history>02b7de3157a0c150d564df012e8a0f28:-505166856</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Deviation ID">b8d896311b2c0d101cf976ae034bcb4a</sys_audit_delete>
+        <sys_audit_delete display_value="">b8d896311b2c0d101cf976ae034bcb4a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 13:51:32</sys_created_on>

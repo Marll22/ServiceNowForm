@@ -69,7 +69,7 @@
         <update_guid_history>58a10409e7418d180e2943de65706bb7:-363549328,3b11c48562418d184e3e8fa083259504:867372055</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'document_repository_id' non-mandatory &amp; hidden depending on 'choose_module">bf2b48c11bc18d181cf976ae034bcba1</sys_audit_delete>
+        <sys_audit_delete display_value="">bf2b48c11bc18d181cf976ae034bcba1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 16:08:39</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>8a686f20e8e44d9061ef7208e862fbcc:450898333,03b0afa0b1a04d905fba684df223650d:-1516708832,b3dd1fa4e7204d9067766abd29a42c99:-172402689</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Choose Module">df992bec1be44d904a61ebd22a4bcb88</sys_audit_delete>
+        <sys_audit_delete display_value="">df992bec1be44d904a61ebd22a4bcb88</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 22:32:06</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>2d54b387ef89c510fcfe73cc9a1ffc0c:771737429,4163ff43b889c5100f9c01122b724ccc:38733469</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITCM Support.">dc6b01741bd985d04a61ebd22a4bcbfa</sys_audit_delete>
+        <sys_audit_delete display_value="">dc6b01741bd985d04a61ebd22a4bcbfa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:26:20</sys_created_on>

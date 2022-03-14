@@ -51,7 +51,7 @@
         <update_guid_history>5168dfa8802c0d90bc0ef78fac51cf50:-608383662,a99557ac5c644dd0f1899fd7ac51a569:-613340715,699557ac18644dd0f16e171c74f13864:-608383662</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="select_user_to_be_removed">fcec1fa81bec0d904a61ebd22a4bcbfb</sys_audit_delete>
+        <sys_audit_delete display_value="">fcec1fa81bec0d904a61ebd22a4bcbfb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 21:36:29</sys_created_on>

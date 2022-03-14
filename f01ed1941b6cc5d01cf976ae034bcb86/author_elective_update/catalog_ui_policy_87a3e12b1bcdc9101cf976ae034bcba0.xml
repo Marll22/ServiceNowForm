@@ -69,7 +69,7 @@
         <update_guid_history>4b5b4d34a7d985d0b66a2aeab1dcac54:-1462938274,0fa3e12b2acdc91060403b318836f2a2:1375054480</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'suggest_an_enhancement_or_report_a_problem' non-mandatory &amp; hidden dependi">df9c11301b9d85d04a61ebd22a4bcbb3</sys_audit_delete>
+        <sys_audit_delete display_value="">df9c11301b9d85d04a61ebd22a4bcbb3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 13:41:38</sys_created_on>

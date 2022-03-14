@@ -46,7 +46,7 @@
         <update_guid_history>d3de1270a299c5d0a302386c20694470:-1924255885</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Current Control Scheduler">bf912ab81b99c5d04a61ebd22a4bcb04</sys_audit_delete>
+        <sys_audit_delete display_value="">bf912ab81b99c5d04a61ebd22a4bcb04</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:43:08</sys_created_on>

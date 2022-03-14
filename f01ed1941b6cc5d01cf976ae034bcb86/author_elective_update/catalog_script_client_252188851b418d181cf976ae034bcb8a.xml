@@ -185,7 +185,7 @@ function RecordId(response){
         <update_guid_history>69918cc5a0418d18328d904e21461a1f:-1502082135,e5218885a5418d1848a60a45e56fe88d:-75685560</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Check Record ID">392b44c11bc18d181cf976ae034bcbd3</sys_audit_delete>
+        <sys_audit_delete display_value="">392b44c11bc18d181cf976ae034bcbd3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 16:08:31</sys_created_on>

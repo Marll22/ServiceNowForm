@@ -41,7 +41,7 @@
         <update_guid_history>18e536a810ac0dd08a5d47a6e364fee3:-454408215</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Application Support.ITCM Support">0ae5b6a81bac0dd01cf976ae034bcb1c</sys_audit_delete>
+        <sys_audit_delete display_value="">0ae5b6a81bac0dd01cf976ae034bcb1c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2021-12-17 18:46:11</sys_created_on>

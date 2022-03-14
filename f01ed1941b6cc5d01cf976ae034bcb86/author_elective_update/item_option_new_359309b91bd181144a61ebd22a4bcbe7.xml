@@ -156,7 +156,7 @@
         <update_guid_history>719349b9b3d18114823afc49c9b22902:758056070</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Select User to be replaced">30e835f91bd981144a61ebd22a4bcb87</sys_audit_delete>
+        <sys_audit_delete display_value="">30e835f91bd981144a61ebd22a4bcb87</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 18:19:06</sys_created_on>

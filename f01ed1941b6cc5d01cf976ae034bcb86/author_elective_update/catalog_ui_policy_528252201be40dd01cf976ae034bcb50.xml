@@ -69,7 +69,7 @@
         <update_guid_history>83f5b2ec24e8c990b7e2aa9be0bb4b0f:1244817527,5bf432e49cac0dd05baa3aed260c8e94:-1808548653,06a296202ce40dd03a6bea0f21708165:1391782533,75a29620d5e40dd06feced07a1863a26:512681349</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'choose_module_mr_rh_gra' mandatory &amp; visible depending on 'what_is_this_re">45f49f641ba80d904a61ebd22a4bcbbe</sys_audit_delete>
+        <sys_audit_delete display_value="">45f49f641ba80d904a61ebd22a4bcbbe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 21:01:49</sys_created_on>

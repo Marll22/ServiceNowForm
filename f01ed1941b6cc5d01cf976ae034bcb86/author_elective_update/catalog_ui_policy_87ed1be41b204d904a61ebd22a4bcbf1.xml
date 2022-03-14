@@ -69,7 +69,7 @@
         <update_guid_history>e469abe893e44d905313539ce66c85cd:-1458907033,b084a328fd244d9097cea5f05ae2b3b7:-1755477423,910467e055244d90ab972936d50febed:1176640659,110467e001244d903336253b3ba3a9bf:145639963,0fed1be448204d900fa44b8f7b5146f3:-420670037</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'approver' mandatory &amp; visible depending on 'your_role_mr_ra', 'your_role_m">63521afd1ba80d101cf976ae034bcb95</sys_audit_delete>
+        <sys_audit_delete display_value="">63521afd1ba80d101cf976ae034bcb95</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 13:23:19</sys_created_on>

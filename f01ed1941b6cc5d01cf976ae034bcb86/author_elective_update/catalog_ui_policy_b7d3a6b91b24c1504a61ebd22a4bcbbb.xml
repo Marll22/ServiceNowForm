@@ -69,7 +69,7 @@
         <update_guid_history>9c24ea75fcac0d10426c59481bf695ee:818812466,3fd3a6b92224c150b0f00b059022e1bd:1675551627</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'your_role_mr_ra' non-mandatory &amp; hidden depending on 'choose_module_mr_rh_">c05a87711b244d101cf976ae034bcbd3</sys_audit_delete>
+        <sys_audit_delete display_value="">c05a87711b244d101cf976ae034bcbd3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 17:27:45</sys_created_on>

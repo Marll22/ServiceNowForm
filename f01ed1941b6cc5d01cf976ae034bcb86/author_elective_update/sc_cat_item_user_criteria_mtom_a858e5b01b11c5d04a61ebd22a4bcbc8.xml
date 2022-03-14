@@ -25,7 +25,7 @@
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>SA\YGPEGOR</sys_created_by><sys_created_on>2022-01-24 14:32:47</sys_created_on><sys_id>a858e5b01b11c5d04a61ebd22a4bcbc8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ITCM Support.SNC Internal</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_a858e5b01b11c5d04a61ebd22a4bcbc8</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-24 15:05:04</sys_updated_on><user_criteria display_value="SNC Internal">6a053bbc1b1870101cf976ae034bcba8</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
         <payload_hash>771737429</payload_hash>
         <record_name>ITCM Support.SNC Internal</record_name>
-        <reverted_from display_value="sc_cat_item_user_criteria_mtom_a858e5b01b11c5d04a61ebd22a4bcbc8">a5bf2d741b51c5d04a61ebd22a4bcbd8</reverted_from>
+        <reverted_from display_value="">a5bf2d741b51c5d04a61ebd22a4bcbd8</reverted_from>
         <source>dba221541bacc5d01cf976ae034bcb35</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
@@ -41,7 +41,7 @@
         <update_guid_history>ffb28230bad18d503d71c89628c3fdc7:771737429,f1d67578c591c5d0cfc45ee33d791a0a:1619296865,a9bf2d744c51c5d0be32dbc91946cfd7:771737429,7858e5b04811c5d05e820174a0f1e5cb:1927244487</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITCM Support.SNC Internal">0f91a6b81b99c5d04a61ebd22a4bcb78</sys_audit_delete>
+        <sys_audit_delete display_value="">0f91a6b81b99c5d04a61ebd22a4bcb78</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:43:05</sys_created_on>

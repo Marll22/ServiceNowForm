@@ -156,7 +156,7 @@
         <update_guid_history>0411008584418d183e4694c0bda9f146:-181859358</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Risk Assessment - Record Unlock">d6e104891b418d181cf976ae034bcbcc</sys_audit_delete>
+        <sys_audit_delete display_value="">d6e104891b418d181cf976ae034bcbcc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 15:28:08</sys_created_on>

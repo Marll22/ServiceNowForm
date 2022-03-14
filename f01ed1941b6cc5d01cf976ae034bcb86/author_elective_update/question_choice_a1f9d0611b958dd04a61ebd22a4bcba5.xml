@@ -46,7 +46,7 @@
         <update_guid_history>2df9d061a9958dd02dda5523d59044a6:-936047131</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Organization Steward">c18c1c291b5185901cf976ae034bcb68</sys_audit_delete>
+        <sys_audit_delete display_value="">c18c1c291b5185901cf976ae034bcb68</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:57:02</sys_created_on>

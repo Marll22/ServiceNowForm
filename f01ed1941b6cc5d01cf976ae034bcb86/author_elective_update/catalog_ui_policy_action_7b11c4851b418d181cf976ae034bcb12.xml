@@ -51,7 +51,7 @@
         <update_guid_history>d1a1840943418d18d75ba9bb8dd8e04d:-892332179,f311c48546418d18ae375066b5abdb1a:278140800,b311c48589418d1862c83e2307d9d415:-892332179</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="your_role_mr_rh_gra_car">603bc8c11bc18d181cf976ae034bcb31</sys_audit_delete>
+        <sys_audit_delete display_value="">603bc8c11bc18d181cf976ae034bcb31</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 16:08:42</sys_created_on>

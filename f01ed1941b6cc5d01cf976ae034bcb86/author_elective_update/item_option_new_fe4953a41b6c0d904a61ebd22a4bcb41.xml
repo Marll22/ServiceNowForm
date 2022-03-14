@@ -156,7 +156,7 @@
         <update_guid_history>bb7a53e089ac0d9098ec56b016e51199:239540979,f64953a48c6c0d90695494b767ce92a6:539756354</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Role Handover">2c0d1b2c1bec0d904a61ebd22a4bcb6f</sys_audit_delete>
+        <sys_audit_delete display_value="">2c0d1b2c1bec0d904a61ebd22a4bcb6f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 21:37:01</sys_created_on>

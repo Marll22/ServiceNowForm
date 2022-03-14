@@ -82,7 +82,7 @@
         <update_guid_history>96583fdf149d49543d3a384131fa3ede:866142568,0d387bdfa09d4954a0754850912983b3:-1364205786</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Current Control Scheduler">98293f131bdd49544a61ebd22a4bcbcb</sys_audit_delete>
+        <sys_audit_delete display_value="">98293f131bdd49544a61ebd22a4bcbcb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\YGPEGOR</sys_created_by>
         <sys_created_on>2022-02-01 19:30:16</sys_created_on>

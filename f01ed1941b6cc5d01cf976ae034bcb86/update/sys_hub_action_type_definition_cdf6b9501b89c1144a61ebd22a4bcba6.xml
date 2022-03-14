@@ -24,15 +24,15 @@
         <sys_created_on>2022-01-10 16:04:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>cdf6b9501b89c1144a61ebd22a4bcba6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ITCM Record ID - Controls Assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cdf6b9501b89c1144a61ebd22a4bcba6</sys_update_name>
-        <sys_updated_by>SA\YGPEGOR</sys_updated_by>
-        <sys_updated_on>2022-01-10 17:02:20</sys_updated_on>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:37:03</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1147,11 +1147,11 @@
         <sys_created_on>2022-01-10 16:04:04</sys_created_on>
         <sys_id>11f6b9501b89c1144a61ebd22a4bcbc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cdf6b9501b89c1144a61ebd22a4bcba6_sessiontoken_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:04:04</sys_updated_on>
         <url/>
@@ -1170,11 +1170,11 @@
         <sys_created_on>2022-01-10 16:04:04</sys_created_on>
         <sys_id>4df6b9501b89c1144a61ebd22a4bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>recordID</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cdf6b9501b89c1144a61ebd22a4bcba6_recordid_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:04:04</sys_updated_on>
         <url/>
@@ -1193,11 +1193,11 @@
         <sys_created_on>2022-01-10 16:04:04</sys_created_on>
         <sys_id>89f6b9501b89c1144a61ebd22a4bcbb3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cdf6b9501b89c1144a61ebd22a4bcba6_url_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:04:04</sys_updated_on>
         <url/>
@@ -1217,11 +1217,11 @@
         <sys_created_on>2022-01-10 16:04:05</sys_created_on>
         <sys_id>61f6f9501b89c1144a61ebd22a4bcb3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cdf6b9501b89c1144a61ebd22a4bcba6_response_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:04:05</sys_updated_on>
         <url/>
@@ -2393,11 +2393,11 @@
         <sys_created_on>2022-01-10 16:38:53</sys_created_on>
         <sys_id>1bee391c1b89c1144a61ebd22a4bcb0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_07eef51c1b89c1144a61ebd22a4bcbf2_sessiontoken_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:38:53</sys_updated_on>
         <url/>
@@ -2416,11 +2416,11 @@
         <sys_created_on>2022-01-10 16:38:52</sys_created_on>
         <sys_id>87eef51c1b89c1144a61ebd22a4bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_07eef51c1b89c1144a61ebd22a4bcbf2_url_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:38:52</sys_updated_on>
         <url/>
@@ -2439,11 +2439,11 @@
         <sys_created_on>2022-01-10 16:38:53</sys_created_on>
         <sys_id>c7ee391c1b89c1144a61ebd22a4bcb03</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>recordID</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_07eef51c1b89c1144a61ebd22a4bcbf2_recordid_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:38:53</sys_updated_on>
         <url/>
@@ -2463,11 +2463,11 @@
         <sys_created_on>2022-01-10 16:38:54</sys_created_on>
         <sys_id>2bee391c1b89c1144a61ebd22a4bcb78</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_07eef51c1b89c1144a61ebd22a4bcbf2_response_en</sys_update_name>
         <sys_updated_by>SA\YGPEGOR</sys_updated_by>
         <sys_updated_on>2022-01-10 16:38:54</sys_updated_on>
         <url/>

@@ -69,7 +69,7 @@
         <update_guid_history>f7d28670f8d18d503de1436c9515a588:260465840,fbafe574e751c5d09c3c60ab65818589:260465840,fbafe574e751c5d09c3c60ab65818589:260465840,a34865b02d11c5d08ce8fea905d9b1e2:-2022657358</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'risk_assessment_id_s' non-mandatory &amp; hidden depending on 'choose_module_m">db81ae781b99c5d04a61ebd22a4bcb49</sys_audit_delete>
+        <sys_audit_delete display_value="">db81ae781b99c5d04a61ebd22a4bcb49</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:50</sys_created_on>

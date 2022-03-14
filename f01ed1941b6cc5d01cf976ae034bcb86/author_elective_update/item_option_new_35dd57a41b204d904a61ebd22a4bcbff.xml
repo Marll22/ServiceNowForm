@@ -156,7 +156,7 @@
         <update_guid_history>44c063e09ba04d9013f2bd109f8f3128:-1536225480,71dd97a44c204d90944b44fd8c89941b:206376762</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Risk Assessment - Mass/Grant/Role">d4892f6c1be44d904a61ebd22a4bcb6c</sys_audit_delete>
+        <sys_audit_delete display_value="">d4892f6c1be44d904a61ebd22a4bcb6c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 22:31:37</sys_created_on>

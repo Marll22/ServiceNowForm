@@ -156,7 +156,7 @@
         <update_guid_history>cc1eb1614d0d49104fa3333c9f76a94c:657809996,e9ed7521d20d4910282928f8fb36f7e7:-109795925,f94d31ada1c94910ddca871b6a88e6c7:657809996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SessionToken">3b7efd651b4d45581cf976ae034bcb02</sys_audit_delete>
+        <sys_audit_delete display_value="">3b7efd651b4d45581cf976ae034bcb02</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-14 13:49:26</sys_created_on>

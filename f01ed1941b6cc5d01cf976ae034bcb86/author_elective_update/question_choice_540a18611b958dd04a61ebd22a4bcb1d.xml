@@ -46,7 +46,7 @@
         <update_guid_history>dc0a186100958dd0b635473b8ef8951e:-507653894</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Document Repository">348cd8291b5185901cf976ae034bcbd4</sys_audit_delete>
+        <sys_audit_delete display_value="">348cd8291b5185901cf976ae034bcbd4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:57:01</sys_created_on>

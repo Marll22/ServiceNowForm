@@ -51,7 +51,7 @@
         <update_guid_history>8f038d3d4bd98990b26e14e8964cf1b3:-1324861186,01618935fbd18114a9ef0db46a153746:-709451790,cd61893518d18114bf0db1a2f2549740:-1324861186</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="controls_assignment_id">e3a875791bd981144a61ebd22a4bcbd4</sys_audit_delete>
+        <sys_audit_delete display_value="">e3a875791bd981144a61ebd22a4bcbd4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 18:18:11</sys_created_on>

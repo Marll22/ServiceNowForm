@@ -46,7 +46,7 @@
         <update_guid_history>97ab769b93bc8d9400f86d64ef7d0f62:-535386339</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Deviations">123c3e5f1bbc8d941cf976ae034bcb07</sys_audit_delete>
+        <sys_audit_delete display_value="">123c3e5f1bbc8d941cf976ae034bcb07</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 18:32:47</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>67db117c1b5d85d0b473f7290d30820e:-1425642837</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Document Repository - Mass/Grant/Role">a5dc19701b9d85d04a61ebd22a4bcb53</sys_audit_delete>
+        <sys_audit_delete display_value="">a5dc19701b9d85d04a61ebd22a4bcb53</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 13:42:36</sys_created_on>

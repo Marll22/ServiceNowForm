@@ -51,7 +51,7 @@
         <update_guid_history>353efde1ca4d4558efac36fafd4cc106:-1217756836,945d35ad73c949102b106e1fcbfaadcf:-91709967,545d35add2c94910e4242f8579c96aca:-1217756836</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="document_repository_id">ca447b471b89c5101cf976ae034bcb36</sys_audit_delete>
+        <sys_audit_delete display_value="">ca447b471b89c5101cf976ae034bcb36</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-19 14:14:54</sys_created_on>

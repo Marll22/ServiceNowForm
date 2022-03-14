@@ -46,7 +46,7 @@
         <update_guid_history>a4abfe5bf7bc8d94d03355d9684c1e0f:-1857406376</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Controls Custodian">463cba5f1bbc8d941cf976ae034bcbad</sys_audit_delete>
+        <sys_audit_delete display_value="">463cba5f1bbc8d941cf976ae034bcbad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 18:32:45</sys_created_on>

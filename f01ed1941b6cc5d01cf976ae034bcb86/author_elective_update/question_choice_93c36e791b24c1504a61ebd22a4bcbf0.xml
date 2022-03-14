@@ -46,7 +46,7 @@
         <update_guid_history>1fc36e799724c1505a75836f8bac24f1:21845740</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Deviation Owner">4624ee751bac0d101cf976ae034bcb7d</sys_audit_delete>
+        <sys_audit_delete display_value="">4624ee751bac0d101cf976ae034bcb7d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 14:41:03</sys_created_on>

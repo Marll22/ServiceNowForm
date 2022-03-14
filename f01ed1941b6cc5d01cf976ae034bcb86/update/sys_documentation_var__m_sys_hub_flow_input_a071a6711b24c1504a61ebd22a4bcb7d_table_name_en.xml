@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="table_name" label="Table Name" language="en" table="var__m_sys_hub_flow_input_a071a6711b24c1504a61ebd22a4bcb7d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>table_name</element>
+            <help/>
+            <hint/>
+            <label>Table Name</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_a071a6711b24c1504a61ebd22a4bcb7d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SA\ACSIMOE</sys_created_by>
+            <sys_created_on>2021-12-21 14:29:12</sys_created_on>
+            <sys_id>e471a6711b24c1504a61ebd22a4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table Name</sys_name>
+            <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a071a6711b24c1504a61ebd22a4bcb7d_table_name_en</sys_update_name>
+            <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+            <sys_updated_on>2021-12-21 14:29:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

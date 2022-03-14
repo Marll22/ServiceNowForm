@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Risk Assessment">45c84ea81b240dd01cf976ae034bcb9f</published_ref>
+        <question display_value="Choose Module">a1b6fda81bda49d04a61ebd22a4bcb15</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-14 13:59:58</sys_created_on>
+        <sys_id>edb6fda81bda49d04a61ebd22a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Assessment</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_edb6fda81bda49d04a61ebd22a4bcb46</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-14 13:59:58</sys_updated_on>
+        <text>Risk Assessment</text>
+        <value>risk_assessment</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=edb6fda81bda49d04a61ebd22a4bcb46"/>
+</record_update>

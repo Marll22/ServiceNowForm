@@ -69,7 +69,7 @@
         <update_guid_history>c292263dc06c0d106cfb7b9908bba1bd:-539286798,5a1226355424c15032f8aa0b924b81f3:-1142389975</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'select_user_to_be_replaced' non-mandatory &amp; hidden depending on 'what_is_t">d7146a751bac0d101cf976ae034bcb90</sys_audit_delete>
+        <sys_audit_delete display_value="">d7146a751bac0d101cf976ae034bcb90</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 14:40:52</sys_created_on>

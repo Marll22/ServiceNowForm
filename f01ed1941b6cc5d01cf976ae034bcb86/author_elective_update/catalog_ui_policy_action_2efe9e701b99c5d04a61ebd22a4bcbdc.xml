@@ -51,7 +51,7 @@
         <update_guid_history>f291a6b81999c5d0673b9916bde48b10:512203338,6efe9e705a99c5d08d05181d75d574f0:1878416380,66fe9e704f99c5d02c68ff06b9cfcadf:512203338</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="field_to_be_updated_gra_ra">297c14291b5185901cf976ae034bcbf3</sys_audit_delete>
+        <sys_audit_delete display_value="">297c14291b5185901cf976ae034bcbf3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:56:48</sys_created_on>

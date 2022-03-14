@@ -85,7 +85,7 @@ function SessionToken(response){
         <update_guid_history>7e816e78f099c5d02015d1d9023bde6c:-1915846823,c7fe12b0e499c5d01be756cb0ce02475:-353722670</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITCM SessionToken">447c50291b5185901cf976ae034bcb36</sys_audit_delete>
+        <sys_audit_delete display_value="">447c50291b5185901cf976ae034bcb36</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:56:41</sys_created_on>

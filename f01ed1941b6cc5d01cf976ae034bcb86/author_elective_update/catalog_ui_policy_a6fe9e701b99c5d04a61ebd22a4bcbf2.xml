@@ -69,7 +69,7 @@
         <update_guid_history>4691e2b8c899c5d03e313dc5256021e0:1400060157,2efe9e70e999c5d07ddf931693e25ef4:970782145</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'select_user_to_be_removed' non-mandatory &amp; hidden depending on 'what_actio">717c54291b5185901cf976ae034bcb0a</sys_audit_delete>
+        <sys_audit_delete display_value="">717c54291b5185901cf976ae034bcb0a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:56:48</sys_created_on>

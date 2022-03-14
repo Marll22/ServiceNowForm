@@ -156,7 +156,7 @@
         <update_guid_history>9014dfa4d0644dd0fcedaaf8fc36536b:1615720168</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="What is this Request for?">c5451fa81ba80d904a61ebd22a4bcbc8</sys_audit_delete>
+        <sys_audit_delete display_value="">c5451fa81ba80d904a61ebd22a4bcbc8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 21:03:11</sys_created_on>

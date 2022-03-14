@@ -41,7 +41,7 @@
         <update_guid_history>20c5fe6820ac0dd0dd80fbe6fed05ff3:1301147729</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.ITCM Support">d4e536a81bac0dd01cf976ae034bcbd7</sys_audit_delete>
+        <sys_audit_delete display_value="">d4e536a81bac0dd01cf976ae034bcbd7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2021-12-17 18:46:04</sys_created_on>

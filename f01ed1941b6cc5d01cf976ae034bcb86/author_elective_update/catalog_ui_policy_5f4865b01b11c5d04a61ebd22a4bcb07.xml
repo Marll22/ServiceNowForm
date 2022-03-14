@@ -69,7 +69,7 @@
         <update_guid_history>01d28e30d5d18d50213d524cb6d2b76f:-1959310004,f3afe5749851c5d072b512114d0533ec:-1959310004,f3afe5749851c5d072b512114d0533ec:-1959310004,d34865b0d011c5d0de4755f39961ba0a:218556574</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'your_role_mr_rh_gra_dr' non-mandatory &amp; hidden depending on 'choose_module">7781ee781b99c5d04a61ebd22a4bcb1e</sys_audit_delete>
+        <sys_audit_delete display_value="">7781ee781b99c5d04a61ebd22a4bcb1e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:51</sys_created_on>

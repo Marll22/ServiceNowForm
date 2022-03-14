@@ -69,7 +69,7 @@
         <update_guid_history>2bf5f2ec47e8c99049021b3c5d922598:-1023476111,814d0ae851640dd049f1e7d23ccc3187:-1643496562,784d0ae894640dd09b69c2248a3ecf7a:-934760690</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'approver_ru_dr' mandatory &amp; visible depending on 'your_role_ru_dr'">8506b6ec1be8c9904a61ebd22a4bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">8506b6ec1be8c9904a61ebd22a4bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 18:46:39</sys_created_on>

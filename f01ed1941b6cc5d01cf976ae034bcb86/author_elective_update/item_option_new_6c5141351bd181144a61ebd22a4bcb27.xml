@@ -156,7 +156,7 @@
         <update_guid_history>e85141358ad18114dc2f13a715c64d3b:-224867882</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Select User to be Removed">4a3349bd1bd989901cf976ae034bcb2d</sys_audit_delete>
+        <sys_audit_delete display_value="">4a3349bd1bd989901cf976ae034bcb2d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:24:36</sys_created_on>

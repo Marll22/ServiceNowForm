@@ -32,16 +32,16 @@
         <sys_created_by/>
         <sys_created_on>2021-12-19 06:17:54</sys_created_on>
         <sys_id>07e2aafd1b6c0d101cf976ae034bcbe5</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>17dd156ea500000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:46:59</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>c3e2aafd846c0d10a4231b5a8ee5f2e5</update_guid>
         <update_guid_history>c3e2aafd846c0d10a4231b5a8ee5f2e5:-1709162174</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITCM Support.SNC External">47e2aafd1b6c0d101cf976ae034bcbe9</sys_audit_delete>
+        <sys_audit_delete display_value="">47e2aafd1b6c0d101cf976ae034bcbe9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 14:35:39</sys_created_on>

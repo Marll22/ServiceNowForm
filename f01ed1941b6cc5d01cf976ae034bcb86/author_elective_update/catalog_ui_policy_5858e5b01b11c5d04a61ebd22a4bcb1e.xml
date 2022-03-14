@@ -69,7 +69,7 @@
         <update_guid_history>62d2827075d18d5062ac064617b8a56b:-2029747026,33afe574d251c5d05ff82fc6da300dc6:-2029747026,33afe574d251c5d05ff82fc6da300dc6:-2029747026,dc58e5b09c11c5d07c038e75c2883b20:422380240</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updates' mandatory &amp; visible depending on 'choose_module_mr_rh">2b81ae781b99c5d04a61ebd22a4bcbee</sys_audit_delete>
+        <sys_audit_delete display_value="">2b81ae781b99c5d04a61ebd22a4bcbee</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:51</sys_created_on>

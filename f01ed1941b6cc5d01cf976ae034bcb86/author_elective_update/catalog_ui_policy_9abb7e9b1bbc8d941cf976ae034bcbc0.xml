@@ -69,7 +69,7 @@
         <update_guid_history>772cb25fa0bc8d946f74b60addf67eee:-630586802,12bb7e9b5fbc8d94caa3ae93a09b06c3:926671566</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'your_role_mr_rh_gra_car' non-mandatory &amp; hidden depending on 'choose_modul">b69140091b418d181cf976ae034bcb20</sys_audit_delete>
+        <sys_audit_delete display_value="">b69140091b418d181cf976ae034bcb20</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 15:26:48</sys_created_on>

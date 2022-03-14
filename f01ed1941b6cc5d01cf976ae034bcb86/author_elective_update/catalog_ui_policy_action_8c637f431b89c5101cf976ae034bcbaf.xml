@@ -51,7 +51,7 @@
         <update_guid_history>305433879a89c510ea969f300b9d269a:-1097009167,08637f43d289c510131e773953717eb7:847544901,c4637f431989c5104a4785ec116962b2:-1097009167</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="select_user_to_be_added_gra">af4bc5341bd985d04a61ebd22a4bcb33</sys_audit_delete>
+        <sys_audit_delete display_value="">af4bc5341bd985d04a61ebd22a4bcb33</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:26:00</sys_created_on>

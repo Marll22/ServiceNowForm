@@ -156,7 +156,7 @@
         <update_guid_history>b7db117c705d85d0ebd16cf8b032f886:679532667</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Controls Assignment ID">8eccd1701b9d85d04a61ebd22a4bcb26</sys_audit_delete>
+        <sys_audit_delete display_value="">8eccd1701b9d85d04a61ebd22a4bcb26</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 13:42:22</sys_created_on>

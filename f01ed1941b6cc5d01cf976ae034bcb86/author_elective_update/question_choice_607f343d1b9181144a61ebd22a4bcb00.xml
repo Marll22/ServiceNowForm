@@ -46,7 +46,7 @@
         <update_guid_history>2c7f343d1a91811404ac658ef72e8e01:-1414722361</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Risk Assessment">e8e001711bd181144a61ebd22a4bcb52</sys_audit_delete>
+        <sys_audit_delete display_value="">e8e001711bd181144a61ebd22a4bcb52</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:14:24</sys_created_on>

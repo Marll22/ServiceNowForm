@@ -51,7 +51,7 @@
         <update_guid_history>0da1440950418d18b056ec9d168e68ef:634325323,81214885ef418d18f8e07db0ea266189:2027818242,7021488502418d188a30027593273084:634325323</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="update_organization_steward">b32b48c11bc18d181cf976ae034bcbbb</sys_audit_delete>
+        <sys_audit_delete display_value="">b32b48c11bc18d181cf976ae034bcbbb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 16:08:39</sys_created_on>

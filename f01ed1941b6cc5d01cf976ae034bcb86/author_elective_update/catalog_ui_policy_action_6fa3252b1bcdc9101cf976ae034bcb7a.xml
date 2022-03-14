@@ -51,7 +51,7 @@
         <update_guid_history>a75b8d3498d985d0838fcb75719e2a5c:1625242039,e7a3252bc4cdc91007d42ce14e5d6182:-979179521,a7a3252b2bcdc91063d982a1c471c87d:1625242039</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="field_to_be_updated_gra_car">ce9c5dfc1b5d85d04a61ebd22a4bcb79</sys_audit_delete>
+        <sys_audit_delete display_value="">ce9c5dfc1b5d85d04a61ebd22a4bcb79</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 13:41:33</sys_created_on>

@@ -46,7 +46,7 @@
         <update_guid_history>aeabf29b5bbc8d94bf8d9b78924eb684:-1097373971</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Organization Manager">713cba5f1bbc8d941cf976ae034bcb7e</sys_audit_delete>
+        <sys_audit_delete display_value="">713cba5f1bbc8d941cf976ae034bcb7e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 18:32:45</sys_created_on>

@@ -69,7 +69,7 @@
         <update_guid_history>013e7de1a54d45589dd3598bce29a3a7:897924694,895db5ad0cc94910990758e611085b75:100221979</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'choose_module_ru' mandatory &amp; visible depending on 'what_is_this_request_f">31443b471b89c5101cf976ae034bcbe8</sys_audit_delete>
+        <sys_audit_delete display_value="">31443b471b89c5101cf976ae034bcbe8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-19 14:14:54</sys_created_on>

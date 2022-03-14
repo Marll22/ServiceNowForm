@@ -41,7 +41,7 @@
         <update_guid_history>09d3448ac7a00550c6abefd88fd32894:-2059718456</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.ITCM Support">6b849a5f1bb48d941cf976ae034bcb35</sys_audit_delete>
+        <sys_audit_delete display_value="">6b849a5f1bb48d941cf976ae034bcb35</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 15:39:28</sys_created_on>

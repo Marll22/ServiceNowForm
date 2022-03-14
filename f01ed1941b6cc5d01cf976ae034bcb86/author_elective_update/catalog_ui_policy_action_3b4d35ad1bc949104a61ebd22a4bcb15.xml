@@ -51,7 +51,7 @@
         <update_guid_history>923efde17f4d4558aec6945708cdf8dc:-798697203,b34d35ad6bc94910a3107cb424a6891d:1232658093,734d35ad69c949107e8e10c351046118:-798697203</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="record_unlock">d3447f471b89c5101cf976ae034bcb49</sys_audit_delete>
+        <sys_audit_delete display_value="">d3447f471b89c5101cf976ae034bcb49</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-19 14:15:00</sys_created_on>

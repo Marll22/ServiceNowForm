@@ -69,7 +69,7 @@
         <update_guid_history>fb2cf25f55bc8d94615c44edaf552822:2119746284,3ebbfe9b04bc8d94d5fac874a10b71bc:973820467</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'update_organization_steward' non-mandatory &amp; hidden depending on 'what_is_">5b9140091b418d181cf976ae034bcbe1</sys_audit_delete>
+        <sys_audit_delete display_value="">5b9140091b418d181cf976ae034bcbe1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 15:26:50</sys_created_on>

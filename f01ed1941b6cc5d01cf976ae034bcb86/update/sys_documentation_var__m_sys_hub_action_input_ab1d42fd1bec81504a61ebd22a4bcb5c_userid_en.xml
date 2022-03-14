@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="userid" label="UserID" language="en" table="var__m_sys_hub_action_input_ab1d42fd1bec81504a61ebd22a4bcb5c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>userid</element>
+            <help/>
+            <hint/>
+            <label>UserID</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_ab1d42fd1bec81504a61ebd22a4bcb5c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SA\YGPEGOR</sys_created_by>
+            <sys_created_on>2021-12-21 13:23:16</sys_created_on>
+            <sys_id>b652d2fd1b20c1504a61ebd22a4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UserID</sys_name>
+            <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ab1d42fd1bec81504a61ebd22a4bcb5c_userid_en</sys_update_name>
+            <sys_updated_by>SA\YGPEGOR</sys_updated_by>
+            <sys_updated_on>2021-12-21 13:23:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -156,7 +156,7 @@
         <update_guid_history>8f7edab53fe0c150a853094b85a0360e:1251986753</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Document Repository - Record Unlock">bb4fd2b11b6c0d101cf976ae034bcb67</sys_audit_delete>
+        <sys_audit_delete display_value="">bb4fd2b11b6c0d101cf976ae034bcb67</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 14:19:52</sys_created_on>

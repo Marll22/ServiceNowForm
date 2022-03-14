@@ -41,7 +41,7 @@
         <update_guid_history>6058e5b04211c5d07b0222aac37578c7:-173335418</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Application Support.ITCM Support">88d6f1781b91c5d04a61ebd22a4bcb53</sys_audit_delete>
+        <sys_audit_delete display_value="">88d6f1781b91c5d04a61ebd22a4bcb53</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\YGPEGOR</sys_created_by>
         <sys_created_on>2022-01-24 15:36:06</sys_created_on>

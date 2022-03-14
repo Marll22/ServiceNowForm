@@ -69,7 +69,7 @@
         <update_guid_history>9a9126b8ac99c5d0fcb393c117d8d99a:-294957051,52fe9e70c599c5d015acc04ca9751705:2040027820</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'grant_remove_access' mandatory &amp; visible depending on 'what_is_this_reques">de7c94291b5185901cf976ae034bcb1a</sys_audit_delete>
+        <sys_audit_delete display_value="">de7c94291b5185901cf976ae034bcb1a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-26 16:56:50</sys_created_on>

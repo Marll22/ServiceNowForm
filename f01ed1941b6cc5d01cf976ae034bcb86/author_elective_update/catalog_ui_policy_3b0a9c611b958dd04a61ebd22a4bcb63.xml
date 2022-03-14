@@ -69,7 +69,7 @@
         <update_guid_history>5a7c9429945185904ab89c4e20ef4cb1:2105402484,bf0a9c61b8958dd087a62b6fc5ed3d65:-2000931378</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updated_rh_doc' non-mandatory &amp; hidden depending on 'choose_mo">21c005311bd181144a61ebd22a4bcb3e</sys_audit_delete>
+        <sys_audit_delete display_value="">21c005311bd181144a61ebd22a4bcb3e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:13:55</sys_created_on>

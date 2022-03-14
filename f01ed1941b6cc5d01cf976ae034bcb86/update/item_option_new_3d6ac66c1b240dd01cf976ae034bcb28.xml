@@ -93,6 +93,7 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
+        <x_iem_customer_sol_site_type/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=3d6ac66c1b240dd01cf976ae034bcb28"/>
     <fx_price action="delete_multiple" query="id=3d6ac66c1b240dd01cf976ae034bcb28"/>

@@ -51,7 +51,7 @@
         <update_guid_history>f5c2c6308ad18d509e3ee9b3e96ce50a:1668679252,6cbf2974c251c5d0a22526f0c76853e9:1668679252,6cbf2974c251c5d0a22526f0c76853e9:1668679252,0b4825b0c411c5d07fd30ee551285586:-405507239,c74825b02611c5d04423bcb1899e8481:1668679252</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="suggest_an_enhancement_or_report_a_problem">87816e781b99c5d04a61ebd22a4bcb85</sys_audit_delete>
+        <sys_audit_delete display_value="">87816e781b99c5d04a61ebd22a4bcb85</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:48</sys_created_on>

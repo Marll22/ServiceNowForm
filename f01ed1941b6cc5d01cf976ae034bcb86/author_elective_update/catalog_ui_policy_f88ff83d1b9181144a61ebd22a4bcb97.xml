@@ -69,7 +69,7 @@
         <update_guid_history>7cd08931b2d181147b1dba6821acdd9b:-22045187,708ff83d9791811490ec0b3a64fe1a9a:-195544984</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'mass_retirement' mandatory &amp; visible depending on 'what_is_this_request_fo">9e030d3d1bd989901cf976ae034bcb05</sys_audit_delete>
+        <sys_audit_delete display_value="">9e030d3d1bd989901cf976ae034bcb05</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:23:49</sys_created_on>

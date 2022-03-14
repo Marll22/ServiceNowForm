@@ -69,7 +69,7 @@
         <update_guid_history>5c54ff477a89c510b82500301e4181ab:-426629730,7b533f436f89c51092135faa0b3313d5:-1247499916</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'controls_assignment_id' mandatory &amp; visible depending on 'choose_module_mr">d45b09341bd985d04a61ebd22a4bcba2</sys_audit_delete>
+        <sys_audit_delete display_value="">d45b09341bd985d04a61ebd22a4bcba2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:26:04</sys_created_on>

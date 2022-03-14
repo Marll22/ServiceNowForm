@@ -156,7 +156,7 @@
         <update_guid_history>627e9ab595e0c150df6f190944f8741d:-1468108383</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Controls Assignment - Mass/Grant/Role">544f5e711b6c0d101cf976ae034bcb5a</sys_audit_delete>
+        <sys_audit_delete display_value="">544f5e711b6c0d101cf976ae034bcb5a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 14:19:38</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>3edeadb02c51c5d0e639b2a1e4d0cd59:-2112680729,c8cee5b0f051c5d0aa5abdf1c2b07fa2:-307938940,c54821b06711c5d07452d29f32fa4f71:-2138670292</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="test org">290035381b51c5d04a61ebd22a4bcb12</sys_audit_delete>
+        <sys_audit_delete display_value="">290035381b51c5d04a61ebd22a4bcb12</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 15:06:26</sys_created_on>

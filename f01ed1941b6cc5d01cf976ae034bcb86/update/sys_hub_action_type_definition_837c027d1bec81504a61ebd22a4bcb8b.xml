@@ -24,15 +24,15 @@
         <sys_created_on>2021-12-21 12:57:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>837c027d1bec81504a61ebd22a4bcb8b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ITCM - Session Token</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_837c027d1bec81504a61ebd22a4bcb8b</sys_update_name>
-        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-01-07 17:18:43</sys_updated_on>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:36:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -826,11 +826,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 12:57:37</sys_created_on>
         <sys_id>837c027d1bec81504a61ebd22a4bcbf6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_837c027d1bec81504a61ebd22a4bcb8b_body_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 12:57:37</sys_updated_on>
         <url/>
@@ -849,11 +849,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 12:57:37</sys_created_on>
         <sys_id>cb7c027d1bec81504a61ebd22a4bcbb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_837c027d1bec81504a61ebd22a4bcb8b_url_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 12:57:37</sys_updated_on>
         <url/>
@@ -873,11 +873,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 12:57:38</sys_created_on>
         <sys_id>5f7c427d1bec81504a61ebd22a4bcb47</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>`SessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_837c027d1bec81504a61ebd22a4bcb8b_variable_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2022-01-07 14:29:20</sys_updated_on>
         <url/>
@@ -1728,11 +1728,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 13:07:27</sys_created_on>
         <sys_id>4fbece351b20c1504a61ebd22a4bcbd7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4fbece351b20c1504a61ebd22a4bcbad_body_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:07:27</sys_updated_on>
         <url/>
@@ -1751,11 +1751,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 13:07:26</sys_created_on>
         <sys_id>cbbece351b20c1504a61ebd22a4bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4fbece351b20c1504a61ebd22a4bcbad_url_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:07:26</sys_updated_on>
         <url/>
@@ -1775,11 +1775,11 @@ if (n != -1) {
         <sys_created_on>2021-12-21 13:07:28</sys_created_on>
         <sys_id>9fbe02751b20c1504a61ebd22a4bcb27</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>`SessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4fbece351b20c1504a61ebd22a4bcbad_variable_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2022-01-07 14:47:06</sys_updated_on>
         <url/>

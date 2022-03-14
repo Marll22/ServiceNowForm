@@ -46,7 +46,7 @@
         <update_guid_history>93418df16fd1811496ba7671133d58f4:1123193083</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Assigned Individual(s)/Group">d513c57d1bd989901cf976ae034bcb0f</sys_audit_delete>
+        <sys_audit_delete display_value="">d513c57d1bd989901cf976ae034bcb0f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:24:00</sys_created_on>

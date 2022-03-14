@@ -46,7 +46,7 @@
         <update_guid_history>89386970ad11c5d0511e76ba2a8b4c79:37415279</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Updater(s)">adbf2d741b51c5d04a61ebd22a4bcbdd</sys_audit_delete>
+        <sys_audit_delete display_value="">adbf2d741b51c5d04a61ebd22a4bcbdd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 15:05:04</sys_created_on>

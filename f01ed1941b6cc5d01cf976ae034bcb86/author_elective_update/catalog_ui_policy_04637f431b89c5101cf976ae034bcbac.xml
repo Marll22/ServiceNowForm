@@ -69,7 +69,7 @@
         <update_guid_history>4c54ff475a89c5105c6486333c957254:-1793431934,88637f43bc89c5101ea7b4d2b3cbacae:1469109337</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'select_user_to_be_added_gra' mandatory &amp; visible depending on 'what_action">2b4bc5341bd985d04a61ebd22a4bcb3a</sys_audit_delete>
+        <sys_audit_delete display_value="">2b4bc5341bd985d04a61ebd22a4bcb3a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:26:01</sys_created_on>

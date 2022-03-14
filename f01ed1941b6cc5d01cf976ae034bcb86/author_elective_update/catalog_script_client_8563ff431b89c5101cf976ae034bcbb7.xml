@@ -333,7 +333,7 @@ function userGetUsersOnRole(response){
         <update_guid_history>a76061ef588dc910e332b25e66400bd5:-1587151705,8f2bd16f364dc910c21f05429ea16fc9:-918461940,046a19eb354dc910fffc9e261908b9ed:-1102348429,f153b8931845091075cf948354ba5069:408161108,0241749fc30509108b41db790ad47c1b:2145121925,cbceec1b5c05091033d5f9d1961f3d71:-1661866565,d8c69c9326410910a35b2ce5697a0f56:-1314187930,7705501303410910189f5ae1b3bf26c0:1157961965,15468417754dc510b43907c910218651:97094583,236a37c754c9c51024bceb884a1f703b:1215643548,7cd6bfcf9089c5106bf32fb5a02507cd:-492653025,39443b477a89c510138667449c124eae:-1869377578,c963ff431a89c510431580d9e0f4c8ba:-1777785570</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Check Record ID">934b85341bd985d04a61ebd22a4bcbea</sys_audit_delete>
+        <sys_audit_delete display_value="">934b85341bd985d04a61ebd22a4bcbea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:25:59</sys_created_on>

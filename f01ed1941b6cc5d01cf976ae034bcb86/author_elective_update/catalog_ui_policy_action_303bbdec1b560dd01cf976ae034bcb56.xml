@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:41a2ae281ba80dd01cf976ae034bcbe2</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>UPSTREAMACCTS\KWIJEWA</sys_created_by>
+        <sys_created_on>2022-03-14 14:19:35</sys_created_on>
+        <sys_id>303bbdec1b560dd01cf976ae034bcb56</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>field_to_be_updated_rh_car</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_303bbdec1b560dd01cf976ae034bcb56</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 14:20:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'field_to_be_updated_rh_car' non-mandatory &amp; hidden depending on 'choose_module_mr_rh_gra' &amp; 'what_is_this_request_for'">b43bbdec1b560dd01cf976ae034bcb52</ui_policy>
+        <variable>field_to_be_updated_rh_car</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_303bbdec1b560dd01cf976ae034bcb56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:41a2ae281ba80dd01cf976ae034bcbe2</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>UPSTREAMACCTS\KWIJEWA</sys_created_by><sys_created_on>2022-03-14 14:19:35</sys_created_on><sys_id>303bbdec1b560dd01cf976ae034bcb56</sys_id><sys_mod_count>2</sys_mod_count><sys_name>field_to_be_updated_rh_car</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_303bbdec1b560dd01cf976ae034bcb56</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-03-14 14:20:30</sys_updated_on><table/><ui_policy display_value="Make 'field_to_be_updated_rh_car' non-mandatory &amp; hidden depending on 'choose_module_mr_rh_gra' &amp; 'what_is_this_request_for'">b43bbdec1b560dd01cf976ae034bcb52</ui_policy><variable>field_to_be_updated_rh_car</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1888037331</payload_hash>
+        <record_name>field_to_be_updated_rh_car</record_name>
+        <reverted_from/>
+        <source>4c09b1641b560dd01cf976ae034bcbe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-14 14:20:30</sys_created_on>
+        <sys_id>966bbd601b960dd01cf976ae034bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f88cd4ce30000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 14:20:30</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>9a6bbd607d960dd0c0f03a719a3a2162</update_guid>
+        <update_guid_history>9a6bbd607d960dd0c0f03a719a3a2162:1888037331,b83bbdec8c560dd06754e75cbfa83a5d:187563879,783bbdecc5560dd08689bd38b1cde758:1888037331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="field_to_be_updated_rh_car">3f6cb9681b960dd01cf976ae034bcbe0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-14 14:24:58</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>126eba4606d74432af15b464f884ffe9</sys_id>
+        <sys_metadata>303bbdec1b560dd01cf976ae034bcb56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>field_to_be_updated_rh_car</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_303bbdec1b560dd01cf976ae034bcb56</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_303bbdec1b560dd01cf976ae034bcb56">966bbd601b960dd01cf976ae034bcb63</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 14:24:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

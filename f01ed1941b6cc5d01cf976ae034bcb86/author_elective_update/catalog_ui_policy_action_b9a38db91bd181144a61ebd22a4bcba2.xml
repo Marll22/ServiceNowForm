@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:64992aec1be80dd01cf976ae034bcb79</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:30</sys_created_on>
+        <sys_id>b9a38db91bd181144a61ebd22a4bcba2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>select_user_to_be_added_gra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b9a38db91bd181144a61ebd22a4bcba2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:18:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'select_user_to_be_added_gra' mandatory &amp; visible depending on 'what_action'">11a38db91bd181144a61ebd22a4bcb9f</ui_policy>
+        <variable>select_user_to_be_added_gra</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_b9a38db91bd181144a61ebd22a4bcba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:64992aec1be80dd01cf976ae034bcb79</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:30</sys_created_on>
+        <sys_id>b9a38db91bd181144a61ebd22a4bcba2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>select_user_to_be_added_gra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b9a38db91bd181144a61ebd22a4bcba2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:18:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'select_user_to_be_added_gra' mandatory &amp; visible depending on 'what_action'">11a38db91bd181144a61ebd22a4bcb9f</ui_policy>
+        <variable>select_user_to_be_added_gra</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>951585284</payload_hash>
+        <record_name>select_user_to_be_added_gra</record_name>
+        <reverted_from/>
+        <source>603da6eb1b0a85901cf976ae034bcb46</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>NA\BNAGAR3</sys_created_by>
+        <sys_created_on>2022-03-11 16:36:24</sys_created_on>
+        <sys_id>c4cdf66b1b4e85901cf976ae034bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f79d6a6730000001</sys_recorded_at>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:36:24</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>04cdf66b854e859064dc37b03c53fcad</update_guid>
+        <update_guid_history>04cdf66b854e859064dc37b03c53fcad:0,f0c1a362d582415086a891e6ed3d1729:-225507113,bcc1a3624c824150904c9b510c2f2922:-1022546350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="select_user_to_be_added_gra">12f5f1ec1bd20dd01cf976ae034bcb89</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-14 13:56:44</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2df40e0cb99b4abc8e34ac4445e28490</sys_id>
+        <sys_metadata>b9a38db91bd181144a61ebd22a4bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_user_to_be_added_gra</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b9a38db91bd181144a61ebd22a4bcba2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b9a38db91bd181144a61ebd22a4bcba2">c4cdf66b1b4e85901cf976ae034bcbad</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 13:56:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

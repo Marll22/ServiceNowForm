@@ -335,7 +335,7 @@ function userGetUsersOnRole(response){
         <update_guid_history>f42af429d4998dd0d9ad26dc4692fe7c:-945544952,8c7c50299e518590fa996dbe6a71f84b:-1587151705,b01adc611c958dd0cdd2cbe504a71cf1:-510993027</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Check Record ID">0dc0c1311bd181144a61ebd22a4bcb51</sys_audit_delete>
+        <sys_audit_delete display_value="">0dc0c1311bd181144a61ebd22a4bcb51</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:13:53</sys_created_on>

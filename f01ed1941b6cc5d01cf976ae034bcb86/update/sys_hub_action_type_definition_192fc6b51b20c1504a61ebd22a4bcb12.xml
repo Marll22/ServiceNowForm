@@ -24,15 +24,15 @@
         <sys_created_on>2021-12-21 13:09:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>192fc6b51b20c1504a61ebd22a4bcb12</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ITCM Group ID</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_192fc6b51b20c1504a61ebd22a4bcb12</sys_update_name>
-        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-01-07 14:48:11</sys_updated_on>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:36:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -616,11 +616,11 @@
         <sys_created_on>2021-12-21 13:17:38</sys_created_on>
         <sys_id>d01196f91b20c1504a61ebd22a4bcb7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_192fc6b51b20c1504a61ebd22a4bcb12_sessiontoken_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:38</sys_updated_on>
         <url/>
@@ -639,11 +639,11 @@
         <sys_created_on>2021-12-21 13:17:38</sys_created_on>
         <sys_id>d41196f91b20c1504a61ebd22a4bcb85</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>GroupID</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_192fc6b51b20c1504a61ebd22a4bcb12_groupid_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:38</sys_updated_on>
         <url/>
@@ -662,11 +662,11 @@
         <sys_created_on>2021-12-21 13:17:38</sys_created_on>
         <sys_id>dc1196f91b20c1504a61ebd22a4bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_192fc6b51b20c1504a61ebd22a4bcb12_url_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:38</sys_updated_on>
         <url/>
@@ -686,11 +686,11 @@
         <sys_created_on>2021-12-21 13:17:40</sys_created_on>
         <sys_id>701196f91b20c1504a61ebd22a4bcbbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Response</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_192fc6b51b20c1504a61ebd22a4bcb12_response_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:40</sys_updated_on>
         <url/>
@@ -1331,11 +1331,11 @@
         <sys_created_on>2021-12-21 13:17:45</sys_created_on>
         <sys_id>7911d6f91b20c1504a61ebd22a4bcb6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SessionToken</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f511d6f91b20c1504a61ebd22a4bcb5f_sessiontoken_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:45</sys_updated_on>
         <url/>
@@ -1354,11 +1354,11 @@
         <sys_created_on>2021-12-21 13:17:45</sys_created_on>
         <sys_id>f511d6f91b20c1504a61ebd22a4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f511d6f91b20c1504a61ebd22a4bcb5f_url_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:45</sys_updated_on>
         <url/>
@@ -1377,11 +1377,11 @@
         <sys_created_on>2021-12-21 13:17:45</sys_created_on>
         <sys_id>f911d6f91b20c1504a61ebd22a4bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>GroupID</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f511d6f91b20c1504a61ebd22a4bcb5f_groupid_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:45</sys_updated_on>
         <url/>
@@ -1401,11 +1401,11 @@
         <sys_created_on>2021-12-21 13:17:45</sys_created_on>
         <sys_id>c611d6f91b20c1504a61ebd22a4bcb91</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Response</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f511d6f91b20c1504a61ebd22a4bcb5f_response_en</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
         <sys_updated_on>2021-12-21 13:17:45</sys_updated_on>
         <url/>

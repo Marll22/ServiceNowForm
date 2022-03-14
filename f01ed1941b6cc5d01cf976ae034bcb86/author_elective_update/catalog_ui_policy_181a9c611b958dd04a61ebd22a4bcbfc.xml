@@ -69,7 +69,7 @@
         <update_guid_history>5a7c942991518590d321a50959295f8a:-431943159,9c1a9c616c958dd08b6e656e1c1236fe:1267925875</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'role_handover' non-mandatory &amp; hidden depending on 'what_is_this_request_f">ddc0c1311bd181144a61ebd22a4bcbd1</sys_audit_delete>
+        <sys_audit_delete display_value="">ddc0c1311bd181144a61ebd22a4bcbd1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 14:13:54</sys_created_on>

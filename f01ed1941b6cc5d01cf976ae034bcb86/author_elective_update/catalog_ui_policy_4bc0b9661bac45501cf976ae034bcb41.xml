@@ -69,7 +69,7 @@
         <update_guid_history>5a84d65fc8b48d94c2db24030dd3521b:765717512,cfc0b9660aac4550e77b699bcb143b43:1747147659</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updated_gra_ra' non-mandatory &amp; hidden depending on 'what_is_t">ed2c3e1f1bbc8d941cf976ae034bcba3</sys_audit_delete>
+        <sys_audit_delete display_value="">ed2c3e1f1bbc8d941cf976ae034bcba3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 18:32:27</sys_created_on>

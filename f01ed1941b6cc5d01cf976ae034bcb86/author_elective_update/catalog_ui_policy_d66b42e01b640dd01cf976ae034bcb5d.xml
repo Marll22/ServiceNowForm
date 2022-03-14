@@ -69,7 +69,7 @@
         <update_guid_history>2ff5f2ecf5e8c9904230171fbbcdd286:1520682929,0d9b4ae0eb640dd0220fafbbf411d3b1:-292462225,8d9b4ae05a640dd0bdb3355578d9fd8b:1913360431</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'approver_ru_car' mandatory &amp; visible depending on 'your_role_ru_car'">7406b6ec1be8c9904a61ebd22a4bcb75</sys_audit_delete>
+        <sys_audit_delete display_value="">7406b6ec1be8c9904a61ebd22a4bcb75</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 18:46:39</sys_created_on>

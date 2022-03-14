@@ -69,7 +69,7 @@
         <update_guid_history>6c69ebe881e44d9098e8a70b89c8c17f:-573090200,3bb4a7a87f244d90e1e4ccc365f5afbe:481207280,4bed5be4c7204d9050863d86cf0a7d00:188866801</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'what_action' non-mandatory &amp; hidden depending on 'what_is_this_request_for">44625afd1ba80d101cf976ae034bcbc2</sys_audit_delete>
+        <sys_audit_delete display_value="">44625afd1ba80d101cf976ae034bcbc2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 13:23:22</sys_created_on>

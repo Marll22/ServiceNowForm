@@ -156,7 +156,7 @@
         <update_guid_history>d9d0a724bca04d90f9313a6ef4553016:-1760509522,f6dd5ba415204d9068623f289d3f8e33:-1695468948</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Select User to be Removed">aeb9a7601b284d904a61ebd22a4bcbd7</sys_audit_delete>
+        <sys_audit_delete display_value="">aeb9a7601b284d904a61ebd22a4bcbd7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 22:32:36</sys_created_on>

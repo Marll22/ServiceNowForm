@@ -156,7 +156,7 @@
         <update_guid_history>8fc02fe0a5a04d90cc8bee1017f479aa:489432983,fced13e46a204d907b189a00c5f1d654:-84177511</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Deviation - Record Unlock">a8792f2c1be44d904a61ebd22a4bcb35</sys_audit_delete>
+        <sys_audit_delete display_value="">a8792f2c1be44d904a61ebd22a4bcb35</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 22:31:22</sys_created_on>

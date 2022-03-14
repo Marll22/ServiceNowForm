@@ -156,7 +156,7 @@
         <update_guid_history>d5b79e3109a0c150c2b05ce23e149a25:-1841614516</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Organization Name">97e892711b2c0d101cf976ae034bcbe0</sys_audit_delete>
+        <sys_audit_delete display_value="">97e892711b2c0d101cf976ae034bcbe0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 13:51:59</sys_created_on>

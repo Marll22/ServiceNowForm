@@ -69,7 +69,7 @@
         <update_guid_history>00685ba8172c0d909e1da57dd3d0ebef:1810919690,8e9597acea644dd0285e12f71944d82b:297714003</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updated_ra_rh' mandatory &amp; visible depending on 'what_is_this_">06dc53a81bec0d904a61ebd22a4bcba5</sys_audit_delete>
+        <sys_audit_delete display_value="">06dc53a81bec0d904a61ebd22a4bcba5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-17 21:36:18</sys_created_on>

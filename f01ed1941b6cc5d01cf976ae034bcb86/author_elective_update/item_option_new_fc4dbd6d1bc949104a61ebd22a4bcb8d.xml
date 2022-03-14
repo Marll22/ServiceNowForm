@@ -156,7 +156,7 @@
         <update_guid_history>454dfd6df8c94910a45fd2eef58eb246:-1217608597</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Mass Retirement">9f7e7d651b4d45581cf976ae034bcbfb</sys_audit_delete>
+        <sys_audit_delete display_value="">9f7e7d651b4d45581cf976ae034bcbfb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-14 13:49:23</sys_created_on>

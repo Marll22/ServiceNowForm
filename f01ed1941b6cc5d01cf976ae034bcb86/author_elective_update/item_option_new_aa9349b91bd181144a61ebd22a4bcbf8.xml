@@ -156,7 +156,7 @@
         <update_guid_history>629389b9e9d18114e95f32b5a35c623a:586928288</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Controls Assignment Record Unlock">8909f13d1bd981144a61ebd22a4bcb0f</sys_audit_delete>
+        <sys_audit_delete display_value="">8909f13d1bd981144a61ebd22a4bcb0f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-27 18:19:39</sys_created_on>

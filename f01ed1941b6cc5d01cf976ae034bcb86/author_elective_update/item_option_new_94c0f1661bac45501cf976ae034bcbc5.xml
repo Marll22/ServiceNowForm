@@ -156,7 +156,7 @@
         <update_guid_history>dcc0f16674ac4550ff9988abd9735deb:-62964255</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Grant/Remove Access">f0c496df1bb48d941cf976ae034bcbff</sys_audit_delete>
+        <sys_audit_delete display_value="">f0c496df1bb48d941cf976ae034bcbff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 15:40:22</sys_created_on>

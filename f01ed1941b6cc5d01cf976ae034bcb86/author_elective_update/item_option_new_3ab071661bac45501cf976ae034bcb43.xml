@@ -156,7 +156,7 @@
         <update_guid_history>bab0716616ac45503776972cc8a70458:1604845569</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=" Your Role">cbd492131bf48d941cf976ae034bcb85</sys_audit_delete>
+        <sys_audit_delete display_value="">cbd492131bf48d941cf976ae034bcb85</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 15:40:47</sys_created_on>

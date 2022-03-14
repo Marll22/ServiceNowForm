@@ -69,7 +69,7 @@
         <update_guid_history>74c2c230abd18d50f0bfc42ad1655aed:-716999290,77afe574b851c5d0e6e7e751efa1aaac:-716999290,77afe574b851c5d0e6e7e751efa1aaac:-716999290,c74825b0d311c5d0fc84b436988fd98a:610777464</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updated_gra_car' non-mandatory &amp; hidden depending on 'choose_m">6f81ae781b99c5d04a61ebd22a4bcba5</sys_audit_delete>
+        <sys_audit_delete display_value="">6f81ae781b99c5d04a61ebd22a4bcba5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:50</sys_created_on>

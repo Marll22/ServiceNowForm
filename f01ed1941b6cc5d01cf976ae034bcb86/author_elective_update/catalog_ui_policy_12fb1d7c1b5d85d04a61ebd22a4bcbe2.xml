@@ -69,7 +69,7 @@
         <update_guid_history>2cacd130449d85d070305dc3840acc4c:-1157724732,96fb1d7c8d5d85d09c139bda10182ce4:-1563451609</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updates' non-mandatory &amp; hidden depending on 'choose_module_mr">91af61741b51c5d04a61ebd22a4bcba9</sys_audit_delete>
+        <sys_audit_delete display_value="">91af61741b51c5d04a61ebd22a4bcba9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 15:04:46</sys_created_on>

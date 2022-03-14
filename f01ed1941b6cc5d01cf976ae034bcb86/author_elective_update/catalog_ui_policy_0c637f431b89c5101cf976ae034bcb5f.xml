@@ -69,7 +69,7 @@
         <update_guid_history>c854ff47cf89c510c13f4e73926cef5d:230566547,80637f437689c510a08b67e82369af62:1581846892</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'your_role_ru_dr' mandatory &amp; visible depending on 'choose_module_ru'">eb4bc5341bd985d04a61ebd22a4bcb7f</sys_audit_delete>
+        <sys_audit_delete display_value="">eb4bc5341bd985d04a61ebd22a4bcb7f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 12:26:01</sys_created_on>

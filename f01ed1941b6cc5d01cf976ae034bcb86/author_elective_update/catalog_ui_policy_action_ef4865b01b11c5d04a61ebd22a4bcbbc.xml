@@ -51,7 +51,7 @@
         <update_guid_history>3cc2c23016d18d50b0bdd946f993fde8:-1694213090,7cbfa974ff51c5d04c6fe0fd7532c513:-1694213090,7cbfa974ff51c5d04c6fe0fd7532c513:-1694213090,6b4865b02011c5d09a89863d54ec08c4:-1714288385,2b4865b01d11c5d05796008963d263bf:-1694213090</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="your_role_ru_car">3b81ee781b99c5d04a61ebd22a4bcb47</sys_audit_delete>
+        <sys_audit_delete display_value="">3b81ee781b99c5d04a61ebd22a4bcb47</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 18:42:52</sys_created_on>

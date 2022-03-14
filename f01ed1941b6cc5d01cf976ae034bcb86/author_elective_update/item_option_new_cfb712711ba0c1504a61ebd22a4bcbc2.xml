@@ -156,7 +156,7 @@
         <update_guid_history>0bb71271eda0c150a5cb9f7465f168e6:1982636234</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Select People to be added/removed as Stewards">d6d85a311b2c0d101cf976ae034bcbe4</sys_audit_delete>
+        <sys_audit_delete display_value="">d6d85a311b2c0d101cf976ae034bcbe4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 13:51:39</sys_created_on>

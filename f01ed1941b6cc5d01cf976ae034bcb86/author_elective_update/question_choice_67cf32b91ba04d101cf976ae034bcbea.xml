@@ -46,7 +46,7 @@
         <update_guid_history>efcf32b910a04d10914c342c3609c0eb:-1498711824</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record Unlock">735a83b11b244d101cf976ae034bcb5e</sys_audit_delete>
+        <sys_audit_delete display_value="">735a83b11b244d101cf976ae034bcb5e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 17:28:01</sys_created_on>

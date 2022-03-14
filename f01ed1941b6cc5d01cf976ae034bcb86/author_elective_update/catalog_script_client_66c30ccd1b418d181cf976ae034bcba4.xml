@@ -189,7 +189,7 @@ function RecordId(response){
         <update_guid_history>e2c30ccdca418d1801e6debbfd3ddba7:202909407</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Check Record ID">a3680c891b818d181cf976ae034bcbab</sys_audit_delete>
+        <sys_audit_delete display_value="">a3680c891b818d181cf976ae034bcbab</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-01-12 15:56:37</sys_created_on>

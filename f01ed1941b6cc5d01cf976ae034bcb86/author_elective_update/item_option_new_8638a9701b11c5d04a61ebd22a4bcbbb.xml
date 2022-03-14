@@ -156,7 +156,7 @@
         <update_guid_history>33deedb03b51c5d0426085d67b77ead9:-1299223,0e38a970f411c5d0cd5f6476789c34c9:1707293651</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Select User to be Added">b3efa9f41b51c5d04a61ebd22a4bcb5b</sys_audit_delete>
+        <sys_audit_delete display_value="">b3efa9f41b51c5d04a61ebd22a4bcb5b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 15:06:03</sys_created_on>

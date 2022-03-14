@@ -77,7 +77,7 @@
         <update_guid_history>5c99eb352a684d10fd3acbab22844828:-274992280,5463e7f5d3284d10a9fc0113d2a9af7f:439508378,f23123312e284d10c6b6c78f570810f9:91693630,d97b5f7143e44d10a2a95c0e1b795694:1435270854</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Check Record ID">9b244c8e1b248d101cf976ae034bcbf9</sys_audit_delete>
+        <sys_audit_delete display_value="">9b244c8e1b248d101cf976ae034bcbf9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-21 21:40:33</sys_created_on>

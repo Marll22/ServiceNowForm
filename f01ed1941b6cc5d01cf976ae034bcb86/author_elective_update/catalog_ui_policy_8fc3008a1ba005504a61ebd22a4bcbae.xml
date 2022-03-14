@@ -69,7 +69,7 @@
         <update_guid_history>484448ceed248d102bb1a516ecdbc021:838866698,4fc3008a03a0055001100520ce6fc6b1:712374443</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'record_unlock' mandatory &amp; visible depending on 'what_is_this_request_for'">7884d25f1bb48d941cf976ae034bcb6f</sys_audit_delete>
+        <sys_audit_delete display_value="">7884d25f1bb48d941cf976ae034bcb6f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 15:39:17</sys_created_on>

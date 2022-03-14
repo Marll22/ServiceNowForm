@@ -156,7 +156,7 @@
         <update_guid_history>5c110085c3418d18f260ad8adde920a0:-659389859</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Approver">99e180891b418d181cf976ae034bcbdc</sys_audit_delete>
+        <sys_audit_delete display_value="">99e180891b418d181cf976ae034bcbdc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 15:28:04</sys_created_on>

@@ -46,7 +46,7 @@
         <update_guid_history>80eb117c135d85d098b4ff5479f73da0:1556724112</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=" Notification Person">b3ac59301b9d85d04a61ebd22a4bcbae</sys_audit_delete>
+        <sys_audit_delete display_value="">b3ac59301b9d85d04a61ebd22a4bcbae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-24 13:41:57</sys_created_on>

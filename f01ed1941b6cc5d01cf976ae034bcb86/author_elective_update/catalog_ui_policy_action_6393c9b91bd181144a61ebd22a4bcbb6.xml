@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:a4a056a41ba40dd01cf976ae034bcb43</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:21</sys_created_on>
+        <sys_id>6393c9b91bd181144a61ebd22a4bcbb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>mass_retirement</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6393c9b91bd181144a61ebd22a4bcbb6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:18:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'mass_retirement' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">e793c9b91bd181144a61ebd22a4bcbb2</ui_policy>
+        <variable>mass_retirement</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_6393c9b91bd181144a61ebd22a4bcbb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:a4a056a41ba40dd01cf976ae034bcb43</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-01-27 14:26:21</sys_created_on>
+        <sys_id>6393c9b91bd181144a61ebd22a4bcbb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>mass_retirement</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6393c9b91bd181144a61ebd22a4bcbb6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-27 18:18:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'mass_retirement' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">e793c9b91bd181144a61ebd22a4bcbb2</ui_policy>
+        <variable>mass_retirement</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1392845407</payload_hash>
+        <record_name>mass_retirement</record_name>
+        <reverted_from/>
+        <source>603da6eb1b0a85901cf976ae034bcb46</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>NA\BNAGAR3</sys_created_by>
+        <sys_created_on>2022-03-11 16:36:23</sys_created_on>
+        <sys_id>7fbdf66b1b4e85901cf976ae034bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f79d6a2c80000001</sys_recorded_at>
+        <sys_updated_by>NA\BNAGAR3</sys_updated_by>
+        <sys_updated_on>2022-03-11 16:36:23</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>bbbdf66b5b4e8590df75e18aadf8f826</update_guid>
+        <update_guid_history>bbbdf66b5b4e8590df75e18aadf8f826:0,83c1e7622e824150236f64c5793f29f7:-1977050929,87c1e762fe824150749a5e40e0247ce4:1977891932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="mass_retirement">400639ec1bd20dd01cf976ae034bcbae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-14 13:56:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>224084e6a8e04bda9419b1d0fe3ebe64</sys_id>
+        <sys_metadata>6393c9b91bd181144a61ebd22a4bcbb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mass_retirement</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_6393c9b91bd181144a61ebd22a4bcbb6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_6393c9b91bd181144a61ebd22a4bcbb6">7fbdf66b1b4e85901cf976ae034bcb26</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 13:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

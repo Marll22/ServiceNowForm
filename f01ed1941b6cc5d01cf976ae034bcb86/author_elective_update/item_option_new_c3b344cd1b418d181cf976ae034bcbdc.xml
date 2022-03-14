@@ -156,7 +156,7 @@
         <update_guid_history>4fb384cdfa418d18bcfedef4f5324b1a:880848339</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="SessionToken">345b00451bc18d181cf976ae034bcbbc</sys_audit_delete>
+        <sys_audit_delete display_value="">345b00451bc18d181cf976ae034bcbbc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-12 16:09:16</sys_created_on>

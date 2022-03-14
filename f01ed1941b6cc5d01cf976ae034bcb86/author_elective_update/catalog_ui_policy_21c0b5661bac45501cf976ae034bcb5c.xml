@@ -69,7 +69,7 @@
         <update_guid_history>9684965fb7b48d9401b7cfb1ad440ede:-638956536,a5c0b56645ac4550dd10dc7f6dee1d5e:-1516364917</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'field_to_be_updated_rh_car' mandatory &amp; visible depending on 'choose_modul">812cfa1f1bbc8d941cf976ae034bcb91</sys_audit_delete>
+        <sys_audit_delete display_value="">812cfa1f1bbc8d941cf976ae034bcb91</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-01-07 18:32:25</sys_created_on>
