@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Updater(s)">70b8662c1be80dd01cf976ae034bcbdb</published_ref>
+        <question display_value="Field to be updates">5b82cbe41b9a8dd01cf976ae034bcb5e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-14 19:31:19</sys_created_on>
+        <sys_id>2f82cbe41b9a8dd01cf976ae034bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Updater(s)</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_2f82cbe41b9a8dd01cf976ae034bcb98</sys_update_name>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-14 19:31:19</sys_updated_on>
+        <text>Updater(s)</text>
+        <value>updater_s</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2f82cbe41b9a8dd01cf976ae034bcb98"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_2f82cbe41b9a8dd01cf976ae034bcb98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Updater(s)">70b8662c1be80dd01cf976ae034bcbdb</published_ref><question display_value="Field to be updates">5b82cbe41b9a8dd01cf976ae034bcb5e</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\JVBFONS</sys_created_by><sys_created_on>2022-03-14 19:31:19</sys_created_on><sys_id>2f82cbe41b9a8dd01cf976ae034bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Updater(s)</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_2f82cbe41b9a8dd01cf976ae034bcb98</sys_update_name><sys_updated_by>SA\JVBFONS</sys_updated_by><sys_updated_on>2022-03-14 19:31:19</sys_updated_on><text>Updater(s)</text><value>updater_s</value></question_choice><fx_price action="delete_multiple" query="id=2f82cbe41b9a8dd01cf976ae034bcb98"/></record_update>]]></payload>
+        <payload_hash>840228209</payload_hash>
+        <record_name>Updater(s)</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-14 19:31:19</sys_created_on>
+        <sys_id>a382cbe41b9a8dd01cf976ae034bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f89e9de7b0000001</sys_recorded_at>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-14 19:31:19</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e782cbe45d9a8dd0a0d2d7943b58e29a</update_guid>
+        <update_guid_history>e782cbe45d9a8dd0a0d2d7943b58e29a:840228209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Updater(s)">0a9307601bda8dd01cf976ae034bcb26</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-14 19:35:52</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>aaeb0243183e4c388d7ba84bbf6e7590</sys_id>
+        <sys_metadata>2f82cbe41b9a8dd01cf976ae034bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Updater(s)</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">5b82cbe41b9a8dd01cf976ae034bcb5e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_2f82cbe41b9a8dd01cf976ae034bcb98</sys_update_name>
+        <sys_update_version display_value="question_choice_2f82cbe41b9a8dd01cf976ae034bcb98">a382cbe41b9a8dd01cf976ae034bcb9b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-14 19:35:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

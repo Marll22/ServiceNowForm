@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
         <order>200</order>
-        <published_ref display_value="Mass Retirement">88b70ee41b240dd01cf976ae034bcb78</published_ref>
+        <published_ref display_value="Record Retirement">88b70ee41b240dd01cf976ae034bcb78</published_ref>
         <question display_value="What is this Request for?">84b6b9a81bda49d04a61ebd22a4bcbf2</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
