@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
         <order>200</order>
-        <published_ref display_value="Organization Steward">581d0aa81b640dd01cf976ae034bcb5c</published_ref>
+        <published_ref/>
         <question display_value="Your Role">d1a6f5a81bda49d04a61ebd22a4bcb04</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
