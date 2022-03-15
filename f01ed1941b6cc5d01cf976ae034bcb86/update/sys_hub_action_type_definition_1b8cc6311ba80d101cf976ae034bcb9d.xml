@@ -772,7 +772,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="ITCM Record ID - Risk Assessment">1b8cc6311ba80d101cf976ae034bcb9d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"05061e791be80d101cf976ae034bcb15","name":"plan"}}</plan>
-        <snapshot>a5fa7c591bc185104a61ebd22a4bcbd2</snapshot>
+        <snapshot>b077633c1b9201144a61ebd22a4bcb75</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>SA\JVBFONS</sys_created_by>
         <sys_created_on>2021-12-21 13:39:16</sys_created_on>
