@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:b6faaea01b2c0dd01cf976ae034bcbf0</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-15 19:32:47</sys_created_on>
+        <sys_id>267ccc851bd641144a61ebd22a4bcb64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>update_organization_steward</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_267ccc851bd641144a61ebd22a4bcb64</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'update_organization_steward' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">aa7ccc851bd641144a61ebd22a4bcb60</ui_policy>
+        <variable>update_organization_steward</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_267ccc851bd641144a61ebd22a4bcb64</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:b6faaea01b2c0dd01cf976ae034bcbf0</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-03-15 19:32:47</sys_created_on><sys_id>267ccc851bd641144a61ebd22a4bcb64</sys_id><sys_mod_count>2</sys_mod_count><sys_name>update_organization_steward</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_267ccc851bd641144a61ebd22a4bcb64</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-03-15 19:38:50</sys_updated_on><table/><ui_policy display_value="Make 'update_organization_steward' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">aa7ccc851bd641144a61ebd22a4bcb60</ui_policy><variable>update_organization_steward</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>944385465</payload_hash>
+        <record_name>update_organization_steward</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-15 19:38:50</sys_created_on>
+        <sys_id>d7dd48c51b5645141cf976ae034bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8f171ce90000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:50</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>dbdd48c5b1564514518a12154937b9f1</update_guid>
+        <update_guid_history>dbdd48c5b1564514518a12154937b9f1:944385465,ae7ccc8593d64114f4ff316b5fdc436b:-1786135468,6e7ccc85e9d64114ae4598e8fdbd7066:944385465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="update_organization_steward">b76bf4991bda89141cf976ae034bcb7e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-16 17:36:26</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>d4954d64c5154ec8b982dc72f2d40ca9</sys_id>
+        <sys_metadata>267ccc851bd641144a61ebd22a4bcb64</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_organization_steward</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_267ccc851bd641144a61ebd22a4bcb64</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_267ccc851bd641144a61ebd22a4bcb64">d7dd48c51b5645141cf976ae034bcbf2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:36:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

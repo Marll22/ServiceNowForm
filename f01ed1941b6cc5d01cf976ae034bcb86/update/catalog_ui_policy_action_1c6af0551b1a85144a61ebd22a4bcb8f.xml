@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:489d426c1b640dd01cf976ae034bcb5b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-16 17:31:48</sys_created_on>
+        <sys_id>1c6af0551b1a85144a61ebd22a4bcb8f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>document_repository_id</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1c6af0551b1a85144a61ebd22a4bcb8f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:36:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'document_repository_id' mandatory &amp; visible depending on 'choose_module_mr_rh_gra' &amp; 'choose_module_ru'">806af0551b1a85144a61ebd22a4bcb8c</ui_policy>
+        <variable>document_repository_id</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

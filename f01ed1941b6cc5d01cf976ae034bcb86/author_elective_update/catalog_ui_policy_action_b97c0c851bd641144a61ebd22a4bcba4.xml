@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:9e30fea01b6c0dd01cf976ae034bcb72</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-15 19:32:44</sys_created_on>
+        <sys_id>b97c0c851bd641144a61ebd22a4bcba4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>suggest_an_enhancement_or_report_a_problem</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b97c0c851bd641144a61ebd22a4bcba4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:49</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'suggest_an_enhancement_or_report_a_problem' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">317c0c851bd641144a61ebd22a4bcba1</ui_policy>
+        <variable>suggest_an_enhancement_or_report_a_problem</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_ui_policy_action_b97c0c851bd641144a61ebd22a4bcba4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item><catalog_variable>IO:9e30fea01b6c0dd01cf976ae034bcb72</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-03-15 19:32:44</sys_created_on><sys_id>b97c0c851bd641144a61ebd22a4bcba4</sys_id><sys_mod_count>4</sys_mod_count><sys_name>suggest_an_enhancement_or_report_a_problem</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>catalog_ui_policy_action_b97c0c851bd641144a61ebd22a4bcba4</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-03-15 19:38:49</sys_updated_on><table/><ui_policy display_value="Make 'suggest_an_enhancement_or_report_a_problem' non-mandatory &amp; hidden depending on 'what_is_this_request_for'">317c0c851bd641144a61ebd22a4bcba1</ui_policy><variable>suggest_an_enhancement_or_report_a_problem</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-878199719</payload_hash>
+        <record_name>suggest_an_enhancement_or_report_a_problem</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-15 19:38:49</sys_created_on>
+        <sys_id>87dd08c51b5645141cf976ae034bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8f1716d90000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:49</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8bdd08c572564514ab7f3f3080d61a99</update_guid>
+        <update_guid_history>8bdd08c572564514ab7f3f3080d61a99:-878199719,e0cc4449dad64114bb279b7b33099453:1017458124,54ac0409f0d64114b7896b7fe3fd1207:-1183614333,797c0c85f5d64114f9d986210fbd51d1:1017458124,397c0c8572d6411431f670d857a698cc:-878199719</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="suggest_an_enhancement_or_report_a_problem">926b34991bda89141cf976ae034bcbb9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-16 17:36:19</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1e0e4e7cc90b4bca9d15f01871763d19</sys_id>
+        <sys_metadata>b97c0c851bd641144a61ebd22a4bcba4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>suggest_an_enhancement_or_report_a_problem</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b97c0c851bd641144a61ebd22a4bcba4</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b97c0c851bd641144a61ebd22a4bcba4">87dd08c51b5645141cf976ae034bcb9a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:36:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

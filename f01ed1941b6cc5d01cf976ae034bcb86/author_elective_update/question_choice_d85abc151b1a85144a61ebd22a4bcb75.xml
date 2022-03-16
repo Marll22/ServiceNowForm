@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref display_value="Document Repository">f0f09a681ba40dd01cf976ae034bcbc4</published_ref>
+        <question display_value="Choose Module">cc5abc151b1a85144a61ebd22a4bcb58</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-16 17:31:32</sys_created_on>
+        <sys_id>d85abc151b1a85144a61ebd22a4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Repository</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_d85abc151b1a85144a61ebd22a4bcb75</sys_update_name>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:31:32</sys_updated_on>
+        <text>Document Repository</text>
+        <value>document_repository</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d85abc151b1a85144a61ebd22a4bcb75"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_d85abc151b1a85144a61ebd22a4bcb75</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>300</order><published_ref display_value="Document Repository">f0f09a681ba40dd01cf976ae034bcbc4</published_ref><question display_value="Choose Module">cc5abc151b1a85144a61ebd22a4bcb58</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\JVBFONS</sys_created_by><sys_created_on>2022-03-16 17:31:32</sys_created_on><sys_id>d85abc151b1a85144a61ebd22a4bcb75</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Document Repository</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_d85abc151b1a85144a61ebd22a4bcb75</sys_update_name><sys_updated_by>SA\JVBFONS</sys_updated_by><sys_updated_on>2022-03-16 17:31:32</sys_updated_on><text>Document Repository</text><value>document_repository</value></question_choice><fx_price action="delete_multiple" query="id=d85abc151b1a85144a61ebd22a4bcb75"/></record_update>]]></payload>
+        <payload_hash>-980630618</payload_hash>
+        <record_name>Document Repository</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-16 17:31:32</sys_created_on>
+        <sys_id>105abc151b1a85144a61ebd22a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f93c8ebd90000001</sys_recorded_at>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:31:32</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>545abc156a1a85146046354ececc5977</update_guid>
+        <update_guid_history>545abc156a1a85146046354ececc5977:-980630618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Document Repository">977bfc991bda89141cf976ae034bcb31</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-16 17:36:40</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>3371aa004ed84f9e8562cfa0326a1ac4</sys_id>
+        <sys_metadata>d85abc151b1a85144a61ebd22a4bcb75</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Repository</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">cc5abc151b1a85144a61ebd22a4bcb58</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_d85abc151b1a85144a61ebd22a4bcb75</sys_update_name>
+        <sys_update_version display_value="question_choice_d85abc151b1a85144a61ebd22a4bcb75">105abc151b1a85144a61ebd22a4bcb78</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:36:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</catalog_item>
+        <catalog_variable>IO:d4ba0e201b640dd01cf976ae034bcb37</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-16 17:31:52</sys_created_on>
+        <sys_id>dd6a74551b1a85144a61ebd22a4bcb4d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>your_role_ru_car</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dd6a74551b1a85144a61ebd22a4bcb4d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-16 17:36:32</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'your_role_ru_car' non-mandatory &amp; hidden depending on 'choose_module_ru'">556a74551b1a85144a61ebd22a4bcb4a</ui_policy>
+        <variable>your_role_ru_car</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
