@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-15 19:27:54</sys_created_on>
+        <sys_id>8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITCM Support.SNC Internal</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:29:27</sys_updated_on>
+        <user_criteria display_value="SNC Internal">6a053bbc1b1870101cf976ae034bcba8</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_8b5b4c0d1b9641144a61ebd22a4bcbf1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-03-15 19:27:54</sys_created_on><sys_id>8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ITCM Support.SNC Internal</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-03-15 19:29:27</sys_updated_on><user_criteria display_value="SNC Internal">6a053bbc1b1870101cf976ae034bcba8</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>771737429</payload_hash>
+        <record_name>ITCM Support.SNC Internal</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-15 19:29:27</sys_created_on>
+        <sys_id>31bb84051b1645141cf976ae034bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8f0e83470000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:29:27</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>35bb8405f61645147c4a288f455636cb</update_guid>
+        <update_guid_history>35bb8405f61645147c4a288f455636cb:771737429,975b4c0d759641145f081c7fd65b21f4:-192180274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITCM Support.">a3dd88c51b5645141cf976ae034bcbbf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-15 19:38:51</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>464cab5ed9a947009d69985ebd676100</sys_id>
+        <sys_metadata>8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCM Support.</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_8b5b4c0d1b9641144a61ebd22a4bcbf1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_8b5b4c0d1b9641144a61ebd22a4bcbf1">31bb84051b1645141cf976ae034bcbcc</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

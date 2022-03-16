@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref display_value=" Notification Person">ced2e6681ba80dd01cf976ae034bcb75</published_ref>
+        <question display_value="Field to be updated">1e5c44451bd641144a61ebd22a4bcb8b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-15 19:32:13</sys_created_on>
+        <sys_id>6e5c44451bd641144a61ebd22a4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Notification Person</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_6e5c44451bd641144a61ebd22a4bcbba</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:32:13</sys_updated_on>
+        <text> Notification Person</text>
+        <value>notification_person</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6e5c44451bd641144a61ebd22a4bcbba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_6e5c44451bd641144a61ebd22a4bcbba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref display_value=" Notification Person">ced2e6681ba80dd01cf976ae034bcb75</published_ref><question display_value="Field to be updated">1e5c44451bd641144a61ebd22a4bcb8b</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\ACSIMOE</sys_created_by><sys_created_on>2022-03-15 19:32:13</sys_created_on><sys_id>6e5c44451bd641144a61ebd22a4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_name> Notification Person</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_6e5c44451bd641144a61ebd22a4bcbba</sys_update_name><sys_updated_by>SA\ACSIMOE</sys_updated_by><sys_updated_on>2022-03-15 19:32:13</sys_updated_on><text> Notification Person</text><value>notification_person</value></question_choice><fx_price action="delete_multiple" query="id=6e5c44451bd641144a61ebd22a4bcbba"/></record_update>]]></payload>
+        <payload_hash>-1173179566</payload_hash>
+        <record_name> Notification Person</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-15 19:32:13</sys_created_on>
+        <sys_id>a25c44451bd641144a61ebd22a4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8f110dfa0000001</sys_recorded_at>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:32:13</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e65c444532d641147f473f2baa49debc</update_guid>
+        <update_guid_history>e65c444532d641147f473f2baa49debc:-1173179566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=" Notification Person">7bddc8c51b5645141cf976ae034bcb4f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-15 19:38:52</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>d260391dcb6b43f4b014c90d508d2890</sys_id>
+        <sys_metadata>6e5c44451bd641144a61ebd22a4bcbba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Notification Person</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">1e5c44451bd641144a61ebd22a4bcb8b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_6e5c44451bd641144a61ebd22a4bcbba</sys_update_name>
+        <sys_update_version display_value="question_choice_6e5c44451bd641144a61ebd22a4bcbba">a25c44451bd641144a61ebd22a4bcbbd</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-15 19:38:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
