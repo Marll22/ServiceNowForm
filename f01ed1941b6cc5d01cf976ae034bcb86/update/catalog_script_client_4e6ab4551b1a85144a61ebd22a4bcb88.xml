@@ -32,21 +32,43 @@ var total = 0; // total IDs being processed
 var current = ""; // current ID being processed
 var idqueue = []; // list of IDs being processed
 var retriesleft = 3
+var finalmessage = ""
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     error = 0;
     progress = 0;
     total = 0;
     retriesleft = 3;
+    finalmessage = "";
 
     if (isLoading || newValue === '') {
         return;
     }
     if (g_form.getValue('choose_module_mr_rh_gra') == 'risk_assessment' || g_form.getValue('choose_module_ru') == 'risk_assessment') {
 
-        toastAlert("Validation started, please wait.");
         var idinput = g_form.getValue("risk_assessment_id_s");
         var idlist = []
+
+        switch (g_form.getValue('what_is_this_request_for')) {
+            case 'record_unlock':
+                finalmessage += "Following Risk Assessment(s) records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "):<br>";
+                break;
+            case 'mass_retirement':
+                finalmessage += 'Following Risk Assessment(s) records to be retired:<br>';
+                break;
+            case 'role_handover':
+                var gr = new GlideAjax('glideUserID');
+                gr.addParam('sysparm_name', 'getUserId');
+                gr.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
+                gr.addParam('sysparm_userid', authorsUser);
+                gr.getXML(userGetUsersOnRole);
+                break;
+        }
+
+        if (/(^[\d;]*$)|(^[\d ]*$)/g.test(idinput) == false) {
+            toastError("Invalid record ID list. Use only numbers, with either semicolons (;) or spaces as separators.")
+            return;
+        }
 
         if (idinput.includes(";")) {
             idlist = idinput.split(";")
@@ -62,7 +84,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
         })
 
         if (idqueue.length <= 0) {
-            alert("Invalid ID list.");
+            toastError("Invalid ID list.");
             return;
         }
 
@@ -71,6 +93,8 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
         total = idqueue.length;
 
         g_form.setValue("validation_progress", "Validating: "+progress+"/"+total);
+
+        toastAlert("Validation started, please wait.");
 
         processNextID(false);
     }
@@ -90,10 +114,6 @@ function processNextID(retry) {
         ra.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
         ra.getXML(riskAssessmentID);
     }
-    else if (idqueue <= 0 && error == 0) {
-        generateMessage()
-    }
-	
 }
 
 function riskAssessmentID(response) {
@@ -113,19 +133,33 @@ function riskAssessmentID(response) {
 
         output = [recordname]
         retriesleft = 3;
+        generateMessage();
         processNextID(false);
     } catch (a) {
-        if (retriesleft > 3) {
+        if (retriesleft > 0) {
             console.log("Error! Retrying...")
             retriesleft -= 1;
-            processNextID(true)
+            retryValidation()
         } else {
-            alert("Record " + current + " is not a valid Risk Assessment");
+            toastError("Record " + current + " is not a valid Risk Assessment");
             g_form.clearValue('risk_assessment_id_s');
             error = 1;
             console.error(a, a.stack);
         }
     }
+}
+
+function retryValidation() {
+    var ga = new GlideAjax('glideSessionToken');
+    ga.addParam('sysparm_name', 'getSessionToken');
+    var sessionToken = ga.getXML(retryValidationXML);
+}
+
+function retryValidationXML(response){
+	var sessionToken = response.responseXML.documentElement.getAttribute('answer'); 
+	console.log(sessionToken);
+	g_form.setValue('sessiontoken', sessionToken);
+    processNextID(true);
 }
 
 function userIDRA(response) {
@@ -150,30 +184,22 @@ function userIDRA(response) {
 }
 
 function generateMessage() {
-    var message;
-    switch (g_form.getValue('what_is_this_request_for')) {
-        case 'record_unlock':
-            message = "Following Risk Assessment(s) records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "): ";
-            break;
-        case 'mass_retirement':
-            message = 'Following Risk Assessment(s) records to be retired:';
-            break;
-        case 'role_handover':
-            var gr = new GlideAjax('glideUserID');
-            gr.addParam('sysparm_name', 'getUserId');
-            gr.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
-            gr.addParam('sysparm_userid', authorsUser);
-            gr.getXML(userGetUsersOnRole);
-            break;
+    finalmessage += "<br>"+current+" - "+output[0]
+    if (idqueue.length <= 0 && error == 0) {
+        g_form.setValue("validation_progress", finalmessage);
+        g_form.setValue('validated', 'Yes');
+        return 'success';
     }
-    g_form.setValue("validation_progress", message + "<br\> <br\>" + output[0]);
-    g_form.setValue('validated', 'Yes');
-    return 'success';
 }
 
 function toastAlert(msg) {
     g_form.addInfoMessage(msg);
     g_form.setValue('validated', 'Yes');
+    return 'success';
+}
+
+function toastError(msg) {
+    g_form.addErrorMessage(msg)
     return 'success';
 }
 
@@ -189,7 +215,7 @@ function userGetUsersOnRole(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e6ab4551b1a85144a61ebd22a4bcb88</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Validate RA</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
@@ -197,7 +223,7 @@ function userGetUsersOnRole(response) {
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>catalog_script_client_4e6ab4551b1a85144a61ebd22a4bcb88</sys_update_name>
         <sys_updated_by>SA\JVBFONS</sys_updated_by>
-        <sys_updated_on>2022-03-17 17:37:34</sys_updated_on>
+        <sys_updated_on>2022-03-17 20:18:29</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
