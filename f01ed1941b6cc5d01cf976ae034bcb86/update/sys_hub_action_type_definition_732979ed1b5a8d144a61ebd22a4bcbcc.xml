@@ -24,7 +24,7 @@
         <sys_created_on>2022-03-17 16:44:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>732979ed1b5a8d144a61ebd22a4bcbcc</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>RU - CAR- Automation</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_732979ed1b5a8d144a61ebd22a4bcbcc</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 17:01:59</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:52</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -586,14 +586,14 @@
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:44:42</sys_created_on>
         <sys_id>4039b9ed1b5a8d144a61ebd22a4bcb32</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 16:44:43</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4039b9ed1b5a8d144a61ebd22a4bcb32"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -618,11 +618,13 @@
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:44:43</sys_created_on>
         <sys_id>8c39b9ed1b5a8d144a61ebd22a4bcb56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 16:44:43</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:48</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.useruppercase = inputs.user_lanid.toUpperCase()
+var lanID = inputs.user_lanid.toUpperCase()
+lanID = lanID.split('\\')
+outputs.useruppercase = lanID[1]
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1478,14 +1480,14 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:44:44</sys_created_on>
         <sys_id>1439b9ed1b5a8d144a61ebd22a4bcbfc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 17:01:55</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1618,13 +1620,13 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="RU - CAR- Automation">732979ed1b5a8d144a61ebd22a4bcbcc</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"589ab5691b9a8d144a61ebd22a4bcb21","name":"plan"}}</plan>
-        <snapshot>092d712d1bda8d144a61ebd22a4bcbc4</snapshot>
+        <snapshot>01219b471b5241181cf976ae034bcb70</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:50:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>589ab5691b9a8d144a61ebd22a4bcb21</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1632,7 +1634,7 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 17:02:01</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:55</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2479,14 +2481,14 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:50:40</sys_created_on>
         <sys_id>db8af1691b9a8d144a61ebd22a4bcbc5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 16:50:40</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:52</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=db8af1691b9a8d144a61ebd22a4bcbc5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2497,11 +2499,13 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:50:40</sys_created_on>
         <sys_id>638af1691b9a8d144a61ebd22a4bcbea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 16:50:40</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:52</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.useruppercase = inputs.user_lanid.toUpperCase()
+var lanID = inputs.user_lanid.toUpperCase()
+lanID = lanID.split('\\')
+outputs.useruppercase = lanID[1]
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -3111,14 +3115,14 @@ outputs.useruppercase = inputs.user_lanid.toUpperCase()
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 16:50:41</sys_created_on>
         <sys_id>338a35691b9a8d144a61ebd22a4bcb82</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-17 17:01:59</sys_updated_on>
+        <sys_updated_on>2022-03-22 14:59:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

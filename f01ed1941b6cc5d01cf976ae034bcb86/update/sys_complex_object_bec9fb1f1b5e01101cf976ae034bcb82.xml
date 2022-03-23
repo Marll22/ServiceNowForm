@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDfac9fb1f555e0110f3d2ee736521ad82</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f01ed1941b6cc5d01cf976ae034bcb86</scope_name>
+        <serialized_content>{"FlowDesigner:FDfac9fb1f555e0110f3d2ee736521ad82":{},"FlowDesigner:FDfac9fb1f555e0110f3d2ee736521ad82.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"28edd1fe-0b80-4495-b007-09c960c9f968\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"response\",\"mandatory\":\"true\",\"child_name\":\"users\",\"uiUniqueId\":\"5b825ce0-fe54-4cd6-9544-d5e5553bbf59\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDfac9fb1f555e0110f3d2ee736521ad82\",\"child_label\":\"users\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"7b3f5499-74de-4662-b6be-e170b7f80a80\",\"hint\":null,\"uiType\":\"object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"63a4fd57-582f-40ee-b882-6dd5ecc0e762\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-23 12:35:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bec9fb1f1b5e01101cf976ae034bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDfac9fb1f555e0110f3d2ee736521ad82</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_complex_object_bec9fb1f1b5e01101cf976ae034bcb82</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-23 12:35:57</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

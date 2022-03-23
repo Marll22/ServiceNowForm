@@ -8,14 +8,14 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</cat_item>
-        <cat_variable>IO:12b94a6c1b240dd01cf976ae034bcb47</cat_variable>
+        <cat_variable>IO:7c4c4aa41b640dd01cf976ae034bcb0c</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validate Risk Assessment</name>
+        <name>Validate Controls Assignment</name>
         <order/>
         <script><![CDATA[var output = '';
 var responseBody = '';
@@ -31,7 +31,7 @@ var retriesleft = 2
 var finalmessage = "";
 var module = "";
 
-var IDFIELD = "risk_assessment_id_s"
+var IDFIELD = "controls_assignment_id"
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
@@ -53,7 +53,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
     switch (g_form.getValue('what_is_this_request_for')) {
         case 'record_unlock':
-            finalmessage += "Following Risk Assessment(s) records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "):<br>";
+            finalmessage += "Following Controls Assignment records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "):<br>";
             break;
         case 'mass_retirement':
             g_form.setValue('validated', 'Yes');
@@ -70,7 +70,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     }
 
     if (/(^[\d;]*$)|(^[\d ]*$)/g.test(idinput) == false) {
-        toastError("Invalid record ID list. Use only numbers, with either semicolons (;) or spaces as separators.")
+        toastError("Invalid record ID list. Use only numbers, with either semicolons (;) or spaces as separators. Controls Assignment records should be pasted without the \"CM-\" prefix.")
         return;
     }
 
@@ -116,11 +116,11 @@ function processNextID(retry) {
         ra.addParam('sysparm_name', 'checkRiskAssessment');
         ra.addParam('sysparm_recordid', id);
         ra.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
-        ra.getXML(riskAssessmentID);
+        ra.getXML(startValidation);
     }
 }
 
-function riskAssessmentID(response) {
+function startValidation(response) {
     var recordID = response.responseXML.documentElement.getAttribute('answer');
     try {
         console.log(recordID)
@@ -145,7 +145,7 @@ function riskAssessmentID(response) {
 
         //#endregion
 
-        recordname = responseBody["FieldContents"]["10082"]["Value"];
+        recordname = responseBody["FieldContents"]["13177"]["Value"];
 
         progress += 1;
         g_form.setValue("validation_progress", "Validating: " + progress + "/" + total);
@@ -161,7 +161,7 @@ function riskAssessmentID(response) {
             retriesleft -= 1;
             retryValidation()
         } else {
-            toastError("Record " + current + " is not a valid Risk Assessment");
+            toastError("Record " + current + " is not a valid Controls Assignment");
             g_form.clearValue(IDFIELD);
             error = 1;
             console.error(a, a.stack);
@@ -203,19 +203,19 @@ function toastError(msg) {
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>SA\JVBFONS</sys_created_by>
-        <sys_created_on>2022-03-16 17:31:55</sys_created_on>
+        <sys_created_on>2022-03-22 19:02:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4e6ab4551b1a85144a61ebd22a4bcb88</sys_id>
-        <sys_mod_count>55</sys_mod_count>
-        <sys_name>Validate Risk Assessment</sys_name>
+        <sys_id>4e98ccdf1b9281181cf976ae034bcbdc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validate Controls Assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
-        <sys_update_name>catalog_script_client_4e6ab4551b1a85144a61ebd22a4bcb88</sys_update_name>
+        <sys_update_name>catalog_script_client_4e98ccdf1b9281181cf976ae034bcbdc</sys_update_name>
         <sys_updated_by>SA\JVBFONS</sys_updated_by>
-        <sys_updated_on>2022-03-22 18:58:24</sys_updated_on>
+        <sys_updated_on>2022-03-22 19:20:17</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

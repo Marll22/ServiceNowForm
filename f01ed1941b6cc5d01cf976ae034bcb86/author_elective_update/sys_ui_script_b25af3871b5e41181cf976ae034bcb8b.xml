@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_iem_itcm_support.testMe</name>
+        <script><![CDATA[var x_iem_itcm_support = x_iem_itcm_support || {};
+
+x_iem_itcm_support.testMe = (function() {
+	"use strict";
+	alert("Test:");
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_iem_itcm_support.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_iem_itcm_support.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "testMe"
+	};
+})();
+]]></script>
+        <script_name>testMe</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-22 18:07:22</sys_created_on>
+        <sys_id>b25af3871b5e41181cf976ae034bcb8b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_iem_itcm_support.testMe</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_ui_script_b25af3871b5e41181cf976ae034bcb8b</sys_update_name>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-22 18:16:52</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>sys_ui_script_b25af3871b5e41181cf976ae034bcb8b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_iem_itcm_support.testMe&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_iem_itcm_support = x_iem_itcm_support || {};
+
+x_iem_itcm_support.testMe = (function() {
+	"use strict";
+	alert("Test:");
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_iem_itcm_support.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_iem_itcm_support.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "testMe"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;testMe&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SA\JVBFONS&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-22 18:07:22&lt;/sys_created_on&gt;&lt;sys_id&gt;b25af3871b5e41181cf976ae034bcb8b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_iem_itcm_support.testMe&lt;/sys_name&gt;&lt;sys_package display_value="ITCM Support" source="x_iem_itcm_support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ITCM Support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_b25af3871b5e41181cf976ae034bcb8b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SA\JVBFONS&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-22 18:16:52&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>955473991</payload_hash>
+        <record_name>x_iem_itcm_support.testMe</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-22 18:16:52</sys_created_on>
+        <sys_id>763ebbcf1b9e41181cf976ae034bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fb2d893830000001</sys_recorded_at>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-22 18:16:52</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>7a3ebbcf359e4118ea2345b5ce5f9374</update_guid>
+        <update_guid_history>7a3ebbcf359e4118ea2345b5ce5f9374:955473991,103d33cbbe9e41181e4051ca59f383ce:1050347142,0c2cf7c3999e4118f867912e9573603c:97292624,7b0c3fc3d29e411843f8122de82bdb98:-119510900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-22 18:33:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>9b7a39206f704761b97508e27ade7b61</sys_id>
+        <sys_metadata>b25af3871b5e41181cf976ae034bcb8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_iem_itcm_support.testMe</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>sys_ui_script_b25af3871b5e41181cf976ae034bcb8b</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_b25af3871b5e41181cf976ae034bcb8b">763ebbcf1b9e41181cf976ae034bcb75</sys_update_version>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-22 18:33:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
