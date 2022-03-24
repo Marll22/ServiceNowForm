@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="ITCM Support">bd0082d41be409d01cf976ae034bcb20</cat_item>
+        <cat_variable>IO:489d426c1b640dd01cf976ae034bcb5b</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Document Repository</name>
+        <order/>
+        <script><![CDATA[var output = '';
+var responseBody = '';
+var recordname = '';
+var custodian = '';
+var owner = '';
+var error = 0;
+var progress = 0; // progress of the validation
+var total = 0; // total IDs being processed
+var current = ""; // current ID being processed
+var idqueue = []; // list of IDs being processed
+var retriesleft = 2
+var finalmessage = "";
+var module = "";
+var waitForMessage = false;
+
+var IDFIELD = "document_repository_id"
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        g_form.setValue('validated', 'No');
+        return;
+    }
+
+    g_form.setValue('validated', 'No');
+
+    error = 0;
+    progress = 0;
+    total = 0;
+    retriesleft = 2;
+    finalmessage = "";
+    waitForMessage = false;
+
+    var idinput = g_form.getValue(IDFIELD)
+
+    var idlist = []
+
+    switch (g_form.getValue('what_is_this_request_for')) {
+        case 'record_unlock':
+            finalmessage += "Following Document Repository records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "):<br>";
+            break;
+        case 'mass_retirement':
+            g_form.setValue('validated', 'Yes');
+            return;
+            break;
+        case 'role_handover':
+            var role = g_form.getValue('field_to_be_updated_gra_ra')+g_form.getValue('field_to_be_updated_rh_car')+g_form.getValue('field_to_be_updated_rh_car')+g_form.getValue('field_to_be_updated_rh_doc')+g_form.getValue('field_to_be_updated_ra_rh')
+            
+            waitForMessage = true;
+            g_form.getReference('select_user_to_be_replaced', function(caller){
+                var replaced = caller
+                g_form.getReference('select_replacement_user', function(caller){
+                    var replacement = caller
+                    finalmessage = "User<br>- " + replaced.name + " (" + replaced.user_name
+                    + ")<br>to be replaced by<br>+ " + replacement.name  + " (" + replacement.user_name
+                    + ")<br> as role: "+role+"<br>on the following Document Repository records:<br>" + finalmessage;
+                    waitForMessage = false;
+                })
+            })
+            break;
+        case 'grant_remove_access':
+            g_form.setValue('validated', 'Yes');
+            return;
+            break;
+    }
+
+    if (/(^[\d;]*$)|(^[\d ]*$)/g.test(idinput) == false) {
+        toastError("Invalid record ID list. Use only numbers, with either semicolons (;) or spaces as separators. Make sure you are inserting the Document Header tracking ID.")
+        return;
+    }
+
+    if (idinput.includes(";")) {
+        idlist = idinput.split(";")
+    } else {
+        idlist = idinput.split(" ")
+    }
+
+    idqueue = []
+    idlist.forEach(function (id) {
+        if (/^\d*$/g.test(id)) {
+            idqueue.push(id)
+        }
+    })
+
+    if (idqueue.length <= 0) {
+        toastError("Invalid ID list.");
+        return;
+    }
+
+    console.log(idqueue)
+
+    total = idqueue.length;
+    current = idqueue[0];
+
+    g_form.setValue("validation_progress", "Validating: " + progress + "/" + total);
+
+    toastAlert("Validation started, please wait.");
+
+    processNextID(false);
+}
+
+function processNextID(retry) {
+    if ((idqueue.length > 0 || retry) && error == 0) {
+        if (retry == false) {
+            var id = idqueue.shift()
+            current = id;
+        }
+        id = current
+        console.log(id);
+        var ra = new GlideAjax('glideRecordID');
+        ra.addParam('sysparm_name', 'checkRiskAssessment');
+        ra.addParam('sysparm_recordid', id);
+        ra.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
+        ra.getXML(startValidation);
+    }
+}
+
+function startValidation(response) {
+    var recordID = response.responseXML.documentElement.getAttribute('answer');
+    try {
+        console.log(recordID)
+
+        ////
+        // INVALID RESPONSES BLOCK
+        ////
+        //#region Invalid Responses Block
+
+        // Empty response error
+        if (recordID.length < 10) {
+            throw 'ITCM receive error';
+        }
+
+        jsonResponse = JSON.parse(recordID);
+        responseBody = jsonResponse["RequestedObject"];
+
+        // Detect invalid records
+        if (Object.keys(responseBody).length == 0 && jsonResponse["ValidationMessages"][0]["Reason"] == "WebApi:WebApiResourceNotFoundQueryReason") {
+            throw "Invalid record.";
+        }
+
+        //#endregion
+
+        recordname = responseBody["FieldContents"]["12950"]["Value"];
+
+        progress += 1;
+        g_form.setValue("validation_progress", "Validating: " + progress + "/" + total);
+
+
+        output = [recordname]
+        retriesleft = 2;
+        generateMessage();
+        processNextID(false);
+    } catch (a) {
+        if (retriesleft > 0) {
+            console.log("Error! Retrying...")
+            retriesleft -= 1;
+            retryValidation()
+        } else {
+            toastError("Record " + current + " is not a valid Document Repository");
+            g_form.clearValue(IDFIELD);
+            error = 1;
+            console.error(a, a.stack);
+        }
+    }
+}
+
+function retryValidation() {
+    var ga = new GlideAjax('glideSessionToken');
+    ga.addParam('sysparm_name', 'getSessionToken');
+    var sessionToken = ga.getXML(retryValidationXML);
+}
+
+function retryValidationXML(response) {
+    var sessionToken = response.responseXML.documentElement.getAttribute('answer');
+    console.log(sessionToken);
+    g_form.setValue('sessiontoken', sessionToken);
+    processNextID(true);
+}
+
+function generateMessage() {
+    finalmessage += "<br>" + current + " - " + output[0]
+    if (idqueue.length <= 0 && error == 0) {
+        finishMessage()
+    }
+}
+
+function finishMessage() {
+    if (waitForMessage) {
+        setTimeout(function(){finishMessage()}, 200);
+        return 'waiting';
+    }
+    g_form.setValue("validation_progress", finalmessage);
+    g_form.setValue('validated', 'Yes');
+    return 'success';
+}
+
+function toastAlert(msg) {
+    g_form.addInfoMessage(msg);
+    g_form.setValue('validated', 'Yes');
+    return 'success';
+}
+
+function toastError(msg) {
+    g_form.addErrorMessage(msg)
+    return 'success';
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-23 16:35:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cbea0eb1b5e41101cf976ae034bcb7d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Document Repository</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>catalog_script_client_8cbea0eb1b5e41101cf976ae034bcb7d</sys_update_name>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-24 13:33:38</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>catalog_script_client_8cbea0eb1b5e41101cf976ae034bcb7d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="ITCM Support"&gt;bd0082d41be409d01cf976ae034bcb20&lt;/cat_item&gt;&lt;cat_variable&gt;IO:489d426c1b640dd01cf976ae034bcb5b&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Document Repository&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[var output = '';
+var responseBody = '';
+var recordname = '';
+var custodian = '';
+var owner = '';
+var error = 0;
+var progress = 0; // progress of the validation
+var total = 0; // total IDs being processed
+var current = ""; // current ID being processed
+var idqueue = []; // list of IDs being processed
+var retriesleft = 2
+var finalmessage = "";
+var module = "";
+var waitForMessage = false;
+
+var IDFIELD = "document_repository_id"
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        g_form.setValue('validated', 'No');
+        return;
+    }
+
+    g_form.setValue('validated', 'No');
+
+    error = 0;
+    progress = 0;
+    total = 0;
+    retriesleft = 2;
+    finalmessage = "";
+    waitForMessage = false;
+
+    var idinput = g_form.getValue(IDFIELD)
+
+    var idlist = []
+
+    switch (g_form.getValue('what_is_this_request_for')) {
+        case 'record_unlock':
+            finalmessage += "Following Document Repository records to be unlocked for " + g_user.getFullName() + "(" + g_user.userName + "):&lt;br&gt;";
+            break;
+        case 'mass_retirement':
+            g_form.setValue('validated', 'Yes');
+            return;
+            break;
+        case 'role_handover':
+            var role = g_form.getValue('field_to_be_updated_gra_ra')+g_form.getValue('field_to_be_updated_rh_car')+g_form.getValue('field_to_be_updated_rh_car')+g_form.getValue('field_to_be_updated_rh_doc')+g_form.getValue('field_to_be_updated_ra_rh')
+            
+            waitForMessage = true;
+            g_form.getReference('select_user_to_be_replaced', function(caller){
+                var replaced = caller
+                g_form.getReference('select_replacement_user', function(caller){
+                    var replacement = caller
+                    finalmessage = "User&lt;br&gt;- " + replaced.name + " (" + replaced.user_name
+                    + ")&lt;br&gt;to be replaced by&lt;br&gt;+ " + replacement.name  + " (" + replacement.user_name
+                    + ")&lt;br&gt; as role: "+role+"&lt;br&gt;on the following Document Repository records:&lt;br&gt;" + finalmessage;
+                    waitForMessage = false;
+                })
+            })
+            break;
+        case 'grant_remove_access':
+            g_form.setValue('validated', 'Yes');
+            return;
+            break;
+    }
+
+    if (/(^[\d;]*$)|(^[\d ]*$)/g.test(idinput) == false) {
+        toastError("Invalid record ID list. Use only numbers, with either semicolons (;) or spaces as separators. Make sure you are inserting the Document Header tracking ID.")
+        return;
+    }
+
+    if (idinput.includes(";")) {
+        idlist = idinput.split(";")
+    } else {
+        idlist = idinput.split(" ")
+    }
+
+    idqueue = []
+    idlist.forEach(function (id) {
+        if (/^\d*$/g.test(id)) {
+            idqueue.push(id)
+        }
+    })
+
+    if (idqueue.length &lt;= 0) {
+        toastError("Invalid ID list.");
+        return;
+    }
+
+    console.log(idqueue)
+
+    total = idqueue.length;
+    current = idqueue[0];
+
+    g_form.setValue("validation_progress", "Validating: " + progress + "/" + total);
+
+    toastAlert("Validation started, please wait.");
+
+    processNextID(false);
+}
+
+function processNextID(retry) {
+    if ((idqueue.length &gt; 0 || retry) &amp;&amp; error == 0) {
+        if (retry == false) {
+            var id = idqueue.shift()
+            current = id;
+        }
+        id = current
+        console.log(id);
+        var ra = new GlideAjax('glideRecordID');
+        ra.addParam('sysparm_name', 'checkRiskAssessment');
+        ra.addParam('sysparm_recordid', id);
+        ra.addParam('sysparm_sessiontoken', g_form.getValue('sessiontoken'));
+        ra.getXML(startValidation);
+    }
+}
+
+function startValidation(response) {
+    var recordID = response.responseXML.documentElement.getAttribute('answer');
+    try {
+        console.log(recordID)
+
+        ////
+        // INVALID RESPONSES BLOCK
+        ////
+        //#region Invalid Responses Block
+
+        // Empty response error
+        if (recordID.length &lt; 10) {
+            throw 'ITCM receive error';
+        }
+
+        jsonResponse = JSON.parse(recordID);
+        responseBody = jsonResponse["RequestedObject"];
+
+        // Detect invalid records
+        if (Object.keys(responseBody).length == 0 &amp;&amp; jsonResponse["ValidationMessages"][0]["Reason"] == "WebApi:WebApiResourceNotFoundQueryReason") {
+            throw "Invalid record.";
+        }
+
+        //#endregion
+
+        recordname = responseBody["FieldContents"]["12950"]["Value"];
+
+        progress += 1;
+        g_form.setValue("validation_progress", "Validating: " + progress + "/" + total);
+
+
+        output = [recordname]
+        retriesleft = 2;
+        generateMessage();
+        processNextID(false);
+    } catch (a) {
+        if (retriesleft &gt; 0) {
+            console.log("Error! Retrying...")
+            retriesleft -= 1;
+            retryValidation()
+        } else {
+            toastError("Record " + current + " is not a valid Document Repository");
+            g_form.clearValue(IDFIELD);
+            error = 1;
+            console.error(a, a.stack);
+        }
+    }
+}
+
+function retryValidation() {
+    var ga = new GlideAjax('glideSessionToken');
+    ga.addParam('sysparm_name', 'getSessionToken');
+    var sessionToken = ga.getXML(retryValidationXML);
+}
+
+function retryValidationXML(response) {
+    var sessionToken = response.responseXML.documentElement.getAttribute('answer');
+    console.log(sessionToken);
+    g_form.setValue('sessiontoken', sessionToken);
+    processNextID(true);
+}
+
+function generateMessage() {
+    finalmessage += "&lt;br&gt;" + current + " - " + output[0]
+    if (idqueue.length &lt;= 0 &amp;&amp; error == 0) {
+        finishMessage()
+    }
+}
+
+function finishMessage() {
+    if (waitForMessage) {
+        setTimeout(function(){finishMessage()}, 200);
+        return 'waiting';
+    }
+    g_form.setValue("validation_progress", finalmessage);
+    g_form.setValue('validated', 'Yes');
+    return 'success';
+}
+
+function toastAlert(msg) {
+    g_form.addInfoMessage(msg);
+    g_form.setValue('validated', 'Yes');
+    return 'success';
+}
+
+function toastError(msg) {
+    g_form.addErrorMessage(msg)
+    return 'success';
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SA\JVBFONS&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-23 16:35:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8cbea0eb1b5e41101cf976ae034bcb7d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Document Repository&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ITCM Support" source="x_iem_itcm_support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ITCM Support"&gt;f01ed1941b6cc5d01cf976ae034bcb86&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_8cbea0eb1b5e41101cf976ae034bcb7d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SA\JVBFONS&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-24 13:33:38&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1089017745</payload_hash>
+        <record_name>Validate Document Repository</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-24 13:33:38</sys_created_on>
+        <sys_id>2d905df71bd209101cf976ae034bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fbc21ff190000001</sys_recorded_at>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-24 13:33:38</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>25905df7cad209108e09639b65596664</update_guid>
+        <update_guid_history>25905df7cad209108e09639b65596664:-1089017745,4ae0b423479e411001152d0d5b5e8881:1255946095,e080f023f79e41100939a4b983e4a4c4:-2023102197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Validate Document Repository">cef746331b9e49101cf976ae034bcb58</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-24 17:35:37</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>21e1d106d3c64858bfbdca4e9c03f1a4</sys_id>
+        <sys_metadata>8cbea0eb1b5e41101cf976ae034bcb7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Document Repository</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>catalog_script_client_8cbea0eb1b5e41101cf976ae034bcb7d</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_8cbea0eb1b5e41101cf976ae034bcb7d">2d905df71bd209101cf976ae034bcb64</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-24 17:35:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

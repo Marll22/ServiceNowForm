@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Reader(s)">74b8e22c1be80dd01cf976ae034bcbc1</published_ref>
+        <question display_value="Field to be updates">1b1642f71b5e49101cf976ae034bcbdf</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-24 17:27:31</sys_created_on>
+        <sys_id>5b1682f71b5e49101cf976ae034bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reader(s)</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>question_choice_5b1682f71b5e49101cf976ae034bcb0f</sys_update_name>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-24 17:27:31</sys_updated_on>
+        <text>Reader(s)</text>
+        <value>reader_s</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5b1682f71b5e49101cf976ae034bcb0f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</application>
+        <file_path/>
+        <instance_id>c383490ddb92b700387021c405961992</instance_id>
+        <instance_name>emcitizendev</instance_name>
+        <name>question_choice_5b1682f71b5e49101cf976ae034bcb0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Reader(s)">74b8e22c1be80dd01cf976ae034bcbc1</published_ref><question display_value="Field to be updates">1b1642f71b5e49101cf976ae034bcbdf</question><sys_class_name>question_choice</sys_class_name><sys_created_by>SA\JVBFONS</sys_created_by><sys_created_on>2022-03-24 17:27:31</sys_created_on><sys_id>5b1682f71b5e49101cf976ae034bcb0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reader(s)</sys_name><sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package><sys_policy/><sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope><sys_update_name>question_choice_5b1682f71b5e49101cf976ae034bcb0f</sys_update_name><sys_updated_by>SA\JVBFONS</sys_updated_by><sys_updated_on>2022-03-24 17:27:31</sys_updated_on><text>Reader(s)</text><value>reader_s</value></question_choice><fx_price action="delete_multiple" query="id=5b1682f71b5e49101cf976ae034bcb0f"/></record_update>]]></payload>
+        <payload_hash>-298102963</payload_hash>
+        <record_name>Reader(s)</record_name>
+        <reverted_from/>
+        <source>5d978feb1bce85904a61ebd22a4bcbcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-24 17:27:31</sys_created_on>
+        <sys_id>9f1682f71b5e49101cf976ae034bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fbcf81c320000001</sys_recorded_at>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-24 17:27:31</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d31682f7315e491012c1ad0caf017811</update_guid>
+        <update_guid_history>d31682f7315e491012c1ad0caf017811:-298102963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reader(s)">960842731b9e49101cf976ae034bcbc3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-03-24 17:35:54</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>08b77a04e2824316a42daaf1f9c4b0e4</sys_id>
+        <sys_metadata>5b1682f71b5e49101cf976ae034bcb0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reader(s)</sys_name>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_parent display_value="">1b1642f71b5e49101cf976ae034bcbdf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_scope_delete display_value="">3388bca3ce7647448fdcc1d13ce674f1</sys_scope_delete>
+        <sys_update_name>question_choice_5b1682f71b5e49101cf976ae034bcb0f</sys_update_name>
+        <sys_update_version display_value="question_choice_5b1682f71b5e49101cf976ae034bcb0f">9f1682f71b5e49101cf976ae034bcb11</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-24 17:35:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
