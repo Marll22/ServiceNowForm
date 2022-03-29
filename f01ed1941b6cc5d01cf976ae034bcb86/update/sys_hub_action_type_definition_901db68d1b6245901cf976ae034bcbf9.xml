@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>split_records</internal_name>
+        <label_cache>[{"name":"{{action.ids}}","label":"action➛IDs","type":"action","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].variable}}","label":"step➛Script step ➛variable","type":"step","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids}}","label":"step➛Script step ➛arraywithids","type":"step","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids.arraywithids_child}}","label":"step➛Script step ➛arraywithids➛arraywithids_child","type":"step","ref":""}]</label_cache>
+        <master_snapshot>d22eb6811ba245901cf976ae034bcbfc</master_snapshot>
+        <name>Split Records</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:40:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>901db68d1b6245901cf976ae034bcbf9</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Split Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_901db68d1b6245901cf976ae034bcbf9</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:56</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=901db68d1b6245901cf976ae034bcbf9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=901db68d1b6245901cf976ae034bcbf9"/>
+    <sys_element_mapping action="delete_multiple" query="id=901db68d1b6245901cf976ae034bcbf9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>arrayid</field>
+        <id>901db68d1b6245901cf976ae034bcbf9</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>d22eb6811ba245901cf976ae034bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_901db68d1b6245901cf976ae034bcbf9</table>
+        <value>{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=901db68d1b6245901cf976ae034bcbf9^sys_idNOT IN822eb6811ba245901cf976ae034bcb81"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Split Records">901db68d1b6245901cf976ae034bcbf9</action>
+        <cid>c5e10316-6972-4a1c-bfdb-adb7478122d3</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step </label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:46</sys_created_on>
+        <sys_id>822eb6811ba245901cf976ae034bcb81</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=822eb6811ba245901cf976ae034bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>822eb6811ba245901cf976ae034bcb81</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>522eb6811ba245901cf976ae034bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>822eb6811ba245901cf976ae034bcb81</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>5a2eb6811ba245901cf976ae034bcbac</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:55</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  if(inputs.string.indexOf(';') != -1){
+  	outputs.arraywithids = inputs.string.split('; ')
+  }
+  else if(inputs.string.indexOf(' ') != -1){
+      	outputs.arraywithids = inputs.string.split(' ')
+   }else if(inputs.string.indexOf('\n') != -1){
+      	outputs.arraywithids = inputs.string.split('\n')
+   }else 
+     	outputs.arraywithids = [inputs.string]
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=822eb6811ba245901cf976ae034bcb81"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>822eb6811ba245901cf976ae034bcb81</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>1a2eb6811ba245901cf976ae034bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>822eb6811ba245901cf976ae034bcb81</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>de2eb6811ba245901cf976ae034bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>822eb6811ba245901cf976ae034bcb81</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>562eb6811ba245901cf976ae034bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_822eb6811ba245901cf976ae034bcb81</table>
+        <value>{{action.ids}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=822eb6811ba245901cf976ae034bcb81^sys_idNOT IN422eb6811ba245901cf976ae034bcb89"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step ">822eb6811ba245901cf976ae034bcb81</model>
+        <model_id>822eb6811ba245901cf976ae034bcb81</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_822eb6811ba245901cf976ae034bcb81</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:46</sys_created_on>
+        <sys_id>422eb6811ba245901cf976ae034bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=822eb6811ba245901cf976ae034bcb81^sys_idNOT INda2eb6811ba245901cf976ae034bcb9f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=arraywithids_child,child_name=arraywithids_child,child_type=string,child_type_label=String,child_uiUniqueId=c2a786af-ab31-43b7-8b9e-7924f144c91e,co_type_name=FD4a2eb6816fa24590517ef6804a2d6f9c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=34825711-9122-4a18-bc2c-080812ae7882</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arraywithids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>arraywithids</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step ">822eb6811ba245901cf976ae034bcb81</model>
+        <model_id>822eb6811ba245901cf976ae034bcb81</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_822eb6811ba245901cf976ae034bcb81</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>da2eb6811ba245901cf976ae034bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=901db68d1b6245901cf976ae034bcbf9^sys_idNOT IN0e2eb68d1b6245901cf976ae034bcb60"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d6c2298d-5831-498d-bd75-3e8815da551e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>IDs</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Split Records">901db68d1b6245901cf976ae034bcbf9</model>
+        <model_id>901db68d1b6245901cf976ae034bcbf9</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_901db68d1b6245901cf976ae034bcbf9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:46</sys_created_on>
+        <sys_id>0e2eb68d1b6245901cf976ae034bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=901db68d1b6245901cf976ae034bcbf9^sys_idNOT IN9e2eb6811ba245901cf976ae034bcbb2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=ArrayID_child,child_name=ArrayID_child,child_type=string,child_type_label=String,child_uiUniqueId=061dc502-a25d-4faf-b229-6f8f10fd58a5,co_type_name=FD962eb681d6a245904838fa5e9b61deb0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=f7d4ed54-4523-47ac-bc5a-2ee353851118</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arrayid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayID</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Split Records">901db68d1b6245901cf976ae034bcbf9</model>
+        <model_id>901db68d1b6245901cf976ae034bcbf9</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_901db68d1b6245901cf976ae034bcbf9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>9e2eb6811ba245901cf976ae034bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_901db68d1b6245901cf976ae034bcbf9^sys_idNOT IN462eb6811ba245901cf976ae034bcb7e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ids</element>
+        <help/>
+        <hint/>
+        <label>IDs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_901db68d1b6245901cf976ae034bcbf9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:46</sys_created_on>
+        <sys_id>462eb6811ba245901cf976ae034bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_901db68d1b6245901cf976ae034bcbf9^sys_idNOT IN922eb6811ba245901cf976ae034bcbc7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>arrayid</element>
+        <help/>
+        <hint/>
+        <label>ArrayID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_901db68d1b6245901cf976ae034bcbf9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:47</sys_created_on>
+        <sys_id>922eb6811ba245901cf976ae034bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=901db68d1b6245901cf976ae034bcbf9^sys_idNOT INf62e3a811ba245901cf976ae034bcb12"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Split Records">901db68d1b6245901cf976ae034bcbf9</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f62e3a811ba245901cf976ae034bcb12","name":"plan"}}</plan>
+        <snapshot>376687451b6645901cf976ae034bcbc8</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f62e3a811ba245901cf976ae034bcb12</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:57</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>split_records</internal_name>
+        <label_cache>[{"name":"{{action.ids}}","label":"action➛IDs","type":"action","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].variable}}","label":"step➛Script step ➛variable","type":"step","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids}}","label":"step➛Script step ➛arraywithids","type":"step","ref":""},{"name":"{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids.arraywithids_child}}","label":"step➛Script step ➛arraywithids➛arraywithids_child","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Split Records</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Split Records">901db68d1b6245901cf976ae034bcbf9</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d22eb6811ba245901cf976ae034bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d22eb6811ba245901cf976ae034bcbfc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d22eb6811ba245901cf976ae034bcbfc"/>
+    <sys_element_mapping action="delete_multiple" query="id=d22eb6811ba245901cf976ae034bcbfc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>arrayid</field>
+        <id>d22eb6811ba245901cf976ae034bcbfc</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>2e2ef6811ba245901cf976ae034bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d22eb6811ba245901cf976ae034bcbfc</table>
+        <value>{{step[c5e10316-6972-4a1c-bfdb-adb7478122d3].arraywithids}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=d22eb6811ba245901cf976ae034bcbfc^sys_idNOT INa22ef6811ba245901cf976ae034bcb3b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Split Records">d22eb6811ba245901cf976ae034bcbfc</action>
+        <cid>c5e10316-6972-4a1c-bfdb-adb7478122d3</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step </label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>a22ef6811ba245901cf976ae034bcb3b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a22ef6811ba245901cf976ae034bcb3b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a22ef6811ba245901cf976ae034bcb3b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>aa2ef6811ba245901cf976ae034bcb78</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 19:20:56</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  if(inputs.string.indexOf(';') != -1){
+  	outputs.arraywithids = inputs.string.split('; ')
+  }
+  else if(inputs.string.indexOf(' ') != -1){
+      	outputs.arraywithids = inputs.string.split(' ')
+   }else if(inputs.string.indexOf('\n') != -1){
+      	outputs.arraywithids = inputs.string.split('\n')
+   }else 
+     	outputs.arraywithids = [inputs.string]
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a22ef6811ba245901cf976ae034bcb3b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>e62ef6811ba245901cf976ae034bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a22ef6811ba245901cf976ae034bcb3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a22ef6811ba245901cf976ae034bcb3b</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>a22ef6811ba245901cf976ae034bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a22ef6811ba245901cf976ae034bcb3b</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>662ef6811ba245901cf976ae034bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>a22ef6811ba245901cf976ae034bcb3b</id>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>262ef6811ba245901cf976ae034bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a22ef6811ba245901cf976ae034bcb3b</table>
+        <value>{{action.ids}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a22ef6811ba245901cf976ae034bcb3b^sys_idNOT INea2ef6811ba245901cf976ae034bcb63"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step ">a22ef6811ba245901cf976ae034bcb3b</model>
+        <model_id>a22ef6811ba245901cf976ae034bcb3b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a22ef6811ba245901cf976ae034bcb3b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>ea2ef6811ba245901cf976ae034bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a22ef6811ba245901cf976ae034bcb3b^sys_idNOT IN2e2ef6811ba245901cf976ae034bcb6d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=arraywithids_child,child_name=arraywithids_child,child_type=string,child_type_label=String,child_uiUniqueId=c2a786af-ab31-43b7-8b9e-7924f144c91e,co_type_name=FDe62ef68198a2459023161f800720a56b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=34825711-9122-4a18-bc2c-080812ae7882</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arraywithids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>arraywithids</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step ">a22ef6811ba245901cf976ae034bcb3b</model>
+        <model_id>a22ef6811ba245901cf976ae034bcb3b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a22ef6811ba245901cf976ae034bcb3b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>2e2ef6811ba245901cf976ae034bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=d22eb6811ba245901cf976ae034bcbfc^sys_idNOT INaa2ef6811ba245901cf976ae034bcb31"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d6c2298d-5831-498d-bd75-3e8815da551e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>IDs</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Split Records">d22eb6811ba245901cf976ae034bcbfc</model>
+        <model_id>d22eb6811ba245901cf976ae034bcbfc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d22eb6811ba245901cf976ae034bcbfc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>aa2ef6811ba245901cf976ae034bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=d22eb6811ba245901cf976ae034bcbfc^sys_idNOT INaa2ef6811ba245901cf976ae034bcb7e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=ArrayID_child,child_name=ArrayID_child,child_type=string,child_type_label=String,child_uiUniqueId=061dc502-a25d-4faf-b229-6f8f10fd58a5,co_type_name=FDe22ef681d8a245903185540b440f237c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=f7d4ed54-4523-47ac-bc5a-2ee353851118</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arrayid</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayID</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Split Records">d22eb6811ba245901cf976ae034bcbfc</model>
+        <model_id>d22eb6811ba245901cf976ae034bcbfc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_d22eb6811ba245901cf976ae034bcbfc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>aa2ef6811ba245901cf976ae034bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d22eb6811ba245901cf976ae034bcbfc^sys_idNOT INea2ef6811ba245901cf976ae034bcb38"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ids</element>
+        <help/>
+        <hint/>
+        <label>IDs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d22eb6811ba245901cf976ae034bcbfc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>ea2ef6811ba245901cf976ae034bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d22eb6811ba245901cf976ae034bcbfc^sys_idNOT INae2ef6811ba245901cf976ae034bcb85"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>arrayid</element>
+        <help/>
+        <hint/>
+        <label>ArrayID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d22eb6811ba245901cf976ae034bcbfc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 18:44:48</sys_created_on>
+        <sys_id>ae2ef6811ba245901cf976ae034bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 18:44:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>901db68d1b6245901cf976ae034bcbf9</sys_id>
+        <latest_snapshot>d22eb6811ba245901cf976ae034bcbfc</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

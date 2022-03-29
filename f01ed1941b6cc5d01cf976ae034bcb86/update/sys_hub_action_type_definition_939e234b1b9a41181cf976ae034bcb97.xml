@@ -10,29 +10,29 @@
         <copied_from>70eb44411bd641144a61ebd22a4bcb35</copied_from>
         <copied_from_name>RU - RA - Automation</copied_from_name>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>rh__ra__automation</internal_name>
         <label_cache>[{"name":"{{action.sesiontoke}}","label":"action➛SesionToke","type":"action","ref":""},{"name":"{{action.sesiontoken}}","label":"action➛SesionToken","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.user_lanid}}","label":"action➛user_lanid","type":"action","ref":""},{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{action.role}}","label":"action➛role","type":"action","ref":""},{"name":"{{action.usertobereplaced}}","label":"action➛userToBeReplaced","type":"action","ref":""},{"name":"{{step[8d5afc7b-4048-4a91-b5ef-cb3196ec1eec].response_body}}","label":"Find User on DBstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].variable}}","label":"step➛Get User ITCM ID➛variable","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].id}}","label":"step➛Get User ITCM ID➛ID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].user_itcm_id}}","label":"step➛Get User ITCM ID➛user_itcm_id","type":"step","ref":""},{"name":"{{step[d8fad323-9851-443e-a531-7fae476fc854].response_body}}","label":"step➛Update content➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid}}","label":"step➛Get User ITCM ID➛ITCMID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid1}}","label":"step➛Get User ITCM ID➛itcmid","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmuserid}}","label":"step➛Get User ITCM ID➛itcmuserid","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase}}","label":"step➛Make lanID upper - get field id➛userUppercase","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase1}}","label":"step➛Make lanID upper - get field id➛useruppercase","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].variable}}","label":"step➛Make lanID upper - get field id➛variable","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].roleid}}","label":"step➛Make lanID upper - get field id➛roleid","type":"step","ref":""},{"name":"{{step[cec8485d-5d27-401d-b977-2bae7c7830dc].response_body}}","label":"step➛Get Users on Role➛Response Body","type":"step","ref":""},{"name":"{{step[28edd1fe-0b80-4495-b007-09c960c9f968].usersid}}","label":"Extract users on rolestep➛➛usersID","type":"step","ref":""},{"name":"{{step[28edd1fe-0b80-4495-b007-09c960c9f968].usersid1}}","label":"Extract users on rolestep➛➛usersid","type":"step","ref":""},{"name":"{{step[28edd1fe-0b80-4495-b007-09c960c9f968].usersid.ID}}","label":"step➛Extract users on role➛usersid➛ID","type":"step","ref":""},{"name":"{{step[28edd1fe-0b80-4495-b007-09c960c9f968].usersid.users}}","label":"step➛Extract users on role➛usersid➛users","type":"step","ref":""},{"name":"{{step[28edd1fe-0b80-4495-b007-09c960c9f968].usersid.users.users_child1}}","label":"step➛Extract users on role➛usersid➛users➛users_child1","type":"step","ref":""}]</label_cache>
         <master_snapshot>5c8073cf1b9a41181cf976ae034bcb32</master_snapshot>
-        <name>RH - RA - Automation</name>
+        <name>RH - RA - Automation - OLD</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-22 17:08:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>939e234b1b9a41181cf976ae034bcb97</sys_id>
-        <sys_mod_count>203</sys_mod_count>
-        <sys_name>RH - RA - Automation</sys_name>
+        <sys_mod_count>205</sys_mod_count>
+        <sys_name>RH - RA - Automation - OLD</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_939e234b1b9a41181cf976ae034bcb97</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-23 12:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 11:26:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,7 +53,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=939e234b1b9a41181cf976ae034bcb97^sys_idNOT IN679e234b1b9a41181cf976ae034bcbcc,81037fc71bda41181cf976ae034bcb69,a39e234b1b9a41181cf976ae034bcbe9,fb7033cf1b9a41181cf976ae034bcb4f"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</action>
+        <action display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</action>
         <cid>a5b800b1-7bc0-4f16-8808-5706240b7c29</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -327,7 +327,7 @@ outputs.useruppercase = lanID[1]
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</action>
+        <action display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</action>
         <cid>28edd1fe-0b80-4495-b007-09c960c9f968</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -698,7 +698,7 @@ outputs.usersid = usersid;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</action>
+        <action display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</action>
         <cid>8d5afc7b-4048-4a91-b5ef-cb3196ec1eec</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -946,7 +946,7 @@ outputs.usersid = usersid;
         <sys_updated_on>2022-03-22 17:08:39</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</action>
+        <action display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</action>
         <cid>cec8485d-5d27-401d-b977-2bae7c7830dc</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1181,7 +1181,7 @@ outputs.usersid = usersid;
         <label>recordID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1262,7 +1262,7 @@ outputs.usersid = usersid;
         <label>userToBeReplaced</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1343,7 +1343,7 @@ outputs.usersid = usersid;
         <label>role</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1424,7 +1424,7 @@ outputs.usersid = usersid;
         <label>user_lanid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1505,7 +1505,7 @@ outputs.usersid = usersid;
         <label>URL</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1586,7 +1586,7 @@ outputs.usersid = usersid;
         <label>SesionToken</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1670,7 +1670,7 @@ outputs.usersid = usersid;
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
-        <model display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</model>
+        <model display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</model>
         <model_id>939e234b1b9a41181cf976ae034bcb97</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_939e234b1b9a41181cf976ae034bcb97</name>
@@ -1877,7 +1877,7 @@ outputs.usersid = usersid;
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=939e234b1b9a41181cf976ae034bcb97^sys_idNOT IN5180f3cf1b9a41181cf976ae034bcb31"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</action_id>
+        <action_id display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5180f3cf1b9a41181cf976ae034bcb31","name":"plan"}}</plan>
         <snapshot>bec9fb1f1b5e01101cf976ae034bcbbe</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
@@ -1912,7 +1912,7 @@ outputs.usersid = usersid;
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="RH - RA - Automation">939e234b1b9a41181cf976ae034bcb97</parent_action>
+        <parent_action display_value="RH - RA - Automation - OLD">939e234b1b9a41181cf976ae034bcb97</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-22 17:16:54</sys_created_on>

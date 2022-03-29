@@ -14,8 +14,8 @@
         <internal_name>ru__doc_automation</internal_name>
         <label_cache>[{"name":"{{action.sesiontoke}}","label":"action➛SesionToke","type":"action","ref":""},{"name":"{{action.sesiontoken}}","label":"action➛SesionToken","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.user_lanid}}","label":"action➛user_lanid","type":"action","ref":""},{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{step[8d5afc7b-4048-4a91-b5ef-cb3196ec1eec].response_body}}","label":"Find User on DBstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].variable}}","label":"step➛Get User ITCM ID➛variable","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].id}}","label":"step➛Get User ITCM ID➛ID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].user_itcm_id}}","label":"step➛Get User ITCM ID➛user_itcm_id","type":"step","ref":""},{"name":"{{step[d8fad323-9851-443e-a531-7fae476fc854].response_body}}","label":"step➛Update content➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid}}","label":"step➛Get User ITCM ID➛ITCMID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid1}}","label":"step➛Get User ITCM ID➛itcmid","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmuserid}}","label":"step➛Get User ITCM ID➛itcmuserid","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase}}","label":"step➛Make lanID upper➛userUppercase","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase1}}","label":"step➛Make lanID upper➛useruppercase","type":"step","ref":""}]</label_cache>
         <master_snapshot>5a16aeb91bdec9544a61ebd22a4bcb91</master_snapshot>
-        <name>RU - DOC- Automation</name>
-        <natlang/>
+        <name>OLD RU - DOC</name>
+        <natlang>*OLD* RU - DOC</natlang>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -24,15 +24,15 @@
         <sys_created_on>2022-03-17 17:19:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>242142e11b9e8d144a61ebd22a4bcb1c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>RU - DOC- Automation</sys_name>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>OLD RU - DOC</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_242142e11b9e8d144a61ebd22a4bcb1c</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-22 15:02:19</sys_updated_on>
+        <sys_updated_on>2022-03-25 19:38:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,7 +53,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=242142e11b9e8d144a61ebd22a4bcb1c^sys_idNOT IN282142e11b9e8d144a61ebd22a4bcb8f,7c2142e11b9e8d144a61ebd22a4bcbc4,f82182e11b9e8d144a61ebd22a4bcb15,fc2182e11b9e8d144a61ebd22a4bcb47"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</action>
+        <action display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</action>
         <cid>a5b800b1-7bc0-4f16-8808-5706240b7c29</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -314,7 +314,7 @@ outputs.useruppercase = lanID[1]
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</action>
+        <action display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</action>
         <cid>8d5afc7b-4048-4a91-b5ef-cb3196ec1eec</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -562,7 +562,7 @@ outputs.useruppercase = lanID[1]
         <sys_updated_on>2022-03-17 17:19:26</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</action>
+        <action display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</action>
         <cid>f7d3cae0-e152-4b00-94e8-a1db293e2883</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -822,7 +822,7 @@ outputs.useruppercase = lanID[1]
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</action>
+        <action display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</action>
         <cid>d8fad323-9851-443e-a531-7fae476fc854</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1114,7 +1114,7 @@ outputs.useruppercase = lanID[1]
         <label>URL</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</model>
+        <model display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</model>
         <model_id>242142e11b9e8d144a61ebd22a4bcb1c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_242142e11b9e8d144a61ebd22a4bcb1c</name>
@@ -1195,7 +1195,7 @@ outputs.useruppercase = lanID[1]
         <label>SesionToken</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</model>
+        <model display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</model>
         <model_id>242142e11b9e8d144a61ebd22a4bcb1c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_242142e11b9e8d144a61ebd22a4bcb1c</name>
@@ -1276,7 +1276,7 @@ outputs.useruppercase = lanID[1]
         <label>user_lanid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</model>
+        <model display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</model>
         <model_id>242142e11b9e8d144a61ebd22a4bcb1c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_242142e11b9e8d144a61ebd22a4bcb1c</name>
@@ -1357,7 +1357,7 @@ outputs.useruppercase = lanID[1]
         <label>recordID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</model>
+        <model display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</model>
         <model_id>242142e11b9e8d144a61ebd22a4bcb1c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_242142e11b9e8d144a61ebd22a4bcb1c</name>
@@ -1441,7 +1441,7 @@ outputs.useruppercase = lanID[1]
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</model>
+        <model display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</model>
         <model_id>242142e11b9e8d144a61ebd22a4bcb1c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_242142e11b9e8d144a61ebd22a4bcb1c</name>
@@ -1464,14 +1464,14 @@ outputs.useruppercase = lanID[1]
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-17 17:19:27</sys_created_on>
         <sys_id>382182e11b9e8d144a61ebd22a4bcb66</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-22 15:02:15</sys_updated_on>
+        <sys_updated_on>2022-03-25 19:38:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1602,15 +1602,15 @@ outputs.useruppercase = lanID[1]
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=242142e11b9e8d144a61ebd22a4bcb1c^sys_idNOT IN6316a2f91bdec9544a61ebd22a4bcb6f"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</action_id>
+        <action_id display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6316a2f91bdec9544a61ebd22a4bcb6f","name":"plan"}}</plan>
-        <snapshot>f4b1538b1b5241181cf976ae034bcb92</snapshot>
+        <snapshot>67bd23081b6e01501cf976ae034bcbd8</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-18 14:39:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>6316a2f91bdec9544a61ebd22a4bcb6f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1618,7 +1618,7 @@ outputs.useruppercase = lanID[1]
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-22 15:02:21</sys_updated_on>
+        <sys_updated_on>2022-03-25 19:38:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1633,17 +1633,17 @@ outputs.useruppercase = lanID[1]
         <internal_name>ru__doc_automation</internal_name>
         <label_cache>[{"name":"{{action.sesiontoke}}","label":"action➛SesionToke","type":"action","ref":""},{"name":"{{action.sesiontoken}}","label":"action➛SesionToken","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.user_lanid}}","label":"action➛user_lanid","type":"action","ref":""},{"name":"{{action.recordid}}","label":"action➛recordID","type":"action","ref":""},{"name":"{{step[8d5afc7b-4048-4a91-b5ef-cb3196ec1eec].response_body}}","label":"Find User on DBstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].variable}}","label":"step➛Get User ITCM ID➛variable","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].id}}","label":"step➛Get User ITCM ID➛ID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].user_itcm_id}}","label":"step➛Get User ITCM ID➛user_itcm_id","type":"step","ref":""},{"name":"{{step[d8fad323-9851-443e-a531-7fae476fc854].response_body}}","label":"step➛Update content➛Response Body","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid}}","label":"step➛Get User ITCM ID➛ITCMID","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmid1}}","label":"step➛Get User ITCM ID➛itcmid","type":"step","ref":""},{"name":"{{step[f7d3cae0-e152-4b00-94e8-a1db293e2883].itcmuserid}}","label":"step➛Get User ITCM ID➛itcmuserid","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase}}","label":"step➛Make lanID upper➛userUppercase","type":"step","ref":""},{"name":"{{step[a5b800b1-7bc0-4f16-8808-5706240b7c29].useruppercase1}}","label":"step➛Make lanID upper➛useruppercase","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>RU - DOC- Automation</name>
-        <natlang/>
+        <name>OLD RU - DOC</name>
+        <natlang>*OLD* RU - DOC</natlang>
         <outputs/>
         <outputs/>
-        <parent_action display_value="RU - DOC- Automation">242142e11b9e8d144a61ebd22a4bcb1c</parent_action>
+        <parent_action display_value="OLD RU - DOC">242142e11b9e8d144a61ebd22a4bcb1c</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-18 14:39:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>5a16aeb91bdec9544a61ebd22a4bcb91</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1651,7 +1651,7 @@ outputs.useruppercase = lanID[1]
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-18 14:39:25</sys_updated_on>
+        <sys_updated_on>2022-03-25 19:38:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1672,7 +1672,7 @@ outputs.useruppercase = lanID[1]
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=5a16aeb91bdec9544a61ebd22a4bcb91^sys_idNOT IN3e16eeb91bdec9544a61ebd22a4bcb92,7616eeb91bdec9544a61ebd22a4bcbb8,be16eeb91bdec9544a61ebd22a4bcb4e,e216eeb91bdec9544a61ebd22a4bcb0e"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</action>
+        <action display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</action>
         <cid>f7d3cae0-e152-4b00-94e8-a1db293e2883</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1932,7 +1932,7 @@ outputs.useruppercase = lanID[1]
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</action>
+        <action display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</action>
         <cid>d8fad323-9851-443e-a531-7fae476fc854</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2185,7 +2185,7 @@ outputs.useruppercase = lanID[1]
         <value/>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</action>
+        <action display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</action>
         <cid>8d5afc7b-4048-4a91-b5ef-cb3196ec1eec</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2433,7 +2433,7 @@ outputs.useruppercase = lanID[1]
         <sys_updated_on>2022-03-18 14:39:26</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</action>
+        <action display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</action>
         <cid>a5b800b1-7bc0-4f16-8808-5706240b7c29</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2733,7 +2733,7 @@ outputs.useruppercase = lanID[1]
         <label>SesionToken</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</model>
+        <model display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</model>
         <model_id>5a16aeb91bdec9544a61ebd22a4bcb91</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_5a16aeb91bdec9544a61ebd22a4bcb91</name>
@@ -2814,7 +2814,7 @@ outputs.useruppercase = lanID[1]
         <label>user_lanid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</model>
+        <model display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</model>
         <model_id>5a16aeb91bdec9544a61ebd22a4bcb91</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_5a16aeb91bdec9544a61ebd22a4bcb91</name>
@@ -2895,7 +2895,7 @@ outputs.useruppercase = lanID[1]
         <label>recordID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</model>
+        <model display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</model>
         <model_id>5a16aeb91bdec9544a61ebd22a4bcb91</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_5a16aeb91bdec9544a61ebd22a4bcb91</name>
@@ -2976,7 +2976,7 @@ outputs.useruppercase = lanID[1]
         <label>URL</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</model>
+        <model display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</model>
         <model_id>5a16aeb91bdec9544a61ebd22a4bcb91</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_5a16aeb91bdec9544a61ebd22a4bcb91</name>
@@ -3060,7 +3060,7 @@ outputs.useruppercase = lanID[1]
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="RU - DOC- Automation">5a16aeb91bdec9544a61ebd22a4bcb91</model>
+        <model display_value="OLD RU - DOC">5a16aeb91bdec9544a61ebd22a4bcb91</model>
         <model_id>5a16aeb91bdec9544a61ebd22a4bcb91</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_5a16aeb91bdec9544a61ebd22a4bcb91</name>
@@ -3083,14 +3083,14 @@ outputs.useruppercase = lanID[1]
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-18 14:39:26</sys_created_on>
         <sys_id>ba16eeb91bdec9544a61ebd22a4bcbef</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-22 15:02:18</sys_updated_on>
+        <sys_updated_on>2022-03-25 19:38:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

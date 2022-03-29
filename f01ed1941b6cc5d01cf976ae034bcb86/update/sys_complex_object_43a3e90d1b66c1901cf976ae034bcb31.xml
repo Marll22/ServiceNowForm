@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8fa3e90d5966c190fb6d3d969aea2d30</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f01ed1941b6cc5d01cf976ae034bcb86</scope_name>
+        <serialized_content>{"FlowDesigner:FD8fa3e90d5966c190fb6d3d969aea2d30":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8fa3e90d5966c190fb6d3d969aea2d30.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"authorsuser\",\"mandatory\":\"false\",\"child_name\":\"authorUser\",\"uiUniqueId\":\"eecd7055-1153-42a6-b4d7-88e210e7473f\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD8fa3e90d5966c190fb6d3d969aea2d30\",\"child_label\":\"authorUser\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a69276c7-2d1c-4f61-8a84-82b93e214e5f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 12:09:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>43a3e90d1b66c1901cf976ae034bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8fa3e90d5966c190fb6d3d969aea2d30</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_complex_object_43a3e90d1b66c1901cf976ae034bcb31</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 12:09:26</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc1d5e14965a6c19085d3b08a2f85dae1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f01ed1941b6cc5d01cf976ae034bcb86</scope_name>
+        <serialized_content>{"FlowDesigner:FDc1d5e14965a6c19085d3b08a2f85dae1":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc1d5e14965a6c19085d3b08a2f85dae1.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CCRs\",\"mandatory\":\"true\",\"child_name\":\"CCRs_child0\",\"uiUniqueId\":\"d981be69-b9d0-4f42-935b-ab0032867c3e\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc1d5e14965a6c19085d3b08a2f85dae1\",\"child_label\":\"CCRs_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ad644ea7-49b7-4624-bd73-36d1e97e919e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 12:18:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>85d5e1491ba6c1901cf976ae034bcbe1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FDc1d5e14965a6c19085d3b08a2f85dae1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_complex_object_85d5e1491ba6c1901cf976ae034bcbe1</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 12:47:16</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc332f145fbeac19033924073c0714e73</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f01ed1941b6cc5d01cf976ae034bcb86</scope_name>
+        <serialized_content>{"FlowDesigner:FDc332f145fbeac19033924073c0714e73":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc332f145fbeac19033924073c0714e73.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"CCRs\",\"mandatory\":\"true\",\"child_name\":\"CCRs_child\",\"uiUniqueId\":\"d981be69-b9d0-4f42-935b-ab0032867c3e\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc332f145fbeac19033924073c0714e73\",\"child_label\":\"CCRs_child\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a0427791-48ff-44c9-8280-989d84afff3e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>SA\ACSIMOE</sys_created_by>
+        <sys_created_on>2022-03-28 13:13:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8732f1451beac1901cf976ae034bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc332f145fbeac19033924073c0714e73</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
+        <sys_update_name>sys_complex_object_8732f1451beac1901cf976ae034bcb73</sys_update_name>
+        <sys_updated_by>SA\ACSIMOE</sys_updated_by>
+        <sys_updated_on>2022-03-28 13:13:03</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
