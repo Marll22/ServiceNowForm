@@ -24,7 +24,7 @@
         <sys_created_on>2022-03-29 11:27:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d093e2dd1b6649901cf976ae034bcb3f</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>RH-RA-Automation</sys_name>
         <sys_overrides/>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d093e2dd1b6649901cf976ae034bcb3f</sys_update_name>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 19:39:08</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -715,14 +715,14 @@
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:27:06</sys_created_on>
         <sys_id>3093e2dd1b6649901cf976ae034bcbda</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 18:09:39</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3093e2dd1b6649901cf976ae034bcbda"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -733,20 +733,23 @@
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:27:07</sys_created_on>
         <sys_id>3493e2dd1b6649901cf976ae034bcbf7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 18:09:39</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:15</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var usersid = JSON.parse(inputs.response)["RequestedObject"]["FieldContents"][inputs.roleID]["Value"];
   	var fullstring = JSON.stringify(usersid)
     if( fullstring.search(inputs.replaceduserid) != -1){
-      var start = fullstring.search(inputs.replaceduserid);
-      var final = fullstring.substring(start + inputs.replaceduserid.length, fullstring.length)
-      var initial = fullstring.substring(0, start)
-      stringDataForAutomation = initial + inputs.itcmuserid + final
-      outputs.usersid = stringDataForAutomation
+      
+        var start = fullstring.search(inputs.replaceduserid);
+        var final = fullstring.substring(start + inputs.replaceduserid.length, fullstring.length)
+        var initial = fullstring.substring(0, start)
+        stringDataForAutomation = initial + inputs.itcmuserid + final
+        outputs.usersid = stringDataForAutomation
+      
     }else{
       var start = fullstring.search("UserList");
+	if(inputs.roleID == '10084'){
       if(start == -1){
           stringDataForAutomation = "{"+ '"' + 'Id":'+ inputs.itcmuserid + " }"
            outputs.usersid = stringDataForAutomation
@@ -756,6 +759,9 @@
         stringDataForAutomation = initial + "\n{"+ '"' + 'Id":'+ inputs.itcmuserid + "},\n{"  + final
         outputs.usersid = stringDataForAutomation
       }
+      }else{
+      		outputs.usersid = fullstring
+		}
     }
 	
 })(inputs, outputs);</value>
@@ -3244,14 +3250,14 @@ if(inputs.role == 'author'){
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:27:07</sys_created_on>
         <sys_id>749326dd1b6649901cf976ae034bcb0d</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 19:39:03</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3430,13 +3436,13 @@ if(inputs.role == 'author'){
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="RH-RA-Automation">d093e2dd1b6649901cf976ae034bcb3f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"30c5ae191ba649901cf976ae034bcb8a","name":"plan"}}</plan>
-        <snapshot>0434d82d1beec9901cf976ae034bcbe5</snapshot>
+        <snapshot>493ccdf51baa41d01cf976ae034bcb3b</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:36:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>30c5ae191ba649901cf976ae034bcb8a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3444,7 +3450,7 @@ if(inputs.role == 'author'){
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 19:39:12</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:24</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4406,14 +4412,14 @@ if(inputs.role == 'author'){
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:36:36</sys_created_on>
         <sys_id>b7b52e191ba649901cf976ae034bcb54</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 18:09:44</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7b52e191ba649901cf976ae034bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4424,20 +4430,23 @@ if(inputs.role == 'author'){
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:36:36</sys_created_on>
         <sys_id>7fb52e191ba649901cf976ae034bcb78</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 18:09:44</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:20</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var usersid = JSON.parse(inputs.response)["RequestedObject"]["FieldContents"][inputs.roleID]["Value"];
   	var fullstring = JSON.stringify(usersid)
     if( fullstring.search(inputs.replaceduserid) != -1){
-      var start = fullstring.search(inputs.replaceduserid);
-      var final = fullstring.substring(start + inputs.replaceduserid.length, fullstring.length)
-      var initial = fullstring.substring(0, start)
-      stringDataForAutomation = initial + inputs.itcmuserid + final
-      outputs.usersid = stringDataForAutomation
+      
+        var start = fullstring.search(inputs.replaceduserid);
+        var final = fullstring.substring(start + inputs.replaceduserid.length, fullstring.length)
+        var initial = fullstring.substring(0, start)
+        stringDataForAutomation = initial + inputs.itcmuserid + final
+        outputs.usersid = stringDataForAutomation
+      
     }else{
       var start = fullstring.search("UserList");
+	if(inputs.roleID == '10084'){
       if(start == -1){
           stringDataForAutomation = "{"+ '"' + 'Id":'+ inputs.itcmuserid + " }"
            outputs.usersid = stringDataForAutomation
@@ -4447,6 +4456,9 @@ if(inputs.role == 'author'){
         stringDataForAutomation = initial + "\n{"+ '"' + 'Id":'+ inputs.itcmuserid + "},\n{"  + final
         outputs.usersid = stringDataForAutomation
       }
+      }else{
+      		outputs.usersid = fullstring
+		}
     }
 	
 })(inputs, outputs);</value>
@@ -6677,14 +6689,14 @@ outputs.replaceduppercase = replaced[1]
         <sys_created_by>SA\ACSIMOE</sys_created_by>
         <sys_created_on>2022-03-29 11:36:37</sys_created_on>
         <sys_id>c4c52e191ba649901cf976ae034bcb9b</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name/>
         <sys_updated_by>SA\ACSIMOE</sys_updated_by>
-        <sys_updated_on>2022-03-29 19:39:08</sys_updated_on>
+        <sys_updated_on>2022-03-30 18:22:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
