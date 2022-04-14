@@ -39,6 +39,6 @@
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
-        <x_iem_plat_service_x_iem_scoped_domain display_value="IT Operations" name="IT Operations">fbc5b4a21bacf0101cf976ae034bcb40</x_iem_plat_service_x_iem_scoped_domain>
+        <x_iem_plat_service_x_iem_scoped_domain display_value="Applications – ESM" name="Applications – ESM">fbc5b4a21bacf0101cf976ae034bcb40</x_iem_plat_service_x_iem_scoped_domain>
     </sys_app>
 </record_update>

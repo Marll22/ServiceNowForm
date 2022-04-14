@@ -18,7 +18,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
-        <example_text/>
+        <example_text>If you are requesting a user change for a field, please provide us their LAN IDs.</example_text>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -53,8 +53,8 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script/>
@@ -65,17 +65,17 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>SA\ACSIMOE</sys_created_by>
-        <sys_created_on>2022-03-14 14:23:14</sys_created_on>
+        <sys_created_by>SA\JVBFONS</sys_created_by>
+        <sys_created_on>2022-03-24 17:27:24</sys_created_on>
         <sys_id>06603ea41b6c0dd01cf976ae034bcb05</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Please use this field to describe your issue or suggestion for enhancement</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>item_option_new_06603ea41b6c0dd01cf976ae034bcb05</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-03-14 14:25:55</sys_updated_on>
+        <sys_updated_by>SA\JVBFONS</sys_updated_by>
+        <sys_updated_on>2022-03-31 19:11:42</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
