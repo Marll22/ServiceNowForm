@@ -17,6 +17,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="ITCM - Flow">5633a9541bacc5d01cf976ae034bcb57</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -65,14 +66,15 @@
         <sys_created_by>SA\JVBFONS</sys_created_by>
         <sys_created_on>2022-03-24 17:27:23</sys_created_on>
         <sys_id>bd0082d41be409d01cf976ae034bcb20</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ITCM Support</sys_name>
         <sys_package display_value="ITCM Support" source="x_iem_itcm_support">f01ed1941b6cc5d01cf976ae034bcb86</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITCM Support">f01ed1941b6cc5d01cf976ae034bcb86</sys_scope>
         <sys_update_name>sc_cat_item_bd0082d41be409d01cf976ae034bcb20</sys_update_name>
         <sys_updated_by>SA\JVBFONS</sys_updated_by>
-        <sys_updated_on>2022-03-30 12:05:43</sys_updated_on>
+        <sys_updated_on>2022-04-18 19:23:18</sys_updated_on>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
